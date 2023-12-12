@@ -1,0 +1,93 @@
+{
+  "version-1.0/tutorialSidebar": [
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Introduction",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-1.0/intro"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.0/brand-guidelines"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Open Source",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-1.0/license",
+          "label": "License"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.0/contribution-guidelines",
+          "label": "Contribution Guidelines"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.0/code-of-conduct",
+          "label": "Code of Conduct"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Developer Guide",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-1.0/getting-started-developer",
+          "label": "Getting started"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.0/software-requirements-specifications",
+          "label": "Software Requirement Specification"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Learn",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-1.0/community-feedback",
+          "label": "Community Feedback"
+        },
+        {
+          "type": "doc",
+          "id": "version-1.0/bounty-information",
+          "label": "Bounty Information"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Collaborate",
+      "items": [
+        {
+          "type": "link",
+          "label": "GitHub",
+          "href": "https://github.com/giga-nft2-0"
+        },
+        {
+          "type": "link",
+          "label": "Twitter",
+          "href": "https://twitter.com/Gigaglobal"
+        }
+      ]
+    }
+  ],
+  "version-1.0/apiSidebar": []
+}

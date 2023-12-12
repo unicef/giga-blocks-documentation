@@ -1,0 +1,28 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.section-title h2 {
+  text-align: center;
+}
+
+.contributorsAvatar {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  height: 50px;
+  object-fit: contain;
+  overflow: hidden;
+  width: 50px;
+}
+
+.avatarsRow {
+  padding: 12px 0;
+}
+
+.contributorItem {
+  margin: 2px;
+}
