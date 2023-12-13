@@ -4,7 +4,7 @@ import styles from "./HomepageFeatures.module.css";
 
 const fetchContributors = async () => {
   const contributors = await axios(
-    "https://api.github.com/repos/giga-nft2-0/Giga_NFT_2.0/contributors"
+    "https://api.github.com/repos/giga-nft2-0/Giga_Documentation/contributors" //Contributors of only giga documentation.
   );
   if (!contributors && !contributors.data) return [];
   return contributors.data;

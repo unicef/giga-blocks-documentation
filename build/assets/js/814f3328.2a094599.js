@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgiga_documentation=self.webpackChunkgiga_documentation||[]).push([[2535],{245641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Release 1.0","permalink":"/blog/2024/01/01/ Release 1.0"}]}')}}]);

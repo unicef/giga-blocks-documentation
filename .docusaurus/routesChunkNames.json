@@ -1,317 +1,295 @@
 {
-  "/__docusaurus/debug-3d6": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/config-914": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/content-c28": {
-    "component": "component---theme-debug-contentba-8-ce7",
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-3cf": {
-    "component": "component---theme-debug-global-dataede-0fa"
-  },
-  "/__docusaurus/debug/metadata-31b": {
-    "component": "component---theme-debug-site-metadata-68-e-3d4"
-  },
-  "/__docusaurus/debug/registry-0da": {
-    "component": "component---theme-debug-registry-679-501"
-  },
-  "/__docusaurus/debug/routes-244": {
-    "component": "component---theme-debug-routes-946-699"
-  },
   "/blog-b24": {
-    "component": "component---theme-blog-list-pagea-6-a-7ba",
-    "sidebar": "sidebar---blog-814-8ac",
+    "component": "a6aa9e1f",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-415-539"
+        "content": "415afcb4"
       }
     ],
-    "metadata": "metadata---blogb-2-b-df1"
+    "metadata": "b2b675dd"
   },
   "/blog/2024/01/01/ Release 1.0-1ac": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2024-01-01-release-1-07-c-6-8a7"
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "7c6fe26d"
   },
   "/blog/archive-f4c": {
-    "component": "component---theme-blog-archive-page-9-e-4-1d8",
-    "archive": "archive---blog-archiveb-2-f-393"
+    "component": "9e4087bc",
+    "archive": "b2f554cd"
   },
   "/help-416": {
-    "component": "component---site-src-pages-help-js-7-e-3-222",
-    "config": "config---help-5-e-9-5b3"
+    "component": "7e37206e",
+    "config": "5e9f5e1a"
   },
   "/markdown-page-be1": {
-    "component": "component---theme-mdx-page-1-f-3-b90",
-    "content": "content---markdown-page-393-028"
+    "component": "1f391b9e",
+    "content": "393be207"
   },
   "/privacy-policy-5f6": {
-    "component": "component---theme-mdx-page-1-f-3-b90",
-    "content": "content---privacy-policyc-95-631"
+    "component": "1f391b9e",
+    "content": "c9552808"
   },
   "/versions-b27": {
-    "component": "component---site-src-pages-versions-js-18-b-bfe",
-    "config": "config---help-5-e-9-5b3"
+    "component": "18b93cb3",
+    "config": "5e9f5e1a"
   },
   "/api-cd5": {
-    "component": "component---theme-api-pageac-3-ebb",
-    "docsMetadata": "docsMetadata---api-64-b-865"
+    "component": "ac3cc3f5",
+    "docsMetadata": "64b4b59c"
   },
   "/api/-4f7": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-831-223",
-    "content": "content---api-7-ef-ef7"
+    "component": "4c5e977b",
+    "openapi": "831ba20d",
+    "content": "7ef76e81"
   },
   "/api/auth-controller-generate-nonce-a10": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-auth-controller-generate-nonce-2-f-3-7e4",
-    "content": "content---api-auth-controller-generate-nonce-5-e-8-c02"
+    "component": "4c5e977b",
+    "openapi": "2f35b021",
+    "content": "5e8d811f"
   },
   "/api/auth-controller-refresh-852": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-auth-controller-refreshe-28-47e",
-    "content": "content---api-auth-controller-refreshe-37-99c"
+    "component": "4c5e977b",
+    "openapi": "e2889c38",
+    "content": "e37f732b"
   },
   "/api/auth-controller-register-0f5": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-auth-controller-register-1-cd-558",
-    "content": "content---api-auth-controller-register-48-a-4c0"
+    "component": "4c5e977b",
+    "openapi": "1cd8d977",
+    "content": "48a54fc6"
   },
   "/api/auth-controller-send-otp-eea": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-auth-controller-send-otp-5-bb-941",
-    "content": "content---api-auth-controller-send-otpdf-3-317"
+    "component": "4c5e977b",
+    "openapi": "5bb04cf3",
+    "content": "df3bb133"
   },
   "/api/auth-controller-wallet-login-d4d": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-auth-controller-wallet-loginab-1-550",
-    "content": "content---api-auth-controller-wallet-loginb-94-f9c"
+    "component": "4c5e977b",
+    "openapi": "ab15eb6b",
+    "content": "b94e0b19"
   },
   "/api/auth-controller-wallet-register-2aa": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-auth-controller-wallet-registerf-45-cfc",
-    "content": "content---api-auth-controller-wallet-register-4-bb-37a"
+    "component": "4c5e977b",
+    "openapi": "f45d6040",
+    "content": "4bb5b74c"
   },
   "/api/contribute-data-controller-create-b17": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-contribute-data-controller-create-994-170",
-    "content": "content---api-contribute-data-controller-create-92-d-841"
+    "component": "4c5e977b",
+    "openapi": "99402f02",
+    "content": "92db3f58"
   },
   "/api/contribute-data-controller-find-all-659": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-contribute-data-controller-find-alld-90-454",
-    "content": "content---api-contribute-data-controller-find-all-68-b-b31"
+    "component": "4c5e977b",
+    "openapi": "d90b543e",
+    "content": "68bf06a5"
   },
   "/api/contribute-data-controller-find-one-225": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-contribute-data-controller-find-one-84-c-078",
-    "content": "content---api-contribute-data-controller-find-onea-8-c-360"
+    "component": "4c5e977b",
+    "openapi": "84cfc30a",
+    "content": "a8cf4199"
   },
   "/api/contribute-data-controller-remove-fcf": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-contribute-data-controller-remove-124-897",
-    "content": "content---api-contribute-data-controller-removea-89-34c"
+    "component": "4c5e977b",
+    "openapi": "124f1f94",
+    "content": "a89ef29b"
   },
   "/api/contribute-data-controller-update-e8f": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-contribute-data-controller-update-77-f-bad",
-    "content": "content---api-contribute-data-controller-update-0-d-8-b78"
+    "component": "4c5e977b",
+    "openapi": "77fa191d",
+    "content": "0d814eb0"
   },
   "/api/contribute-data-controller-validate-9c5": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-contribute-data-controller-validate-32-a-1ed",
-    "content": "content---api-contribute-data-controller-validate-0-d-2-1c8"
+    "component": "4c5e977b",
+    "openapi": "32a2a0c8",
+    "content": "0d2c48a6"
   },
   "/api/create-new-user-c9d": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-create-new-user-748-418",
-    "content": "content---api-create-new-user-66-c-f9c"
+    "component": "4c5e977b",
+    "openapi": "748d0e13",
+    "content": "66c09614"
   },
   "/api/delete-an-user-b2b": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-delete-an-user-3-d-2-c32",
-    "content": "content---api-delete-an-user-7-d-2-48f"
+    "component": "4c5e977b",
+    "openapi": "3d22f985",
+    "content": "7d25001c"
   },
   "/api/email-controller-create-e44": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-email-controller-createe-14-d6c",
-    "content": "content---api-email-controller-create-50-e-56b"
+    "component": "4c5e977b",
+    "openapi": "e143e9e1",
+    "content": "50e1489e"
   },
   "/api/email-controller-find-all-e09": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-email-controller-find-alla-0-b-ae0",
-    "content": "content---api-email-controller-find-alld-64-bf3"
+    "component": "4c5e977b",
+    "openapi": "a0b19b49",
+    "content": "d64d3819"
   },
   "/api/email-controller-find-one-e04": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-email-controller-find-one-8-c-2-378",
-    "content": "content---api-email-controller-find-one-335-f46"
+    "component": "4c5e977b",
+    "openapi": "8c2756db",
+    "content": "3354d908"
   },
   "/api/email-controller-remove-251": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-email-controller-remove-3-ca-a6e",
-    "content": "content---api-email-controller-removebf-2-6a5"
+    "component": "4c5e977b",
+    "openapi": "3ca9f06c",
+    "content": "bf24a5c6"
   },
   "/api/email-controller-update-c5d": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-email-controller-update-55-f-b75",
-    "content": "content---api-email-controller-update-5-ec-240"
+    "component": "4c5e977b",
+    "openapi": "55ff984f",
+    "content": "5ec5375b"
   },
   "/api/get-an-user-613": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-get-an-usere-2-c-da2",
-    "content": "content---api-get-an-user-56-b-f09"
+    "component": "4c5e977b",
+    "openapi": "e2ced9f1",
+    "content": "56b06e77"
   },
   "/api/list-all-user-b90": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-list-all-user-78-f-461",
-    "content": "content---api-list-all-userdab-a6d"
+    "component": "4c5e977b",
+    "openapi": "78f69fbc",
+    "content": "dabe30fa"
   },
   "/api/school-controller-count-schools-60e": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-school-controller-count-schoolsbda-bcc",
-    "content": "content---api-school-controller-count-schools-47-f-476"
+    "component": "4c5e977b",
+    "openapi": "bda619b3",
+    "content": "47f15d53"
   },
   "/api/school-controller-find-all-1ed": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-school-controller-find-all-64-a-acf",
-    "content": "content---api-school-controller-find-allcb-5-681"
+    "component": "4c5e977b",
+    "openapi": "64aefd5d",
+    "content": "cb52c35e"
   },
   "/api/school-controller-find-by-country-d91": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-school-controller-find-by-country-92-b-35b",
-    "content": "content---api-school-controller-find-by-country-99-f-5f1"
+    "component": "4c5e977b",
+    "openapi": "92b314b8",
+    "content": "99f2a5f8"
   },
   "/api/school-controller-find-one-85b": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-school-controller-find-oned-9-e-494",
-    "content": "content---api-school-controller-find-onec-78-1f4"
+    "component": "4c5e977b",
+    "openapi": "d9e72144",
+    "content": "c78c1cf7"
   },
   "/api/school-controller-list-uploads-577": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-school-controller-list-uploads-60-d-975",
-    "content": "content---api-school-controller-list-uploads-288-0f4"
+    "component": "4c5e977b",
+    "openapi": "60db8006",
+    "content": "288e996f"
   },
   "/api/school-controller-mint-batch-school-2ad": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-school-controller-mint-batch-school-302-ff4",
-    "content": "content---api-school-controller-mint-batch-school-7-d-7-563"
+    "component": "4c5e977b",
+    "openapi": "3028c8fd",
+    "content": "7d75b481"
   },
   "/api/school-controller-mint-school-0ce": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-school-controller-mint-school-9-aa-841",
-    "content": "content---api-school-controller-mint-school-4-f-3-f53"
+    "component": "4c5e977b",
+    "openapi": "9aa10c09",
+    "content": "4f3ec4f6"
   },
   "/api/school-controller-queue-d11": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-school-controller-queue-565-18a",
-    "content": "content---api-school-controller-queue-1-e-6-404"
+    "component": "4c5e977b",
+    "openapi": "565b28ca",
+    "content": "1e6ae0df"
   },
   "/api/school-controller-remove-all-712": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-school-controller-remove-all-7-e-3-655",
-    "content": "content---api-school-controller-remove-all-40-c-079"
+    "component": "4c5e977b",
+    "openapi": "7e386257",
+    "content": "40c5a5a5"
   },
   "/api/school-controller-update-4db": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-school-controller-update-3-c-2-66b",
-    "content": "content---api-school-controller-updatece-2-6fa"
+    "component": "4c5e977b",
+    "openapi": "3c212cb2",
+    "content": "ce265334"
   },
   "/api/school-controller-upload-file-463": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-school-controller-upload-filedcb-66d",
-    "content": "content---api-school-controller-upload-fileee-6-333"
+    "component": "4c5e977b",
+    "openapi": "dcbce4c7",
+    "content": "ee62bfea"
   },
   "/api/update-an-user-96e": {
-    "component": "component---theme-api-item-4-c-5-a29",
-    "openapi": "openapi---api-update-an-user-799-265",
-    "content": "content---api-update-an-usere-30-3a6"
+    "component": "4c5e977b",
+    "openapi": "79902253",
+    "content": "e309c578"
   },
   "/docs/next-f7d": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---docs-next-935-7db"
+    "component": "1be78505",
+    "versionMetadata": "935f2afb"
   },
   "/docs/next/bounty-information-0bd": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-bounty-informationad-2-a44"
+    "component": "17896441",
+    "content": "ad2a4d12"
   },
   "/docs/next/brand-guidelines-909": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-brand-guidelines-739-3c3"
+    "component": "17896441",
+    "content": "7393fbae"
   },
   "/docs/next/code-of-conduct-1f6": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-code-of-conducta-99-caa"
+    "component": "17896441",
+    "content": "a99ddd54"
   },
   "/docs/next/community-feedback-baa": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-community-feedback-871-f4c"
+    "component": "17896441",
+    "content": "871af5a8"
   },
   "/docs/next/contribution-guidelines-f34": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-contribution-guidelinesff-2-25e"
+    "component": "17896441",
+    "content": "ff284a86"
   },
   "/docs/next/getting-started-developer-c35": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-getting-started-developer-3-e-2-024"
+    "component": "17896441",
+    "content": "3e22c79f"
   },
   "/docs/next/intro-8d4": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-intro-0-e-3-e8b"
+    "component": "17896441",
+    "content": "0e384e19"
   },
   "/docs/next/license-f3c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-license-48-d-a81"
+    "component": "17896441",
+    "content": "48df5bfc"
   },
   "/docs/next/software-requirements-specifications-8ac": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-next-software-requirements-specificationse-66-dab"
+    "component": "17896441",
+    "content": "e66abacf"
   },
   "/docs-7c0": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---docs-352-c1a"
+    "component": "1be78505",
+    "versionMetadata": "352e0155"
   },
   "/docs/bounty-information-78f": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-bounty-informationd-19-aea"
+    "component": "17896441",
+    "content": "d1999337"
   },
   "/docs/brand-guidelines-f41": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-brand-guidelines-7-d-5-e52"
+    "component": "17896441",
+    "content": "7d5223a0"
   },
   "/docs/code-of-conduct-5f2": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-code-of-conduct-897-955"
+    "component": "17896441",
+    "content": "89738488"
   },
   "/docs/community-feedback-d46": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-community-feedback-472-436"
+    "component": "17896441",
+    "content": "4720be26"
   },
   "/docs/contribution-guidelines-71b": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-contribution-guidelines-835-70c"
+    "component": "17896441",
+    "content": "8354ea15"
   },
   "/docs/getting-started-developer-40f": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-getting-started-developer-8-db-c69"
+    "component": "17896441",
+    "content": "8db2a7ea"
   },
   "/docs/intro-130": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-intro-7-bd-4eb"
+    "component": "17896441",
+    "content": "7bd8db71"
   },
   "/docs/license-425": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-licenseb-3-f-401"
+    "component": "17896441",
+    "content": "b3f291ae"
   },
   "/docs/software-requirements-specifications-049": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-software-requirements-specificationsce-7-43c"
+    "component": "17896441",
+    "content": "ce7df275"
   },
   "/-deb": {
-    "component": "component---site-src-pages-index-jsc-4-f-f99",
-    "config": "config---help-5-e-9-5b3"
+    "component": "c4f5d8e4",
+    "config": "5e9f5e1a"
   }
 }
