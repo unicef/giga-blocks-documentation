@@ -1,0 +1,219 @@
+{
+  "docsSidebars": {
+    "sidebar": [
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "API",
+        "items": [
+          {
+            "href": "/api/",
+            "label": "AuthController_login",
+            "type": "link"
+          },
+          {
+            "href": "/api/auth-controller-register",
+            "label": "AuthController_register",
+            "type": "link"
+          },
+          {
+            "href": "/api/auth-controller-send-otp",
+            "label": "AuthController_sendOtp",
+            "type": "link"
+          },
+          {
+            "href": "/api/auth-controller-refresh",
+            "label": "AuthController_refresh",
+            "type": "link"
+          },
+          {
+            "href": "/api/auth-controller-generate-nonce",
+            "label": "AuthController_generateNonce",
+            "type": "link"
+          },
+          {
+            "href": "/api/auth-controller-wallet-register",
+            "label": "AuthController_walletRegister",
+            "type": "link"
+          },
+          {
+            "href": "/api/auth-controller-wallet-login",
+            "label": "AuthController_walletLogin",
+            "type": "link"
+          },
+          {
+            "href": "/api/school-controller-queue",
+            "label": "SchoolController_queue",
+            "type": "link"
+          },
+          {
+            "href": "/api/school-controller-update",
+            "label": "SchoolController_update",
+            "type": "link"
+          },
+          {
+            "href": "/api/school-controller-mint-batch-school",
+            "label": "SchoolController_mintBatchSchool",
+            "type": "link"
+          },
+          {
+            "href": "/api/school-controller-mint-school",
+            "label": "SchoolController_mintSchool",
+            "type": "link"
+          },
+          {
+            "href": "/api/school-controller-count-schools",
+            "label": "SchoolController_countSchools",
+            "type": "link"
+          },
+          {
+            "href": "/api/school-controller-upload-file",
+            "label": "SchoolController_uploadFile",
+            "type": "link"
+          },
+          {
+            "href": "/api/school-controller-find-all",
+            "label": "SchoolController_findAll",
+            "type": "link"
+          },
+          {
+            "href": "/api/school-controller-remove-all",
+            "label": "SchoolController_removeAll",
+            "type": "link"
+          },
+          {
+            "href": "/api/school-controller-find-one",
+            "label": "SchoolController_findOne",
+            "type": "link"
+          },
+          {
+            "href": "/api/school-controller-find-by-country",
+            "label": "SchoolController_findByCountry",
+            "type": "link"
+          },
+          {
+            "href": "/api/school-controller-list-uploads",
+            "label": "SchoolController_listUploads",
+            "type": "link"
+          },
+          {
+            "href": "/api/create-new-user",
+            "label": "Create new user",
+            "type": "link"
+          },
+          {
+            "href": "/api/list-all-user",
+            "label": "List all user",
+            "type": "link"
+          },
+          {
+            "href": "/api/get-an-user",
+            "label": "Get an user",
+            "type": "link"
+          },
+          {
+            "href": "/api/update-an-user",
+            "label": "Update an user",
+            "type": "link"
+          },
+          {
+            "href": "/api/delete-an-user",
+            "label": "Delete an user",
+            "type": "link"
+          },
+          {
+            "href": "/api/contribute-data-controller-create",
+            "label": "ContributeDataController_create",
+            "type": "link"
+          },
+          {
+            "href": "/api/contribute-data-controller-find-all",
+            "label": "ContributeDataController_findAll",
+            "type": "link"
+          },
+          {
+            "href": "/api/contribute-data-controller-find-one",
+            "label": "ContributeDataController_findOne",
+            "type": "link"
+          },
+          {
+            "href": "/api/contribute-data-controller-update",
+            "label": "ContributeDataController_update",
+            "type": "link"
+          },
+          {
+            "href": "/api/contribute-data-controller-remove",
+            "label": "ContributeDataController_remove",
+            "type": "link"
+          },
+          {
+            "href": "/api/contribute-data-controller-validate",
+            "label": "ContributeDataController_validate",
+            "type": "link"
+          },
+          {
+            "href": "/api/email-controller-create",
+            "label": "EmailController_create",
+            "type": "link"
+          },
+          {
+            "href": "/api/email-controller-find-all",
+            "label": "EmailController_findAll",
+            "type": "link"
+          },
+          {
+            "href": "/api/email-controller-find-one",
+            "label": "EmailController_findOne",
+            "type": "link"
+          },
+          {
+            "href": "/api/email-controller-update",
+            "label": "EmailController_update",
+            "type": "link"
+          },
+          {
+            "href": "/api/email-controller-remove",
+            "label": "EmailController_remove",
+            "type": "link"
+          }
+        ]
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/api/": "sidebar",
+    "/api/auth-controller-register": "sidebar",
+    "/api/auth-controller-send-otp": "sidebar",
+    "/api/auth-controller-refresh": "sidebar",
+    "/api/auth-controller-generate-nonce": "sidebar",
+    "/api/auth-controller-wallet-register": "sidebar",
+    "/api/auth-controller-wallet-login": "sidebar",
+    "/api/school-controller-queue": "sidebar",
+    "/api/school-controller-update": "sidebar",
+    "/api/school-controller-mint-batch-school": "sidebar",
+    "/api/school-controller-mint-school": "sidebar",
+    "/api/school-controller-count-schools": "sidebar",
+    "/api/school-controller-upload-file": "sidebar",
+    "/api/school-controller-find-all": "sidebar",
+    "/api/school-controller-remove-all": "sidebar",
+    "/api/school-controller-find-one": "sidebar",
+    "/api/school-controller-find-by-country": "sidebar",
+    "/api/school-controller-list-uploads": "sidebar",
+    "/api/create-new-user": "sidebar",
+    "/api/list-all-user": "sidebar",
+    "/api/get-an-user": "sidebar",
+    "/api/update-an-user": "sidebar",
+    "/api/delete-an-user": "sidebar",
+    "/api/contribute-data-controller-create": "sidebar",
+    "/api/contribute-data-controller-find-all": "sidebar",
+    "/api/contribute-data-controller-find-one": "sidebar",
+    "/api/contribute-data-controller-update": "sidebar",
+    "/api/contribute-data-controller-remove": "sidebar",
+    "/api/contribute-data-controller-validate": "sidebar",
+    "/api/email-controller-create": "sidebar",
+    "/api/email-controller-find-all": "sidebar",
+    "/api/email-controller-find-one": "sidebar",
+    "/api/email-controller-update": "sidebar",
+    "/api/email-controller-remove": "sidebar"
+  }
+}

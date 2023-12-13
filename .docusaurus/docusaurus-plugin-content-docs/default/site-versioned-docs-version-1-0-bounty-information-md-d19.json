@@ -1,0 +1,22 @@
+{
+  "unversionedId": "bounty-information",
+  "id": "version-1.0/bounty-information",
+  "isDocsHomePage": false,
+  "title": "Bounty Information",
+  "description": "Coming Soon !!!",
+  "source": "@site/versioned_docs/version-1.0/Bounty-Information.md",
+  "sourceDirName": ".",
+  "slug": "/bounty-information",
+  "permalink": "/docs/bounty-information",
+  "editUrl": "https://github.com/esatya?tab=repositories/versioned_docs/version-1.0/Bounty-Information.md",
+  "tags": [],
+  "version": "1.0",
+  "frontMatter": {
+    "id": "bounty-information"
+  },
+  "sidebar": "version-1.0/tutorialSidebar",
+  "previous": {
+    "title": "Community Feedback",
+    "permalink": "/docs/community-feedback"
+  }
+}

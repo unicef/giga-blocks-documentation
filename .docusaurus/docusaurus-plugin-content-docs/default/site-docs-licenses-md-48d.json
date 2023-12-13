@@ -1,0 +1,26 @@
+{
+  "unversionedId": "license",
+  "id": "license",
+  "isDocsHomePage": false,
+  "title": "Licenses",
+  "description": "",
+  "source": "@site/docs/Licenses.md",
+  "sourceDirName": ".",
+  "slug": "/license",
+  "permalink": "/docs/next/license",
+  "editUrl": "https://github.com/esatya?tab=repositories/docs/Licenses.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "license"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Brand Guidelines",
+    "permalink": "/docs/next/brand-guidelines"
+  },
+  "next": {
+    "title": "Contribution Guidelines",
+    "permalink": "/docs/next/contribution-guidelines"
+  }
+}

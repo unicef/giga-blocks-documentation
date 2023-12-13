@@ -1,0 +1,3701 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs/next",
+          "tagsPath": "/docs/next/tags",
+          "versionEditUrl": "https://github.com/esatya?tab=repositories/docs",
+          "versionEditUrlLocalized": "https://github.com/esatya?tab=repositories/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionBanner": "unreleased",
+          "versionBadge": true,
+          "versionClassName": "docs-version-current",
+          "isLast": false,
+          "sidebarFilePath": "/Users/sarveshkarki/Documents/Rumsan/Giga_Documentation/sidebars.js",
+          "contentPath": "/Users/sarveshkarki/Documents/Rumsan/Giga_Documentation/docs",
+          "contentPathLocalized": "/Users/sarveshkarki/Documents/Rumsan/Giga_Documentation/i18n/en/docusaurus-plugin-content-docs/current",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "unversionedId": "bounty-information",
+              "id": "bounty-information",
+              "isDocsHomePage": false,
+              "title": "Bounty Information",
+              "description": "Coming Soon !!!",
+              "source": "@site/docs/Bounty-Information.md",
+              "sourceDirName": ".",
+              "slug": "/bounty-information",
+              "permalink": "/docs/next/bounty-information",
+              "editUrl": "https://github.com/esatya?tab=repositories/docs/Bounty-Information.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "bounty-information"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Community Feedback",
+                "permalink": "/docs/next/community-feedback"
+              }
+            },
+            {
+              "unversionedId": "brand-guidelines",
+              "id": "brand-guidelines",
+              "isDocsHomePage": false,
+              "title": "Brand Guidelines",
+              "description": "",
+              "source": "@site/docs/Brand-Guidelines.md",
+              "sourceDirName": ".",
+              "slug": "/brand-guidelines",
+              "permalink": "/docs/next/brand-guidelines",
+              "editUrl": "https://github.com/esatya?tab=repositories/docs/Brand-Guidelines.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "brand-guidelines"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "NFT 2.0 - Decentralized School Database",
+                "permalink": "/docs/next/intro"
+              },
+              "next": {
+                "title": "Licenses",
+                "permalink": "/docs/next/license"
+              }
+            },
+            {
+              "unversionedId": "code-of-conduct",
+              "id": "code-of-conduct",
+              "isDocsHomePage": false,
+              "title": "Code of Conduct",
+              "description": "",
+              "source": "@site/docs/Code-of-Conduct.md",
+              "sourceDirName": ".",
+              "slug": "/code-of-conduct",
+              "permalink": "/docs/next/code-of-conduct",
+              "editUrl": "https://github.com/esatya?tab=repositories/docs/Code-of-Conduct.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "code-of-conduct",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Contribution Guidelines",
+                "permalink": "/docs/next/contribution-guidelines"
+              },
+              "next": {
+                "title": "Getting Started Developer",
+                "permalink": "/docs/next/getting-started-developer"
+              }
+            },
+            {
+              "unversionedId": "community-feedback",
+              "id": "community-feedback",
+              "isDocsHomePage": false,
+              "title": "Community Feedback",
+              "description": "",
+              "source": "@site/docs/Community-Feedback.md",
+              "sourceDirName": ".",
+              "slug": "/community-feedback",
+              "permalink": "/docs/next/community-feedback",
+              "editUrl": "https://github.com/esatya?tab=repositories/docs/Community-Feedback.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "id": "community-feedback"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Software Requirements Specifications",
+                "permalink": "/docs/next/software-requirements-specifications"
+              },
+              "next": {
+                "title": "Bounty Information",
+                "permalink": "/docs/next/bounty-information"
+              }
+            },
+            {
+              "unversionedId": "contribution-guidelines",
+              "id": "contribution-guidelines",
+              "isDocsHomePage": false,
+              "title": "Contribution Guidelines",
+              "description": "",
+              "source": "@site/docs/Contribution-Guidelines.md",
+              "sourceDirName": ".",
+              "slug": "/contribution-guidelines",
+              "permalink": "/docs/next/contribution-guidelines",
+              "editUrl": "https://github.com/esatya?tab=repositories/docs/Contribution-Guidelines.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "contribution-guidelines"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Licenses",
+                "permalink": "/docs/next/license"
+              },
+              "next": {
+                "title": "Code of Conduct",
+                "permalink": "/docs/next/code-of-conduct"
+              }
+            },
+            {
+              "unversionedId": "getting-started-developer",
+              "id": "getting-started-developer",
+              "isDocsHomePage": false,
+              "title": "Getting Started Developer",
+              "description": "",
+              "source": "@site/docs/Getting-Started-Developer .md",
+              "sourceDirName": ".",
+              "slug": "/getting-started-developer",
+              "permalink": "/docs/next/getting-started-developer",
+              "editUrl": "https://github.com/esatya?tab=repositories/docs/Getting-Started-Developer .md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "getting-started-developer"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Code of Conduct",
+                "permalink": "/docs/next/code-of-conduct"
+              },
+              "next": {
+                "title": "Software Requirements Specifications",
+                "permalink": "/docs/next/software-requirements-specifications"
+              }
+            },
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "isDocsHomePage": false,
+              "title": "NFT 2.0 - Decentralized School Database",
+              "description": "",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/next/intro",
+              "editUrl": "https://github.com/esatya?tab=repositories/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "intro"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Brand Guidelines",
+                "permalink": "/docs/next/brand-guidelines"
+              }
+            },
+            {
+              "unversionedId": "license",
+              "id": "license",
+              "isDocsHomePage": false,
+              "title": "Licenses",
+              "description": "",
+              "source": "@site/docs/Licenses.md",
+              "sourceDirName": ".",
+              "slug": "/license",
+              "permalink": "/docs/next/license",
+              "editUrl": "https://github.com/esatya?tab=repositories/docs/Licenses.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "license"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Brand Guidelines",
+                "permalink": "/docs/next/brand-guidelines"
+              },
+              "next": {
+                "title": "Contribution Guidelines",
+                "permalink": "/docs/next/contribution-guidelines"
+              }
+            },
+            {
+              "unversionedId": "software-requirements-specifications",
+              "id": "software-requirements-specifications",
+              "isDocsHomePage": false,
+              "title": "Software Requirements Specifications",
+              "description": "",
+              "source": "@site/docs/Software-Requirements-Specifications.md",
+              "sourceDirName": ".",
+              "slug": "/software-requirements-specifications",
+              "permalink": "/docs/next/software-requirements-specifications",
+              "editUrl": "https://github.com/esatya?tab=repositories/docs/Software-Requirements-Specifications.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 12,
+              "frontMatter": {
+                "sidebar_position": 12,
+                "id": "software-requirements-specifications"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started Developer",
+                "permalink": "/docs/next/getting-started-developer"
+              },
+              "next": {
+                "title": "Community Feedback",
+                "permalink": "/docs/next/community-feedback"
+              }
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "category",
+                "collapsed": true,
+                "collapsible": true,
+                "label": "Introduction",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "brand-guidelines"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "collapsed": true,
+                "collapsible": true,
+                "label": "Open Source",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "license"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "contribution-guidelines"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "code-of-conduct"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "collapsed": true,
+                "collapsible": true,
+                "label": "Developer Guide",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "getting-started-developer"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "software-requirements-specifications"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "collapsed": true,
+                "collapsible": true,
+                "label": "Learn",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "community-feedback"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "bounty-information"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "collapsed": true,
+                "collapsible": true,
+                "label": "Collaborate",
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "GitHub",
+                    "href": "https://github.com/giga-nft2-0"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Twitter",
+                    "href": "https://twitter.com/Gigaglobal"
+                  }
+                ]
+              }
+            ],
+            "apiSidebar": []
+          }
+        },
+        {
+          "versionName": "1.0",
+          "versionLabel": "1.0",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
+          "versionEditUrl": "https://github.com/esatya?tab=repositories/versioned_docs/version-1.0",
+          "versionEditUrlLocalized": "https://github.com/esatya?tab=repositories/i18n/en/docusaurus-plugin-content-docs/version-1.0",
+          "versionBanner": null,
+          "versionBadge": true,
+          "versionClassName": "docs-version-1.0",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/sarveshkarki/Documents/Rumsan/Giga_Documentation/versioned_sidebars/version-1.0-sidebars.json",
+          "contentPath": "/Users/sarveshkarki/Documents/Rumsan/Giga_Documentation/versioned_docs/version-1.0",
+          "contentPathLocalized": "/Users/sarveshkarki/Documents/Rumsan/Giga_Documentation/i18n/en/docusaurus-plugin-content-docs/version-1.0",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "unversionedId": "bounty-information",
+              "id": "version-1.0/bounty-information",
+              "isDocsHomePage": false,
+              "title": "Bounty Information",
+              "description": "Coming Soon !!!",
+              "source": "@site/versioned_docs/version-1.0/Bounty-Information.md",
+              "sourceDirName": ".",
+              "slug": "/bounty-information",
+              "permalink": "/docs/bounty-information",
+              "editUrl": "https://github.com/esatya?tab=repositories/versioned_docs/version-1.0/Bounty-Information.md",
+              "tags": [],
+              "version": "1.0",
+              "frontMatter": {
+                "id": "bounty-information"
+              },
+              "sidebar": "version-1.0/tutorialSidebar",
+              "previous": {
+                "title": "Community Feedback",
+                "permalink": "/docs/community-feedback"
+              }
+            },
+            {
+              "unversionedId": "brand-guidelines",
+              "id": "version-1.0/brand-guidelines",
+              "isDocsHomePage": false,
+              "title": "Brand Guidelines",
+              "description": "",
+              "source": "@site/versioned_docs/version-1.0/Brand-Guidelines.md",
+              "sourceDirName": ".",
+              "slug": "/brand-guidelines",
+              "permalink": "/docs/brand-guidelines",
+              "editUrl": "https://github.com/esatya?tab=repositories/versioned_docs/version-1.0/Brand-Guidelines.md",
+              "tags": [],
+              "version": "1.0",
+              "frontMatter": {
+                "id": "brand-guidelines"
+              },
+              "sidebar": "version-1.0/tutorialSidebar",
+              "previous": {
+                "title": "NFT 2.0 - Decentralized School Database",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Licenses",
+                "permalink": "/docs/license"
+              }
+            },
+            {
+              "unversionedId": "code-of-conduct",
+              "id": "version-1.0/code-of-conduct",
+              "isDocsHomePage": false,
+              "title": "Code of Conduct",
+              "description": "",
+              "source": "@site/versioned_docs/version-1.0/Code-of-Conduct.md",
+              "sourceDirName": ".",
+              "slug": "/code-of-conduct",
+              "permalink": "/docs/code-of-conduct",
+              "editUrl": "https://github.com/esatya?tab=repositories/versioned_docs/version-1.0/Code-of-Conduct.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "code-of-conduct",
+                "sidebar_position": 2
+              },
+              "sidebar": "version-1.0/tutorialSidebar",
+              "previous": {
+                "title": "Contribution Guidelines",
+                "permalink": "/docs/contribution-guidelines"
+              },
+              "next": {
+                "title": "Getting Started Developer",
+                "permalink": "/docs/getting-started-developer"
+              }
+            },
+            {
+              "unversionedId": "community-feedback",
+              "id": "version-1.0/community-feedback",
+              "isDocsHomePage": false,
+              "title": "Community Feedback",
+              "description": "",
+              "source": "@site/versioned_docs/version-1.0/Community-Feedback.md",
+              "sourceDirName": ".",
+              "slug": "/community-feedback",
+              "permalink": "/docs/community-feedback",
+              "editUrl": "https://github.com/esatya?tab=repositories/versioned_docs/version-1.0/Community-Feedback.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "id": "community-feedback"
+              },
+              "sidebar": "version-1.0/tutorialSidebar",
+              "previous": {
+                "title": "Software Requirements Specifications",
+                "permalink": "/docs/software-requirements-specifications"
+              },
+              "next": {
+                "title": "Bounty Information",
+                "permalink": "/docs/bounty-information"
+              }
+            },
+            {
+              "unversionedId": "contribution-guidelines",
+              "id": "version-1.0/contribution-guidelines",
+              "isDocsHomePage": false,
+              "title": "Contribution Guidelines",
+              "description": "",
+              "source": "@site/versioned_docs/version-1.0/Contribution-Guidelines.md",
+              "sourceDirName": ".",
+              "slug": "/contribution-guidelines",
+              "permalink": "/docs/contribution-guidelines",
+              "editUrl": "https://github.com/esatya?tab=repositories/versioned_docs/version-1.0/Contribution-Guidelines.md",
+              "tags": [],
+              "version": "1.0",
+              "frontMatter": {
+                "id": "contribution-guidelines"
+              },
+              "sidebar": "version-1.0/tutorialSidebar",
+              "previous": {
+                "title": "Licenses",
+                "permalink": "/docs/license"
+              },
+              "next": {
+                "title": "Code of Conduct",
+                "permalink": "/docs/code-of-conduct"
+              }
+            },
+            {
+              "unversionedId": "getting-started-developer",
+              "id": "version-1.0/getting-started-developer",
+              "isDocsHomePage": false,
+              "title": "Getting Started Developer",
+              "description": "",
+              "source": "@site/versioned_docs/version-1.0/Getting-Started-Developer .md",
+              "sourceDirName": ".",
+              "slug": "/getting-started-developer",
+              "permalink": "/docs/getting-started-developer",
+              "editUrl": "https://github.com/esatya?tab=repositories/versioned_docs/version-1.0/Getting-Started-Developer .md",
+              "tags": [],
+              "version": "1.0",
+              "frontMatter": {
+                "id": "getting-started-developer"
+              },
+              "sidebar": "version-1.0/tutorialSidebar",
+              "previous": {
+                "title": "Code of Conduct",
+                "permalink": "/docs/code-of-conduct"
+              },
+              "next": {
+                "title": "Software Requirements Specifications",
+                "permalink": "/docs/software-requirements-specifications"
+              }
+            },
+            {
+              "unversionedId": "intro",
+              "id": "version-1.0/intro",
+              "isDocsHomePage": false,
+              "title": "NFT 2.0 - Decentralized School Database",
+              "description": "",
+              "source": "@site/versioned_docs/version-1.0/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "editUrl": "https://github.com/esatya?tab=repositories/versioned_docs/version-1.0/intro.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "id": "intro"
+              },
+              "sidebar": "version-1.0/tutorialSidebar",
+              "next": {
+                "title": "Brand Guidelines",
+                "permalink": "/docs/brand-guidelines"
+              }
+            },
+            {
+              "unversionedId": "license",
+              "id": "version-1.0/license",
+              "isDocsHomePage": false,
+              "title": "Licenses",
+              "description": "",
+              "source": "@site/versioned_docs/version-1.0/Licenses.md",
+              "sourceDirName": ".",
+              "slug": "/license",
+              "permalink": "/docs/license",
+              "editUrl": "https://github.com/esatya?tab=repositories/versioned_docs/version-1.0/Licenses.md",
+              "tags": [],
+              "version": "1.0",
+              "frontMatter": {
+                "id": "license"
+              },
+              "sidebar": "version-1.0/tutorialSidebar",
+              "previous": {
+                "title": "Brand Guidelines",
+                "permalink": "/docs/brand-guidelines"
+              },
+              "next": {
+                "title": "Contribution Guidelines",
+                "permalink": "/docs/contribution-guidelines"
+              }
+            },
+            {
+              "unversionedId": "software-requirements-specifications",
+              "id": "version-1.0/software-requirements-specifications",
+              "isDocsHomePage": false,
+              "title": "Software Requirements Specifications",
+              "description": "",
+              "source": "@site/versioned_docs/version-1.0/Software-Requirements-Specifications.md",
+              "sourceDirName": ".",
+              "slug": "/software-requirements-specifications",
+              "permalink": "/docs/software-requirements-specifications",
+              "editUrl": "https://github.com/esatya?tab=repositories/versioned_docs/version-1.0/Software-Requirements-Specifications.md",
+              "tags": [],
+              "version": "1.0",
+              "sidebarPosition": 12,
+              "frontMatter": {
+                "sidebar_position": 12,
+                "id": "software-requirements-specifications"
+              },
+              "sidebar": "version-1.0/tutorialSidebar",
+              "previous": {
+                "title": "Getting Started Developer",
+                "permalink": "/docs/getting-started-developer"
+              },
+              "next": {
+                "title": "Community Feedback",
+                "permalink": "/docs/community-feedback"
+              }
+            }
+          ],
+          "sidebars": {
+            "version-1.0/tutorialSidebar": [
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Introduction",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-1.0/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-1.0/brand-guidelines"
+                  }
+                ],
+                "collapsible": true
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Open Source",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-1.0/license",
+                    "label": "License"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-1.0/contribution-guidelines",
+                    "label": "Contribution Guidelines"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-1.0/code-of-conduct",
+                    "label": "Code of Conduct"
+                  }
+                ],
+                "collapsible": true
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Developer Guide",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-1.0/getting-started-developer",
+                    "label": "Getting started"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-1.0/software-requirements-specifications",
+                    "label": "Software Requirement Specification"
+                  }
+                ],
+                "collapsible": true
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Learn",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "version-1.0/community-feedback",
+                    "label": "Community Feedback"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "version-1.0/bounty-information",
+                    "label": "Bounty Information"
+                  }
+                ],
+                "collapsible": true
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Collaborate",
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "GitHub",
+                    "href": "https://github.com/giga-nft2-0"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Twitter",
+                    "href": "https://twitter.com/Gigaglobal"
+                  }
+                ],
+                "collapsible": true
+              }
+            ],
+            "version-1.0/apiSidebar": []
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "Release 1.0",
+          "metadata": {
+            "permalink": "/blog/2024/01/01/ Release 1.0",
+            "source": "@site/blog/2024-01-01 Release 1.0.md",
+            "title": "Release 1.0",
+            "description": "",
+            "date": "2024-01-01T00:00:00.000Z",
+            "formattedDate": "January 1, 2024",
+            "tags": [],
+            "readingTime": 0,
+            "truncated": false,
+            "authors": []
+          },
+          "content": ""
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 1,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          },
+          "items": [
+            "Release 1.0"
+          ]
+        }
+      ],
+      "blogTags": {},
+      "blogTagsListPath": null
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/help",
+        "source": "@site/src/pages/help.js"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/privacy-policy",
+        "source": "@site/src/pages/privacy-policy.md"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/versions",
+        "source": "@site/src/pages/versions.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  },
+  "docusaurus-plugin-openapi": {
+    "default": {
+      "openapiData": [
+        {
+          "title": "API",
+          "description": "",
+          "items": [
+            {
+              "operationId": "AuthController_login",
+              "parameters": [],
+              "responses": {
+                "201": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "Auth"
+              ],
+              "postman": {
+                "name": "Auth Controller login",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "auth",
+                    "login"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST"
+              },
+              "description": "AuthController_login",
+              "summary": "AuthController_login",
+              "method": "post",
+              "path": "/api/v1/auth/login",
+              "hashId": "/",
+              "servers": [],
+              "permalink": "/api/",
+              "next": {
+                "title": "AuthController_register",
+                "permalink": "/api/auth-controller-register"
+              }
+            },
+            {
+              "operationId": "AuthController_register",
+              "parameters": [],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "object",
+                      "properties": {
+                        "email": {
+                          "type": "string",
+                          "description": "Email of the user",
+                          "example": "john@doe.com"
+                        },
+                        "name": {
+                          "type": "string",
+                          "description": "Full Name of the user",
+                          "example": "John Doe"
+                        },
+                        "walletAddress": {
+                          "type": "string",
+                          "description": "Ethereum wallet address of the user",
+                          "example": "0xC67c60cD6d82Fcb2fC6a9a58eA62F80443E32683"
+                        },
+                        "roles": {
+                          "description": "Array of roles associated with the user",
+                          "example": "[\"USER\"]",
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "required": [
+                        "email",
+                        "name",
+                        "walletAddress",
+                        "roles"
+                      ]
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "201": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "Auth"
+              ],
+              "postman": {
+                "name": "Auth Controller register",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "auth",
+                    "register"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"email\": \"<string>\",\n    \"name\": \"<string>\",\n    \"walletAddress\": \"<string>\",\n    \"roles\": [\n        \"<string>\",\n        \"<string>\"\n    ]\n}"
+                }
+              },
+              "description": "AuthController_register",
+              "summary": "AuthController_register",
+              "method": "post",
+              "path": "/api/v1/auth/register",
+              "hashId": "auth-controller-register",
+              "servers": [],
+              "permalink": "/api/auth-controller-register",
+              "previous": {
+                "title": "AuthController_login",
+                "permalink": "/api/"
+              },
+              "next": {
+                "title": "AuthController_sendOtp",
+                "permalink": "/api/auth-controller-send-otp"
+              },
+              "jsonRequestBodyExample": {
+                "email": "john@doe.com",
+                "name": "John Doe",
+                "walletAddress": "0xC67c60cD6d82Fcb2fC6a9a58eA62F80443E32683",
+                "roles": "[\"USER\"]"
+              }
+            },
+            {
+              "operationId": "AuthController_sendOtp",
+              "parameters": [],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "object",
+                      "properties": {
+                        "email": {
+                          "type": "string",
+                          "example": "email@email.com"
+                        }
+                      },
+                      "required": [
+                        "email"
+                      ]
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "201": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "Auth"
+              ],
+              "postman": {
+                "name": "Auth Controller send Otp",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "auth",
+                    "send-otp"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"email\": \"<string>\"\n}"
+                }
+              },
+              "description": "AuthController_sendOtp",
+              "summary": "AuthController_sendOtp",
+              "method": "post",
+              "path": "/api/v1/auth/send-otp",
+              "hashId": "auth-controller-send-otp",
+              "servers": [],
+              "permalink": "/api/auth-controller-send-otp",
+              "previous": {
+                "title": "AuthController_register",
+                "permalink": "/api/auth-controller-register"
+              },
+              "next": {
+                "title": "AuthController_refresh",
+                "permalink": "/api/auth-controller-refresh"
+              },
+              "jsonRequestBodyExample": {
+                "email": "email@email.com"
+              }
+            },
+            {
+              "operationId": "AuthController_refresh",
+              "parameters": [],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "object",
+                      "properties": {
+                        "refresh": {
+                          "type": "string",
+                          "example": "dnsfb6829uhfjhbeiwy89ufgo"
+                        }
+                      },
+                      "required": [
+                        "refresh"
+                      ]
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "201": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "Auth"
+              ],
+              "postman": {
+                "name": "Auth Controller refresh",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "auth",
+                    "refresh"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"refresh\": \"<string>\"\n}"
+                }
+              },
+              "description": "AuthController_refresh",
+              "summary": "AuthController_refresh",
+              "method": "post",
+              "path": "/api/v1/auth/refresh",
+              "hashId": "auth-controller-refresh",
+              "servers": [],
+              "permalink": "/api/auth-controller-refresh",
+              "previous": {
+                "title": "AuthController_sendOtp",
+                "permalink": "/api/auth-controller-send-otp"
+              },
+              "next": {
+                "title": "AuthController_generateNonce",
+                "permalink": "/api/auth-controller-generate-nonce"
+              },
+              "jsonRequestBodyExample": {
+                "refresh": "dnsfb6829uhfjhbeiwy89ufgo"
+              }
+            },
+            {
+              "operationId": "AuthController_generateNonce",
+              "parameters": [],
+              "responses": {
+                "200": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "Auth"
+              ],
+              "postman": {
+                "name": "Auth Controller generate Nonce",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "auth",
+                    "getnonce"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET"
+              },
+              "description": "AuthController_generateNonce",
+              "summary": "AuthController_generateNonce",
+              "method": "get",
+              "path": "/api/v1/auth/getnonce",
+              "hashId": "auth-controller-generate-nonce",
+              "servers": [],
+              "permalink": "/api/auth-controller-generate-nonce",
+              "previous": {
+                "title": "AuthController_refresh",
+                "permalink": "/api/auth-controller-refresh"
+              },
+              "next": {
+                "title": "AuthController_walletRegister",
+                "permalink": "/api/auth-controller-wallet-register"
+              }
+            },
+            {
+              "operationId": "AuthController_walletRegister",
+              "parameters": [],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "object",
+                      "properties": {
+                        "walletAddress": {
+                          "type": "string",
+                          "example": "0x1234567890"
+                        },
+                        "signature": {
+                          "type": "string",
+                          "example": "0x1234567890"
+                        },
+                        "name": {
+                          "type": "string",
+                          "example": "0x1234567890"
+                        }
+                      },
+                      "required": [
+                        "walletAddress",
+                        "signature",
+                        "name"
+                      ]
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "201": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "Auth"
+              ],
+              "postman": {
+                "name": "Auth Controller wallet Register",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "auth",
+                    "walletRegister"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"walletAddress\": \"<string>\",\n    \"signature\": \"<string>\",\n    \"name\": \"<string>\"\n}"
+                }
+              },
+              "description": "AuthController_walletRegister",
+              "summary": "AuthController_walletRegister",
+              "method": "post",
+              "path": "/api/v1/auth/walletRegister",
+              "hashId": "auth-controller-wallet-register",
+              "servers": [],
+              "permalink": "/api/auth-controller-wallet-register",
+              "previous": {
+                "title": "AuthController_generateNonce",
+                "permalink": "/api/auth-controller-generate-nonce"
+              },
+              "next": {
+                "title": "AuthController_walletLogin",
+                "permalink": "/api/auth-controller-wallet-login"
+              },
+              "jsonRequestBodyExample": {
+                "walletAddress": "0x1234567890",
+                "signature": "0x1234567890",
+                "name": "0x1234567890"
+              }
+            },
+            {
+              "operationId": "AuthController_walletLogin",
+              "parameters": [],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "object",
+                      "properties": {
+                        "walletAddress": {
+                          "type": "string",
+                          "example": "0x1234567890"
+                        },
+                        "signature": {
+                          "type": "string",
+                          "example": "0x1234567890"
+                        }
+                      },
+                      "required": [
+                        "walletAddress",
+                        "signature"
+                      ]
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "201": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "Auth"
+              ],
+              "postman": {
+                "name": "Auth Controller wallet Login",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "auth",
+                    "walletlogin"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"walletAddress\": \"<string>\",\n    \"signature\": \"<string>\"\n}"
+                }
+              },
+              "description": "AuthController_walletLogin",
+              "summary": "AuthController_walletLogin",
+              "method": "post",
+              "path": "/api/v1/auth/walletlogin",
+              "hashId": "auth-controller-wallet-login",
+              "servers": [],
+              "permalink": "/api/auth-controller-wallet-login",
+              "previous": {
+                "title": "AuthController_walletRegister",
+                "permalink": "/api/auth-controller-wallet-register"
+              },
+              "next": {
+                "title": "SchoolController_queue",
+                "permalink": "/api/school-controller-queue"
+              },
+              "jsonRequestBodyExample": {
+                "walletAddress": "0x1234567890",
+                "signature": "0x1234567890"
+              }
+            },
+            {
+              "operationId": "SchoolController_queue",
+              "parameters": [],
+              "responses": {
+                "200": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "School"
+              ],
+              "postman": {
+                "name": "School Controller queue",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "schools",
+                    "onchainDataQueue"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET"
+              },
+              "description": "SchoolController_queue",
+              "summary": "SchoolController_queue",
+              "method": "get",
+              "path": "/api/v1/schools/onchainDataQueue",
+              "hashId": "school-controller-queue",
+              "servers": [],
+              "permalink": "/api/school-controller-queue",
+              "previous": {
+                "title": "AuthController_walletLogin",
+                "permalink": "/api/auth-controller-wallet-login"
+              },
+              "next": {
+                "title": "SchoolController_update",
+                "permalink": "/api/school-controller-update"
+              }
+            },
+            {
+              "operationId": "SchoolController_update",
+              "parameters": [
+                {
+                  "name": "id",
+                  "required": true,
+                  "in": "path",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "School"
+              ],
+              "postman": {
+                "name": "School Controller update",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "schools",
+                    "update",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id"
+                    }
+                  ]
+                },
+                "method": "PATCH"
+              },
+              "description": "SchoolController_update",
+              "summary": "SchoolController_update",
+              "method": "patch",
+              "path": "/api/v1/schools/update/{id}",
+              "hashId": "school-controller-update",
+              "servers": [],
+              "permalink": "/api/school-controller-update",
+              "previous": {
+                "title": "SchoolController_queue",
+                "permalink": "/api/school-controller-queue"
+              },
+              "next": {
+                "title": "SchoolController_mintBatchSchool",
+                "permalink": "/api/school-controller-mint-batch-school"
+              }
+            },
+            {
+              "operationId": "SchoolController_mintBatchSchool",
+              "parameters": [],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "object",
+                      "properties": {
+                        "signatureWithData": {
+                          "type": "string"
+                        },
+                        "data": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "required": [
+                        "signatureWithData",
+                        "data"
+                      ]
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "201": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "School"
+              ],
+              "postman": {
+                "name": "School Controller mint Batch School",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "schools",
+                    "mintBulk"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"signatureWithData\": \"<string>\",\n    \"data\": [\n        \"<string>\",\n        \"<string>\"\n    ]\n}"
+                }
+              },
+              "description": "SchoolController_mintBatchSchool",
+              "summary": "SchoolController_mintBatchSchool",
+              "method": "post",
+              "path": "/api/v1/schools/mintBulk",
+              "hashId": "school-controller-mint-batch-school",
+              "servers": [],
+              "permalink": "/api/school-controller-mint-batch-school",
+              "previous": {
+                "title": "SchoolController_update",
+                "permalink": "/api/school-controller-update"
+              },
+              "next": {
+                "title": "SchoolController_mintSchool",
+                "permalink": "/api/school-controller-mint-school"
+              },
+              "jsonRequestBodyExample": {
+                "signatureWithData": "string",
+                "data": [
+                  "string"
+                ]
+              }
+            },
+            {
+              "operationId": "SchoolController_mintSchool",
+              "parameters": [],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "object",
+                      "properties": {
+                        "signatureWithData": {
+                          "type": "string"
+                        },
+                        "data": {
+                          "type": "object"
+                        }
+                      },
+                      "required": [
+                        "signatureWithData",
+                        "data"
+                      ]
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "201": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "School"
+              ],
+              "postman": {
+                "name": "School Controller mint School",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "schools",
+                    "mintSchool"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"signatureWithData\": \"<string>\",\n    \"data\": \"<object>\"\n}"
+                }
+              },
+              "description": "SchoolController_mintSchool",
+              "summary": "SchoolController_mintSchool",
+              "method": "post",
+              "path": "/api/v1/schools/mintSchool",
+              "hashId": "school-controller-mint-school",
+              "servers": [],
+              "permalink": "/api/school-controller-mint-school",
+              "previous": {
+                "title": "SchoolController_mintBatchSchool",
+                "permalink": "/api/school-controller-mint-batch-school"
+              },
+              "next": {
+                "title": "SchoolController_countSchools",
+                "permalink": "/api/school-controller-count-schools"
+              },
+              "jsonRequestBodyExample": {
+                "signatureWithData": "string",
+                "data": {}
+              }
+            },
+            {
+              "operationId": "SchoolController_countSchools",
+              "parameters": [
+                {
+                  "name": "minted",
+                  "required": false,
+                  "in": "query",
+                  "schema": {
+                    "enum": [
+                      "NOTMINTED",
+                      "MINTED",
+                      "ISMINTING"
+                    ],
+                    "type": "string"
+                  }
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "School"
+              ],
+              "postman": {
+                "name": "School Controller count Schools",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "schools",
+                    "schoolCount"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "description": {
+                        "content": "",
+                        "type": "text/plain"
+                      },
+                      "key": "minted",
+                      "value": "<string>"
+                    }
+                  ],
+                  "variable": []
+                },
+                "method": "GET"
+              },
+              "description": "SchoolController_countSchools",
+              "summary": "SchoolController_countSchools",
+              "method": "get",
+              "path": "/api/v1/schools/schoolCount",
+              "hashId": "school-controller-count-schools",
+              "servers": [],
+              "permalink": "/api/school-controller-count-schools",
+              "previous": {
+                "title": "SchoolController_mintSchool",
+                "permalink": "/api/school-controller-mint-school"
+              },
+              "next": {
+                "title": "SchoolController_uploadFile",
+                "permalink": "/api/school-controller-upload-file"
+              }
+            },
+            {
+              "operationId": "SchoolController_uploadFile",
+              "parameters": [],
+              "responses": {
+                "201": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "School"
+              ],
+              "postman": {
+                "name": "School Controller upload File",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "schools",
+                    "uploadFile"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST"
+              },
+              "description": "SchoolController_uploadFile",
+              "summary": "SchoolController_uploadFile",
+              "method": "post",
+              "path": "/api/v1/schools/uploadFile",
+              "hashId": "school-controller-upload-file",
+              "servers": [],
+              "permalink": "/api/school-controller-upload-file",
+              "previous": {
+                "title": "SchoolController_countSchools",
+                "permalink": "/api/school-controller-count-schools"
+              },
+              "next": {
+                "title": "SchoolController_findAll",
+                "permalink": "/api/school-controller-find-all"
+              }
+            },
+            {
+              "operationId": "SchoolController_findAll",
+              "parameters": [
+                {
+                  "name": "page",
+                  "required": false,
+                  "in": "query",
+                  "description": "Page to load",
+                  "example": "1",
+                  "schema": {
+                    "type": "string"
+                  }
+                },
+                {
+                  "name": "perPage",
+                  "required": false,
+                  "in": "query",
+                  "schema": {
+                    "type": "string"
+                  }
+                },
+                {
+                  "name": "uploadId",
+                  "required": false,
+                  "in": "query",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "School"
+              ],
+              "postman": {
+                "name": "School Controller find All",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "schools"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "description": {
+                        "content": "Page to load",
+                        "type": "text/plain"
+                      },
+                      "key": "page",
+                      "value": "<string>"
+                    },
+                    {
+                      "description": {
+                        "content": "",
+                        "type": "text/plain"
+                      },
+                      "key": "perPage",
+                      "value": "<string>"
+                    },
+                    {
+                      "description": {
+                        "content": "",
+                        "type": "text/plain"
+                      },
+                      "key": "uploadId",
+                      "value": "<string>"
+                    }
+                  ],
+                  "variable": []
+                },
+                "method": "GET"
+              },
+              "description": "SchoolController_findAll",
+              "summary": "SchoolController_findAll",
+              "method": "get",
+              "path": "/api/v1/schools",
+              "hashId": "school-controller-find-all",
+              "servers": [],
+              "permalink": "/api/school-controller-find-all",
+              "previous": {
+                "title": "SchoolController_uploadFile",
+                "permalink": "/api/school-controller-upload-file"
+              },
+              "next": {
+                "title": "SchoolController_removeAll",
+                "permalink": "/api/school-controller-remove-all"
+              }
+            },
+            {
+              "operationId": "SchoolController_removeAll",
+              "parameters": [],
+              "responses": {
+                "200": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "School"
+              ],
+              "postman": {
+                "name": "School Controller remove All",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "schools"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "DELETE"
+              },
+              "description": "SchoolController_removeAll",
+              "summary": "SchoolController_removeAll",
+              "method": "delete",
+              "path": "/api/v1/schools",
+              "hashId": "school-controller-remove-all",
+              "servers": [],
+              "permalink": "/api/school-controller-remove-all",
+              "previous": {
+                "title": "SchoolController_findAll",
+                "permalink": "/api/school-controller-find-all"
+              },
+              "next": {
+                "title": "SchoolController_findOne",
+                "permalink": "/api/school-controller-find-one"
+              }
+            },
+            {
+              "operationId": "SchoolController_findOne",
+              "parameters": [
+                {
+                  "name": "id",
+                  "required": true,
+                  "in": "path",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "School"
+              ],
+              "postman": {
+                "name": "School Controller find One",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "schools",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id"
+                    }
+                  ]
+                },
+                "method": "GET"
+              },
+              "description": "SchoolController_findOne",
+              "summary": "SchoolController_findOne",
+              "method": "get",
+              "path": "/api/v1/schools/{id}",
+              "hashId": "school-controller-find-one",
+              "servers": [],
+              "permalink": "/api/school-controller-find-one",
+              "previous": {
+                "title": "SchoolController_removeAll",
+                "permalink": "/api/school-controller-remove-all"
+              },
+              "next": {
+                "title": "SchoolController_findByCountry",
+                "permalink": "/api/school-controller-find-by-country"
+              }
+            },
+            {
+              "operationId": "SchoolController_findByCountry",
+              "parameters": [
+                {
+                  "name": "country",
+                  "required": true,
+                  "in": "path",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "School"
+              ],
+              "postman": {
+                "name": "School Controller find By Country",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "schools",
+                    "byCountry",
+                    ":country"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "country"
+                    }
+                  ]
+                },
+                "method": "GET"
+              },
+              "description": "SchoolController_findByCountry",
+              "summary": "SchoolController_findByCountry",
+              "method": "get",
+              "path": "/api/v1/schools/byCountry/{country}",
+              "hashId": "school-controller-find-by-country",
+              "servers": [],
+              "permalink": "/api/school-controller-find-by-country",
+              "previous": {
+                "title": "SchoolController_findOne",
+                "permalink": "/api/school-controller-find-one"
+              },
+              "next": {
+                "title": "SchoolController_listUploads",
+                "permalink": "/api/school-controller-list-uploads"
+              }
+            },
+            {
+              "operationId": "SchoolController_listUploads",
+              "parameters": [],
+              "responses": {
+                "200": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "School"
+              ],
+              "postman": {
+                "name": "School Controller list Uploads",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "schools",
+                    "listUpload"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET"
+              },
+              "description": "SchoolController_listUploads",
+              "summary": "SchoolController_listUploads",
+              "method": "get",
+              "path": "/api/v1/schools/listUpload",
+              "hashId": "school-controller-list-uploads",
+              "servers": [],
+              "permalink": "/api/school-controller-list-uploads",
+              "previous": {
+                "title": "SchoolController_findByCountry",
+                "permalink": "/api/school-controller-find-by-country"
+              },
+              "next": {
+                "title": "Create new user",
+                "permalink": "/api/create-new-user"
+              }
+            },
+            {
+              "operationId": "UsersController_addValidator",
+              "summary": "Create new user",
+              "parameters": [],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "object",
+                      "properties": {
+                        "email": {
+                          "type": "string",
+                          "description": "Email of the user",
+                          "example": "john@doe.com"
+                        },
+                        "name": {
+                          "type": "string",
+                          "description": "Full Name of the user",
+                          "example": "John Doe"
+                        },
+                        "walletAddress": {
+                          "type": "string",
+                          "description": "Ethereum wallet address of the user",
+                          "example": "0xC67c60cD6d82Fcb2fC6a9a58eA62F80443E32683"
+                        },
+                        "roles": {
+                          "description": "Array of roles associated with the user",
+                          "example": "[\"USER\"]",
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "required": [
+                        "email",
+                        "name",
+                        "walletAddress",
+                        "roles"
+                      ]
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "200": {
+                  "description": "The found record",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "email": {
+                              "type": "string",
+                              "description": "Email of the user",
+                              "example": "john@doe.com"
+                            },
+                            "name": {
+                              "type": "string",
+                              "description": "Full Name of the user",
+                              "example": "John Doe"
+                            },
+                            "walletAddress": {
+                              "type": "string",
+                              "description": "Ethereum wallet address of the user",
+                              "example": "0xC67c60cD6d82Fcb2fC6a9a58eA62F80443E32683"
+                            },
+                            "roles": {
+                              "description": "Array of roles associated with the user",
+                              "example": "[\"USER\"]",
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "required": [
+                            "email",
+                            "name",
+                            "walletAddress",
+                            "roles"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                },
+                "403": {
+                  "description": "Forbidden."
+                }
+              },
+              "tags": [
+                "Users"
+              ],
+              "security": [
+                {
+                  "access-token": []
+                }
+              ],
+              "postman": {
+                "name": "Create new user",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "users",
+                    "addAdmin"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"email\": \"<string>\",\n    \"name\": \"<string>\",\n    \"walletAddress\": \"<string>\",\n    \"roles\": [\n        \"<string>\",\n        \"<string>\"\n    ]\n}"
+                },
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "type": "any",
+                      "value": "<Bearer Token>",
+                      "key": "token"
+                    }
+                  ]
+                }
+              },
+              "description": "Create new user",
+              "method": "post",
+              "path": "/api/v1/users/addAdmin",
+              "hashId": "create-new-user",
+              "servers": [],
+              "permalink": "/api/create-new-user",
+              "previous": {
+                "title": "SchoolController_listUploads",
+                "permalink": "/api/school-controller-list-uploads"
+              },
+              "next": {
+                "title": "List all user",
+                "permalink": "/api/list-all-user"
+              },
+              "jsonRequestBodyExample": {
+                "email": "john@doe.com",
+                "name": "John Doe",
+                "walletAddress": "0xC67c60cD6d82Fcb2fC6a9a58eA62F80443E32683",
+                "roles": "[\"USER\"]"
+              }
+            },
+            {
+              "operationId": "UsersController_findAll",
+              "summary": "List all user",
+              "parameters": [],
+              "responses": {
+                "200": {
+                  "description": "The found record",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "email": {
+                              "type": "string",
+                              "description": "Email of the user",
+                              "example": "john@doe.com"
+                            },
+                            "name": {
+                              "type": "string",
+                              "description": "Full Name of the user",
+                              "example": "John Doe"
+                            },
+                            "walletAddress": {
+                              "type": "string",
+                              "description": "Ethereum wallet address of the user",
+                              "example": "0xC67c60cD6d82Fcb2fC6a9a58eA62F80443E32683"
+                            },
+                            "roles": {
+                              "description": "Array of roles associated with the user",
+                              "example": "[\"USER\"]",
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "required": [
+                            "email",
+                            "name",
+                            "walletAddress",
+                            "roles"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                },
+                "403": {
+                  "description": "Forbidden."
+                }
+              },
+              "tags": [
+                "Users"
+              ],
+              "security": [
+                {
+                  "access-token": []
+                }
+              ],
+              "postman": {
+                "name": "List all user",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "users"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET",
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "type": "any",
+                      "value": "<Bearer Token>",
+                      "key": "token"
+                    }
+                  ]
+                }
+              },
+              "description": "List all user",
+              "method": "get",
+              "path": "/api/v1/users",
+              "hashId": "list-all-user",
+              "servers": [],
+              "permalink": "/api/list-all-user",
+              "previous": {
+                "title": "Create new user",
+                "permalink": "/api/create-new-user"
+              },
+              "next": {
+                "title": "Get an user",
+                "permalink": "/api/get-an-user"
+              }
+            },
+            {
+              "operationId": "UsersController_findOne",
+              "summary": "Get an user",
+              "parameters": [
+                {
+                  "name": "id",
+                  "required": true,
+                  "in": "path",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": "The found record",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "email": {
+                              "type": "string",
+                              "description": "Email of the user",
+                              "example": "john@doe.com"
+                            },
+                            "name": {
+                              "type": "string",
+                              "description": "Full Name of the user",
+                              "example": "John Doe"
+                            },
+                            "walletAddress": {
+                              "type": "string",
+                              "description": "Ethereum wallet address of the user",
+                              "example": "0xC67c60cD6d82Fcb2fC6a9a58eA62F80443E32683"
+                            },
+                            "roles": {
+                              "description": "Array of roles associated with the user",
+                              "example": "[\"USER\"]",
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "required": [
+                            "email",
+                            "name",
+                            "walletAddress",
+                            "roles"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                },
+                "403": {
+                  "description": "Forbidden."
+                }
+              },
+              "tags": [
+                "Users"
+              ],
+              "security": [
+                {
+                  "access-token": []
+                }
+              ],
+              "postman": {
+                "name": "Get an user",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "users",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "type": "any",
+                      "value": "<Bearer Token>",
+                      "key": "token"
+                    }
+                  ]
+                }
+              },
+              "description": "Get an user",
+              "method": "get",
+              "path": "/api/v1/users/{id}",
+              "hashId": "get-an-user",
+              "servers": [],
+              "permalink": "/api/get-an-user",
+              "previous": {
+                "title": "List all user",
+                "permalink": "/api/list-all-user"
+              },
+              "next": {
+                "title": "Update an user",
+                "permalink": "/api/update-an-user"
+              }
+            },
+            {
+              "operationId": "UsersController_update",
+              "summary": "Update an user",
+              "parameters": [
+                {
+                  "name": "id",
+                  "required": true,
+                  "in": "path",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "object",
+                      "properties": {}
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "200": {
+                  "description": "The found record",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "email": {
+                              "type": "string",
+                              "description": "Email of the user",
+                              "example": "john@doe.com"
+                            },
+                            "name": {
+                              "type": "string",
+                              "description": "Full Name of the user",
+                              "example": "John Doe"
+                            },
+                            "walletAddress": {
+                              "type": "string",
+                              "description": "Ethereum wallet address of the user",
+                              "example": "0xC67c60cD6d82Fcb2fC6a9a58eA62F80443E32683"
+                            },
+                            "roles": {
+                              "description": "Array of roles associated with the user",
+                              "example": "[\"USER\"]",
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "required": [
+                            "email",
+                            "name",
+                            "walletAddress",
+                            "roles"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                },
+                "403": {
+                  "description": "Forbidden."
+                }
+              },
+              "tags": [
+                "Users"
+              ],
+              "security": [
+                {
+                  "access-token": []
+                }
+              ],
+              "postman": {
+                "name": "Update an user",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "users",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PATCH",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{}"
+                },
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "type": "any",
+                      "value": "<Bearer Token>",
+                      "key": "token"
+                    }
+                  ]
+                }
+              },
+              "description": "Update an user",
+              "method": "patch",
+              "path": "/api/v1/users/{id}",
+              "hashId": "update-an-user",
+              "servers": [],
+              "permalink": "/api/update-an-user",
+              "previous": {
+                "title": "Get an user",
+                "permalink": "/api/get-an-user"
+              },
+              "next": {
+                "title": "Delete an user",
+                "permalink": "/api/delete-an-user"
+              },
+              "jsonRequestBodyExample": {}
+            },
+            {
+              "operationId": "UsersController_remove",
+              "summary": "Delete an user",
+              "parameters": [
+                {
+                  "name": "id",
+                  "required": true,
+                  "in": "path",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": "The found record",
+                  "content": {
+                    "application/json": {
+                      "schema": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "email": {
+                              "type": "string",
+                              "description": "Email of the user",
+                              "example": "john@doe.com"
+                            },
+                            "name": {
+                              "type": "string",
+                              "description": "Full Name of the user",
+                              "example": "John Doe"
+                            },
+                            "walletAddress": {
+                              "type": "string",
+                              "description": "Ethereum wallet address of the user",
+                              "example": "0xC67c60cD6d82Fcb2fC6a9a58eA62F80443E32683"
+                            },
+                            "roles": {
+                              "description": "Array of roles associated with the user",
+                              "example": "[\"USER\"]",
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "required": [
+                            "email",
+                            "name",
+                            "walletAddress",
+                            "roles"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                },
+                "403": {
+                  "description": "Forbidden."
+                }
+              },
+              "tags": [
+                "Users"
+              ],
+              "security": [
+                {
+                  "access-token": []
+                }
+              ],
+              "postman": {
+                "name": "Delete an user",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "users",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id"
+                    }
+                  ]
+                },
+                "method": "DELETE",
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "type": "any",
+                      "value": "<Bearer Token>",
+                      "key": "token"
+                    }
+                  ]
+                }
+              },
+              "description": "Delete an user",
+              "method": "delete",
+              "path": "/api/v1/users/{id}",
+              "hashId": "delete-an-user",
+              "servers": [],
+              "permalink": "/api/delete-an-user",
+              "previous": {
+                "title": "Update an user",
+                "permalink": "/api/update-an-user"
+              },
+              "next": {
+                "title": "ContributeDataController_create",
+                "permalink": "/api/contribute-data-controller-create"
+              }
+            },
+            {
+              "operationId": "ContributeDataController_create",
+              "parameters": [],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "object",
+                      "properties": {
+                        "contributed_data": {
+                          "type": "string",
+                          "example": "{\"key\": \"value\"}",
+                          "description": "JSON value with key value pair"
+                        },
+                        "status": {
+                          "type": "string",
+                          "example": "Pending",
+                          "enum": [
+                            "Validated",
+                            "Rejected",
+                            "Pending"
+                          ]
+                        },
+                        "contributedUserId": {
+                          "type": "string",
+                          "example": "1c0ebe70-f286-473c-bb9c-165db6af77c7",
+                          "description": "User ID of user who contributed the data."
+                        },
+                        "school_Id": {
+                          "type": "string",
+                          "example": "school-id"
+                        },
+                        "season_ID": {
+                          "type": "string",
+                          "example": "season-id"
+                        }
+                      },
+                      "required": [
+                        "contributed_data",
+                        "status",
+                        "contributedUserId",
+                        "school_Id",
+                        "season_ID"
+                      ]
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "201": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "Contribute"
+              ],
+              "security": [
+                {
+                  "access-token": []
+                }
+              ],
+              "postman": {
+                "name": "Contribute Data Controller create",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "contribute"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"contributed_data\": \"<string>\",\n    \"status\": \"<string>\",\n    \"contributedUserId\": \"<string>\",\n    \"school_Id\": \"<string>\",\n    \"season_ID\": \"<string>\"\n}"
+                },
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "type": "any",
+                      "value": "<Bearer Token>",
+                      "key": "token"
+                    }
+                  ]
+                }
+              },
+              "description": "ContributeDataController_create",
+              "summary": "ContributeDataController_create",
+              "method": "post",
+              "path": "/api/v1/contribute",
+              "hashId": "contribute-data-controller-create",
+              "servers": [],
+              "permalink": "/api/contribute-data-controller-create",
+              "previous": {
+                "title": "Delete an user",
+                "permalink": "/api/delete-an-user"
+              },
+              "next": {
+                "title": "ContributeDataController_findAll",
+                "permalink": "/api/contribute-data-controller-find-all"
+              },
+              "jsonRequestBodyExample": {
+                "contributed_data": "{\"key\": \"value\"}",
+                "status": "Pending",
+                "contributedUserId": "1c0ebe70-f286-473c-bb9c-165db6af77c7",
+                "school_Id": "school-id",
+                "season_ID": "season-id"
+              }
+            },
+            {
+              "operationId": "ContributeDataController_findAll",
+              "parameters": [],
+              "responses": {
+                "200": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "Contribute"
+              ],
+              "security": [
+                {
+                  "access-token": []
+                }
+              ],
+              "postman": {
+                "name": "Contribute Data Controller find All",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "contribute"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET",
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "type": "any",
+                      "value": "<Bearer Token>",
+                      "key": "token"
+                    }
+                  ]
+                }
+              },
+              "description": "ContributeDataController_findAll",
+              "summary": "ContributeDataController_findAll",
+              "method": "get",
+              "path": "/api/v1/contribute",
+              "hashId": "contribute-data-controller-find-all",
+              "servers": [],
+              "permalink": "/api/contribute-data-controller-find-all",
+              "previous": {
+                "title": "ContributeDataController_create",
+                "permalink": "/api/contribute-data-controller-create"
+              },
+              "next": {
+                "title": "ContributeDataController_findOne",
+                "permalink": "/api/contribute-data-controller-find-one"
+              }
+            },
+            {
+              "operationId": "ContributeDataController_findOne",
+              "parameters": [
+                {
+                  "name": "id",
+                  "required": true,
+                  "in": "path",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "Contribute"
+              ],
+              "security": [
+                {
+                  "access-token": []
+                }
+              ],
+              "postman": {
+                "name": "Contribute Data Controller find One",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "contribute",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id"
+                    }
+                  ]
+                },
+                "method": "GET",
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "type": "any",
+                      "value": "<Bearer Token>",
+                      "key": "token"
+                    }
+                  ]
+                }
+              },
+              "description": "ContributeDataController_findOne",
+              "summary": "ContributeDataController_findOne",
+              "method": "get",
+              "path": "/api/v1/contribute/{id}",
+              "hashId": "contribute-data-controller-find-one",
+              "servers": [],
+              "permalink": "/api/contribute-data-controller-find-one",
+              "previous": {
+                "title": "ContributeDataController_findAll",
+                "permalink": "/api/contribute-data-controller-find-all"
+              },
+              "next": {
+                "title": "ContributeDataController_update",
+                "permalink": "/api/contribute-data-controller-update"
+              }
+            },
+            {
+              "operationId": "ContributeDataController_update",
+              "parameters": [
+                {
+                  "name": "id",
+                  "required": true,
+                  "in": "path",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "object",
+                      "properties": {
+                        "contributed_data": {
+                          "type": "string",
+                          "example": "{\"key\": \"value\"}",
+                          "description": "JSON value with key value pair"
+                        },
+                        "status": {
+                          "type": "string",
+                          "example": "Pending",
+                          "enum": [
+                            "Validated",
+                            "Rejected",
+                            "Pending"
+                          ]
+                        },
+                        "contributedUserId": {
+                          "type": "string",
+                          "example": "1c0ebe70-f286-473c-bb9c-165db6af77c7",
+                          "description": "User ID of user who contributed the data."
+                        },
+                        "school_Id": {
+                          "type": "string",
+                          "example": "school-id"
+                        },
+                        "season_ID": {
+                          "type": "string",
+                          "example": "season-id"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "200": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "Contribute"
+              ],
+              "security": [
+                {
+                  "access-token": []
+                }
+              ],
+              "postman": {
+                "name": "Contribute Data Controller update",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "contribute",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PATCH",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"contributed_data\": \"<string>\",\n    \"status\": \"<string>\",\n    \"contributedUserId\": \"<string>\",\n    \"school_Id\": \"<string>\",\n    \"season_ID\": \"<string>\"\n}"
+                },
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "type": "any",
+                      "value": "<Bearer Token>",
+                      "key": "token"
+                    }
+                  ]
+                }
+              },
+              "description": "ContributeDataController_update",
+              "summary": "ContributeDataController_update",
+              "method": "patch",
+              "path": "/api/v1/contribute/{id}",
+              "hashId": "contribute-data-controller-update",
+              "servers": [],
+              "permalink": "/api/contribute-data-controller-update",
+              "previous": {
+                "title": "ContributeDataController_findOne",
+                "permalink": "/api/contribute-data-controller-find-one"
+              },
+              "next": {
+                "title": "ContributeDataController_remove",
+                "permalink": "/api/contribute-data-controller-remove"
+              },
+              "jsonRequestBodyExample": {
+                "contributed_data": "{\"key\": \"value\"}",
+                "status": "Pending",
+                "contributedUserId": "1c0ebe70-f286-473c-bb9c-165db6af77c7",
+                "school_Id": "school-id",
+                "season_ID": "season-id"
+              }
+            },
+            {
+              "operationId": "ContributeDataController_remove",
+              "parameters": [
+                {
+                  "name": "id",
+                  "required": true,
+                  "in": "path",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "Contribute"
+              ],
+              "security": [
+                {
+                  "access-token": []
+                }
+              ],
+              "postman": {
+                "name": "Contribute Data Controller remove",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "contribute",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id"
+                    }
+                  ]
+                },
+                "method": "DELETE",
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "type": "any",
+                      "value": "<Bearer Token>",
+                      "key": "token"
+                    }
+                  ]
+                }
+              },
+              "description": "ContributeDataController_remove",
+              "summary": "ContributeDataController_remove",
+              "method": "delete",
+              "path": "/api/v1/contribute/{id}",
+              "hashId": "contribute-data-controller-remove",
+              "servers": [],
+              "permalink": "/api/contribute-data-controller-remove",
+              "previous": {
+                "title": "ContributeDataController_update",
+                "permalink": "/api/contribute-data-controller-update"
+              },
+              "next": {
+                "title": "ContributeDataController_validate",
+                "permalink": "/api/contribute-data-controller-validate"
+              }
+            },
+            {
+              "operationId": "ContributeDataController_validate",
+              "parameters": [
+                {
+                  "name": "id",
+                  "required": true,
+                  "in": "path",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "object",
+                      "properties": {
+                        "isValid": {
+                          "type": "boolean",
+                          "example": true
+                        }
+                      },
+                      "required": [
+                        "isValid"
+                      ]
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "201": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "Contribute"
+              ],
+              "security": [
+                {
+                  "access-token": []
+                }
+              ],
+              "postman": {
+                "name": "Contribute Data Controller validate",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "contribute",
+                    "validate",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"isValid\": \"<boolean>\"\n}"
+                },
+                "auth": {
+                  "type": "bearer",
+                  "bearer": [
+                    {
+                      "type": "any",
+                      "value": "<Bearer Token>",
+                      "key": "token"
+                    }
+                  ]
+                }
+              },
+              "description": "ContributeDataController_validate",
+              "summary": "ContributeDataController_validate",
+              "method": "post",
+              "path": "/api/v1/contribute/validate/{id}",
+              "hashId": "contribute-data-controller-validate",
+              "servers": [],
+              "permalink": "/api/contribute-data-controller-validate",
+              "previous": {
+                "title": "ContributeDataController_remove",
+                "permalink": "/api/contribute-data-controller-remove"
+              },
+              "next": {
+                "title": "EmailController_create",
+                "permalink": "/api/email-controller-create"
+              },
+              "jsonRequestBodyExample": {
+                "isValid": true
+              }
+            },
+            {
+              "operationId": "EmailController_create",
+              "parameters": [],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "object",
+                      "properties": {
+                        "email": {
+                          "type": "string",
+                          "example": "email@email.com"
+                        },
+                        "fullname": {
+                          "type": "string",
+                          "example": "Sushant Tripathee"
+                        },
+                        "country": {
+                          "type": "string",
+                          "example": "Nepal"
+                        }
+                      },
+                      "required": [
+                        "email",
+                        "fullname",
+                        "country"
+                      ]
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "201": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "NewsLetter"
+              ],
+              "postman": {
+                "name": "Email Controller create",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "newsletters"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"email\": \"<string>\",\n    \"fullname\": \"<string>\",\n    \"country\": \"<string>\"\n}"
+                }
+              },
+              "description": "EmailController_create",
+              "summary": "EmailController_create",
+              "method": "post",
+              "path": "/api/v1/newsletters",
+              "hashId": "email-controller-create",
+              "servers": [],
+              "permalink": "/api/email-controller-create",
+              "previous": {
+                "title": "ContributeDataController_validate",
+                "permalink": "/api/contribute-data-controller-validate"
+              },
+              "next": {
+                "title": "EmailController_findAll",
+                "permalink": "/api/email-controller-find-all"
+              },
+              "jsonRequestBodyExample": {
+                "email": "email@email.com",
+                "fullname": "Sushant Tripathee",
+                "country": "Nepal"
+              }
+            },
+            {
+              "operationId": "EmailController_findAll",
+              "parameters": [
+                {
+                  "name": "country",
+                  "required": true,
+                  "in": "query",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "NewsLetter"
+              ],
+              "postman": {
+                "name": "Email Controller find All",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "newsletters"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "key": "country",
+                      "value": "<string>"
+                    }
+                  ],
+                  "variable": []
+                },
+                "method": "GET"
+              },
+              "description": "EmailController_findAll",
+              "summary": "EmailController_findAll",
+              "method": "get",
+              "path": "/api/v1/newsletters",
+              "hashId": "email-controller-find-all",
+              "servers": [],
+              "permalink": "/api/email-controller-find-all",
+              "previous": {
+                "title": "EmailController_create",
+                "permalink": "/api/email-controller-create"
+              },
+              "next": {
+                "title": "EmailController_findOne",
+                "permalink": "/api/email-controller-find-one"
+              }
+            },
+            {
+              "operationId": "EmailController_findOne",
+              "parameters": [
+                {
+                  "name": "id",
+                  "required": true,
+                  "in": "path",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "NewsLetter"
+              ],
+              "postman": {
+                "name": "Email Controller find One",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "newsletters",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id"
+                    }
+                  ]
+                },
+                "method": "GET"
+              },
+              "description": "EmailController_findOne",
+              "summary": "EmailController_findOne",
+              "method": "get",
+              "path": "/api/v1/newsletters/{id}",
+              "hashId": "email-controller-find-one",
+              "servers": [],
+              "permalink": "/api/email-controller-find-one",
+              "previous": {
+                "title": "EmailController_findAll",
+                "permalink": "/api/email-controller-find-all"
+              },
+              "next": {
+                "title": "EmailController_update",
+                "permalink": "/api/email-controller-update"
+              }
+            },
+            {
+              "operationId": "EmailController_update",
+              "parameters": [
+                {
+                  "name": "id",
+                  "required": true,
+                  "in": "path",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "requestBody": {
+                "required": true,
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "object",
+                      "properties": {
+                        "email": {
+                          "type": "string",
+                          "example": "email@email.com"
+                        },
+                        "fullname": {
+                          "type": "string",
+                          "example": "Sushant Tripathee"
+                        },
+                        "country": {
+                          "type": "string",
+                          "example": "Nepal"
+                        }
+                      },
+                      "required": [
+                        "email",
+                        "fullname",
+                        "country"
+                      ]
+                    }
+                  }
+                }
+              },
+              "responses": {
+                "200": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "NewsLetter"
+              ],
+              "postman": {
+                "name": "Email Controller update",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "newsletters",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id"
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Content-Type",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "PATCH",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n    \"email\": \"<string>\",\n    \"fullname\": \"<string>\",\n    \"country\": \"<string>\"\n}"
+                }
+              },
+              "description": "EmailController_update",
+              "summary": "EmailController_update",
+              "method": "patch",
+              "path": "/api/v1/newsletters/{id}",
+              "hashId": "email-controller-update",
+              "servers": [],
+              "permalink": "/api/email-controller-update",
+              "previous": {
+                "title": "EmailController_findOne",
+                "permalink": "/api/email-controller-find-one"
+              },
+              "next": {
+                "title": "EmailController_remove",
+                "permalink": "/api/email-controller-remove"
+              },
+              "jsonRequestBodyExample": {
+                "email": "email@email.com",
+                "fullname": "Sushant Tripathee",
+                "country": "Nepal"
+              }
+            },
+            {
+              "operationId": "EmailController_remove",
+              "parameters": [
+                {
+                  "name": "id",
+                  "required": true,
+                  "in": "path",
+                  "schema": {
+                    "type": "string"
+                  }
+                }
+              ],
+              "responses": {
+                "200": {
+                  "description": ""
+                }
+              },
+              "tags": [
+                "NewsLetter"
+              ],
+              "postman": {
+                "name": "Email Controller remove",
+                "description": {
+                  "type": "text/plain"
+                },
+                "url": {
+                  "path": [
+                    "api",
+                    "v1",
+                    "newsletters",
+                    ":id"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "description": {
+                        "content": "(Required) ",
+                        "type": "text/plain"
+                      },
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "id"
+                    }
+                  ]
+                },
+                "method": "DELETE"
+              },
+              "description": "EmailController_remove",
+              "summary": "EmailController_remove",
+              "method": "delete",
+              "path": "/api/v1/newsletters/{id}",
+              "hashId": "email-controller-remove",
+              "servers": [],
+              "permalink": "/api/email-controller-remove",
+              "previous": {
+                "title": "EmailController_update",
+                "permalink": "/api/email-controller-update"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

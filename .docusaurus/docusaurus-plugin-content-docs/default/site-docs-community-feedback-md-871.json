@@ -1,0 +1,28 @@
+{
+  "unversionedId": "community-feedback",
+  "id": "community-feedback",
+  "isDocsHomePage": false,
+  "title": "Community Feedback",
+  "description": "",
+  "source": "@site/docs/Community-Feedback.md",
+  "sourceDirName": ".",
+  "slug": "/community-feedback",
+  "permalink": "/docs/next/community-feedback",
+  "editUrl": "https://github.com/esatya?tab=repositories/docs/Community-Feedback.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "id": "community-feedback"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Software Requirements Specifications",
+    "permalink": "/docs/next/software-requirements-specifications"
+  },
+  "next": {
+    "title": "Bounty Information",
+    "permalink": "/docs/next/bounty-information"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "brand-guidelines",
+  "id": "brand-guidelines",
+  "isDocsHomePage": false,
+  "title": "Brand Guidelines",
+  "description": "",
+  "source": "@site/docs/Brand-Guidelines.md",
+  "sourceDirName": ".",
+  "slug": "/brand-guidelines",
+  "permalink": "/docs/next/brand-guidelines",
+  "editUrl": "https://github.com/esatya?tab=repositories/docs/Brand-Guidelines.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "brand-guidelines"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NFT 2.0 - Decentralized School Database",
+    "permalink": "/docs/next/intro"
+  },
+  "next": {
+    "title": "Licenses",
+    "permalink": "/docs/next/license"
+  }
+}

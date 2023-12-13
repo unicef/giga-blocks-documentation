@@ -1,0 +1,1 @@
+AuthController_walletRegister

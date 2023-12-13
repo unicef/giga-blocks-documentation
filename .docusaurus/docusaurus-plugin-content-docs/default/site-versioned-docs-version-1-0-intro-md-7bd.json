@@ -1,0 +1,24 @@
+{
+  "unversionedId": "intro",
+  "id": "version-1.0/intro",
+  "isDocsHomePage": false,
+  "title": "NFT 2.0 - Decentralized School Database",
+  "description": "",
+  "source": "@site/versioned_docs/version-1.0/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "editUrl": "https://github.com/esatya?tab=repositories/versioned_docs/version-1.0/intro.md",
+  "tags": [],
+  "version": "1.0",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "intro"
+  },
+  "sidebar": "version-1.0/tutorialSidebar",
+  "next": {
+    "title": "Brand Guidelines",
+    "permalink": "/docs/brand-guidelines"
+  }
+}

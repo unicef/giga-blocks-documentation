@@ -1,0 +1,117 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": false,
+          "path": "/docs/next",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "bounty-information",
+              "path": "/docs/next/bounty-information",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "brand-guidelines",
+              "path": "/docs/next/brand-guidelines",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "code-of-conduct",
+              "path": "/docs/next/code-of-conduct",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "community-feedback",
+              "path": "/docs/next/community-feedback",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "contribution-guidelines",
+              "path": "/docs/next/contribution-guidelines",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started-developer",
+              "path": "/docs/next/getting-started-developer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/next/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "license",
+              "path": "/docs/next/license",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "software-requirements-specifications",
+              "path": "/docs/next/software-requirements-specifications",
+              "sidebar": "tutorialSidebar"
+            }
+          ]
+        },
+        {
+          "name": "1.0",
+          "label": "1.0",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "bounty-information",
+              "path": "/docs/bounty-information",
+              "sidebar": "version-1.0/tutorialSidebar"
+            },
+            {
+              "id": "brand-guidelines",
+              "path": "/docs/brand-guidelines",
+              "sidebar": "version-1.0/tutorialSidebar"
+            },
+            {
+              "id": "code-of-conduct",
+              "path": "/docs/code-of-conduct",
+              "sidebar": "version-1.0/tutorialSidebar"
+            },
+            {
+              "id": "community-feedback",
+              "path": "/docs/community-feedback",
+              "sidebar": "version-1.0/tutorialSidebar"
+            },
+            {
+              "id": "contribution-guidelines",
+              "path": "/docs/contribution-guidelines",
+              "sidebar": "version-1.0/tutorialSidebar"
+            },
+            {
+              "id": "getting-started-developer",
+              "path": "/docs/getting-started-developer",
+              "sidebar": "version-1.0/tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "version-1.0/tutorialSidebar"
+            },
+            {
+              "id": "license",
+              "path": "/docs/license",
+              "sidebar": "version-1.0/tutorialSidebar"
+            },
+            {
+              "id": "software-requirements-specifications",
+              "path": "/docs/software-requirements-specifications",
+              "sidebar": "version-1.0/tutorialSidebar"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

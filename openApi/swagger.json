@@ -1,0 +1,1067 @@
+{
+  "openapi": "3.0.0",
+  "paths": {
+    "/api/v1/auth/login": {
+      "post": {
+        "operationId": "AuthController_login",
+        "parameters": [],
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": ["Auth"]
+      }
+    },
+    "/api/v1/auth/register": {
+      "post": {
+        "operationId": "AuthController_register",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": ["Auth"]
+      }
+    },
+    "/api/v1/auth/send-otp": {
+      "post": {
+        "operationId": "AuthController_sendOtp",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AuthSendOtp"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": ["Auth"]
+      }
+    },
+    "/api/v1/auth/refresh": {
+      "post": {
+        "operationId": "AuthController_refresh",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefreshToken"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": ["Auth"]
+      }
+    },
+    "/api/v1/auth/getnonce": {
+      "get": {
+        "operationId": "AuthController_generateNonce",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": ["Auth"]
+      }
+    },
+    "/api/v1/auth/walletRegister": {
+      "post": {
+        "operationId": "AuthController_walletRegister",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WalletRegister"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": ["Auth"]
+      }
+    },
+    "/api/v1/auth/walletlogin": {
+      "post": {
+        "operationId": "AuthController_walletLogin",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AuthWallet"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": ["Auth"]
+      }
+    },
+    "/api/v1/schools/onchainDataQueue": {
+      "get": {
+        "operationId": "SchoolController_queue",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": ["School"]
+      }
+    },
+    "/api/v1/schools/update/{id}": {
+      "patch": {
+        "operationId": "SchoolController_update",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": ["School"]
+      }
+    },
+    "/api/v1/schools/mintBulk": {
+      "post": {
+        "operationId": "SchoolController_mintBatchSchool",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MintQueueDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": ["School"]
+      }
+    },
+    "/api/v1/schools/mintSchool": {
+      "post": {
+        "operationId": "SchoolController_mintSchool",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MintQueueSingleDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": ["School"]
+      }
+    },
+    "/api/v1/schools/schoolCount": {
+      "get": {
+        "operationId": "SchoolController_countSchools",
+        "parameters": [
+          {
+            "name": "minted",
+            "required": false,
+            "in": "query",
+            "schema": {
+              "enum": ["NOTMINTED", "MINTED", "ISMINTING"],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": ["School"]
+      }
+    },
+    "/api/v1/schools/uploadFile": {
+      "post": {
+        "operationId": "SchoolController_uploadFile",
+        "parameters": [],
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": ["School"]
+      }
+    },
+    "/api/v1/schools": {
+      "get": {
+        "operationId": "SchoolController_findAll",
+        "parameters": [
+          {
+            "name": "page",
+            "required": false,
+            "in": "query",
+            "description": "Page to load",
+            "example": "1",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "perPage",
+            "required": false,
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "uploadId",
+            "required": false,
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": ["School"]
+      },
+      "delete": {
+        "operationId": "SchoolController_removeAll",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": ["School"]
+      }
+    },
+    "/api/v1/schools/{id}": {
+      "get": {
+        "operationId": "SchoolController_findOne",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": ["School"]
+      }
+    },
+    "/api/v1/schools/byCountry/{country}": {
+      "get": {
+        "operationId": "SchoolController_findByCountry",
+        "parameters": [
+          {
+            "name": "country",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": ["School"]
+      }
+    },
+    "/api/v1/schools/listUpload": {
+      "get": {
+        "operationId": "SchoolController_listUploads",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": ["School"]
+      }
+    },
+    "/api/v1/users/addAdmin": {
+      "post": {
+        "operationId": "UsersController_addValidator",
+        "summary": "Create new user",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The found record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CreateUserDto"
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden."
+          }
+        },
+        "tags": ["Users"],
+        "security": [
+          {
+            "access-token": []
+          }
+        ]
+      }
+    },
+    "/api/v1/users": {
+      "get": {
+        "operationId": "UsersController_findAll",
+        "summary": "List all user",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "The found record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CreateUserDto"
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden."
+          }
+        },
+        "tags": ["Users"],
+        "security": [
+          {
+            "access-token": []
+          }
+        ]
+      }
+    },
+    "/api/v1/users/{id}": {
+      "get": {
+        "operationId": "UsersController_findOne",
+        "summary": "Get an user",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The found record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CreateUserDto"
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden."
+          }
+        },
+        "tags": ["Users"],
+        "security": [
+          {
+            "access-token": []
+          }
+        ]
+      },
+      "patch": {
+        "operationId": "UsersController_update",
+        "summary": "Update an user",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateUserDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The found record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CreateUserDto"
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden."
+          }
+        },
+        "tags": ["Users"],
+        "security": [
+          {
+            "access-token": []
+          }
+        ]
+      },
+      "delete": {
+        "operationId": "UsersController_remove",
+        "summary": "Delete an user",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The found record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CreateUserDto"
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden."
+          }
+        },
+        "tags": ["Users"],
+        "security": [
+          {
+            "access-token": []
+          }
+        ]
+      }
+    },
+    "/api/v1/contribute": {
+      "post": {
+        "operationId": "ContributeDataController_create",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateContributeDatumDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": ["Contribute"],
+        "security": [
+          {
+            "access-token": []
+          }
+        ]
+      },
+      "get": {
+        "operationId": "ContributeDataController_findAll",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": ["Contribute"],
+        "security": [
+          {
+            "access-token": []
+          }
+        ]
+      }
+    },
+    "/api/v1/contribute/{id}": {
+      "get": {
+        "operationId": "ContributeDataController_findOne",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": ["Contribute"],
+        "security": [
+          {
+            "access-token": []
+          }
+        ]
+      },
+      "patch": {
+        "operationId": "ContributeDataController_update",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateContributeDatumDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": ["Contribute"],
+        "security": [
+          {
+            "access-token": []
+          }
+        ]
+      },
+      "delete": {
+        "operationId": "ContributeDataController_remove",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": ["Contribute"],
+        "security": [
+          {
+            "access-token": []
+          }
+        ]
+      }
+    },
+    "/api/v1/contribute/validate/{id}": {
+      "post": {
+        "operationId": "ContributeDataController_validate",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ValidateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": ["Contribute"],
+        "security": [
+          {
+            "access-token": []
+          }
+        ]
+      }
+    },
+    "/api/v1/newsletters": {
+      "post": {
+        "operationId": "EmailController_create",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateEmailDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": ["NewsLetter"]
+      },
+      "get": {
+        "operationId": "EmailController_findAll",
+        "parameters": [
+          {
+            "name": "country",
+            "required": true,
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": ["NewsLetter"]
+      }
+    },
+    "/api/v1/newsletters/{id}": {
+      "get": {
+        "operationId": "EmailController_findOne",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": ["NewsLetter"]
+      },
+      "patch": {
+        "operationId": "EmailController_update",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateEmailDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": ["NewsLetter"]
+      },
+      "delete": {
+        "operationId": "EmailController_remove",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": ["NewsLetter"]
+      }
+    }
+  },
+  "info": {
+    "title": "GIGA NFT 2.0 API PROVIDER",
+    "description": "NFT2.0",
+    "version": "1.0.0",
+    "contact": {}
+  },
+  "tags": [],
+  "servers": [],
+  "components": {
+    "securitySchemes": {
+      "access-token": {
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+        "type": "http",
+        "name": "JWT",
+        "description": "Enter JWT token",
+        "in": "header"
+      }
+    },
+    "schemas": {
+      "CreateUserDto": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "description": "Email of the user",
+            "example": "john@doe.com"
+          },
+          "name": {
+            "type": "string",
+            "description": "Full Name of the user",
+            "example": "John Doe"
+          },
+          "walletAddress": {
+            "type": "string",
+            "description": "Ethereum wallet address of the user",
+            "example": "0xC67c60cD6d82Fcb2fC6a9a58eA62F80443E32683"
+          },
+          "roles": {
+            "description": "Array of roles associated with the user",
+            "example": "[\"USER\"]",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": ["email", "name", "walletAddress", "roles"]
+      },
+      "AuthSendOtp": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "example": "email@email.com"
+          }
+        },
+        "required": ["email"]
+      },
+      "RefreshToken": {
+        "type": "object",
+        "properties": {
+          "refresh": {
+            "type": "string",
+            "example": "dnsfb6829uhfjhbeiwy89ufgo"
+          }
+        },
+        "required": ["refresh"]
+      },
+      "WalletRegister": {
+        "type": "object",
+        "properties": {
+          "walletAddress": {
+            "type": "string",
+            "example": "0x1234567890"
+          },
+          "signature": {
+            "type": "string",
+            "example": "0x1234567890"
+          },
+          "name": {
+            "type": "string",
+            "example": "0x1234567890"
+          }
+        },
+        "required": ["walletAddress", "signature", "name"]
+      },
+      "AuthWallet": {
+        "type": "object",
+        "properties": {
+          "walletAddress": {
+            "type": "string",
+            "example": "0x1234567890"
+          },
+          "signature": {
+            "type": "string",
+            "example": "0x1234567890"
+          }
+        },
+        "required": ["walletAddress", "signature"]
+      },
+      "MintQueueDto": {
+        "type": "object",
+        "properties": {
+          "signatureWithData": {
+            "type": "string"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": ["signatureWithData", "data"]
+      },
+      "MintQueueSingleDto": {
+        "type": "object",
+        "properties": {
+          "signatureWithData": {
+            "type": "string"
+          },
+          "data": {
+            "type": "object"
+          }
+        },
+        "required": ["signatureWithData", "data"]
+      },
+      "UpdateUserDto": {
+        "type": "object",
+        "properties": {}
+      },
+      "CreateContributeDatumDto": {
+        "type": "object",
+        "properties": {
+          "contributed_data": {
+            "type": "string",
+            "example": "{\"key\": \"value\"}",
+            "description": "JSON value with key value pair"
+          },
+          "status": {
+            "type": "string",
+            "example": "Pending",
+            "enum": ["Validated", "Rejected", "Pending"]
+          },
+          "contributedUserId": {
+            "type": "string",
+            "example": "1c0ebe70-f286-473c-bb9c-165db6af77c7",
+            "description": "User ID of user who contributed the data."
+          },
+          "school_Id": {
+            "type": "string",
+            "example": "school-id"
+          },
+          "season_ID": {
+            "type": "string",
+            "example": "season-id"
+          }
+        },
+        "required": [
+          "contributed_data",
+          "status",
+          "contributedUserId",
+          "school_Id",
+          "season_ID"
+        ]
+      },
+      "UpdateContributeDatumDto": {
+        "type": "object",
+        "properties": {
+          "contributed_data": {
+            "type": "string",
+            "example": "{\"key\": \"value\"}",
+            "description": "JSON value with key value pair"
+          },
+          "status": {
+            "type": "string",
+            "example": "Pending",
+            "enum": ["Validated", "Rejected", "Pending"]
+          },
+          "contributedUserId": {
+            "type": "string",
+            "example": "1c0ebe70-f286-473c-bb9c-165db6af77c7",
+            "description": "User ID of user who contributed the data."
+          },
+          "school_Id": {
+            "type": "string",
+            "example": "school-id"
+          },
+          "season_ID": {
+            "type": "string",
+            "example": "season-id"
+          }
+        }
+      },
+      "ValidateDto": {
+        "type": "object",
+        "properties": {
+          "isValid": {
+            "type": "boolean",
+            "example": true
+          }
+        },
+        "required": ["isValid"]
+      },
+      "CreateEmailDto": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "example": "email@email.com"
+          },
+          "fullname": {
+            "type": "string",
+            "example": "Sushant Tripathee"
+          },
+          "country": {
+            "type": "string",
+            "example": "Nepal"
+          }
+        },
+        "required": ["email", "fullname", "country"]
+      },
+      "UpdateEmailDto": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "example": "email@email.com"
+          },
+          "fullname": {
+            "type": "string",
+            "example": "Sushant Tripathee"
+          },
+          "country": {
+            "type": "string",
+            "example": "Nepal"
+          }
+        },
+        "required": ["email", "fullname", "country"]
+      }
+    }
+  },
+  "customOptions": {}
+}

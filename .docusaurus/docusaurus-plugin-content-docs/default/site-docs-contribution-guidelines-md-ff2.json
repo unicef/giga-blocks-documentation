@@ -1,0 +1,26 @@
+{
+  "unversionedId": "contribution-guidelines",
+  "id": "contribution-guidelines",
+  "isDocsHomePage": false,
+  "title": "Contribution Guidelines",
+  "description": "",
+  "source": "@site/docs/Contribution-Guidelines.md",
+  "sourceDirName": ".",
+  "slug": "/contribution-guidelines",
+  "permalink": "/docs/next/contribution-guidelines",
+  "editUrl": "https://github.com/esatya?tab=repositories/docs/Contribution-Guidelines.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "contribution-guidelines"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Licenses",
+    "permalink": "/docs/next/license"
+  },
+  "next": {
+    "title": "Code of Conduct",
+    "permalink": "/docs/next/code-of-conduct"
+  }
+}
