@@ -19,7 +19,7 @@ export default {
     [
       "docusaurus-plugin-openapi",
       {
-        "openapiPath": "/Users/sarveshkarki/Documents/Rumsan/Giga_Documentation/openApi/swagger.json"
+        "openapiPath": "/Users/sarveshkarki/Documents/Rumsan/Giga/Giga_Documentation/openApi/swagger.json"
       }
     ]
   ],
@@ -28,7 +28,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/sarveshkarki/Documents/Rumsan/Giga_Documentation/sidebars.js",
+          "sidebarPath": "/Users/sarveshkarki/Documents/Rumsan/Giga/Giga_Documentation/sidebars.js",
           "editUrl": "https://github.com/esatya?tab=repositories"
         },
         "blog": {
@@ -36,7 +36,7 @@ export default {
           "blogSidebarCount": "ALL"
         },
         "theme": {
-          "customCss": "/Users/sarveshkarki/Documents/Rumsan/Giga_Documentation/src/css/custom.css"
+          "customCss": "/Users/sarveshkarki/Documents/Rumsan/Giga/Giga_Documentation/src/css/custom.css"
         }
       }
     ]

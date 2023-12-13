@@ -13,9 +13,9 @@
           "versionBadge": true,
           "versionClassName": "docs-version-current",
           "isLast": false,
-          "sidebarFilePath": "/Users/sarveshkarki/Documents/Rumsan/Giga_Documentation/sidebars.js",
-          "contentPath": "/Users/sarveshkarki/Documents/Rumsan/Giga_Documentation/docs",
-          "contentPathLocalized": "/Users/sarveshkarki/Documents/Rumsan/Giga_Documentation/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/sarveshkarki/Documents/Rumsan/Giga/Giga_Documentation/sidebars.js",
+          "contentPath": "/Users/sarveshkarki/Documents/Rumsan/Giga/Giga_Documentation/docs",
+          "contentPathLocalized": "/Users/sarveshkarki/Documents/Rumsan/Giga/Giga_Documentation/i18n/en/docusaurus-plugin-content-docs/current",
           "mainDocId": "intro",
           "docs": [
             {
@@ -357,9 +357,9 @@
           "versionClassName": "docs-version-1.0",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/sarveshkarki/Documents/Rumsan/Giga_Documentation/versioned_sidebars/version-1.0-sidebars.json",
-          "contentPath": "/Users/sarveshkarki/Documents/Rumsan/Giga_Documentation/versioned_docs/version-1.0",
-          "contentPathLocalized": "/Users/sarveshkarki/Documents/Rumsan/Giga_Documentation/i18n/en/docusaurus-plugin-content-docs/version-1.0",
+          "sidebarFilePath": "/Users/sarveshkarki/Documents/Rumsan/Giga/Giga_Documentation/versioned_sidebars/version-1.0-sidebars.json",
+          "contentPath": "/Users/sarveshkarki/Documents/Rumsan/Giga/Giga_Documentation/versioned_docs/version-1.0",
+          "contentPathLocalized": "/Users/sarveshkarki/Documents/Rumsan/Giga/Giga_Documentation/i18n/en/docusaurus-plugin-content-docs/version-1.0",
           "mainDocId": "intro",
           "docs": [
             {
