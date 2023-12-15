@@ -32,7 +32,7 @@ This is a Giga Documentation Repo.
   ```
   yarn build
   ```
-- Above command will generate static build into `dist` folder. We can directly run it using:
+- Above command will generate static build into `build` folder. We can directly run it using:
   ```
   yarn serve
   ```
