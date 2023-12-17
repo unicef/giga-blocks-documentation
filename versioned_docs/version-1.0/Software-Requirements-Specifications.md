@@ -2,7 +2,7 @@
 sidebar_position: 12
 id: software-requirements-specifications
 ---
-# System Overview 
+# System Requirement Specifications
 The system consists of two main applications: an Admin Site and a Public Site. The Admin Site allows Giga Admins to upload school data, mint NFTs, and validate user contributions. The Public Site permits user contributions and NFT purchases.
 
 ![Giga NFT2.0 System workflow](/public/system_architecture_diagram.png)
