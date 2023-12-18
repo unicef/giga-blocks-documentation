@@ -3,7 +3,7 @@
   "id": "version-1.0/brand-guidelines",
   "isDocsHomePage": false,
   "title": "Brand Guidelines",
-  "description": "",
+  "description": "Giga NFT 2.0 adheres to the Gigas brand guidelines, ensuring a consistent and cohesive user experience in line with our brand's essence.",
   "source": "@site/versioned_docs/version-1.0/Brand-Guidelines.md",
   "sourceDirName": ".",
   "slug": "/brand-guidelines",
@@ -16,7 +16,7 @@
   },
   "sidebar": "version-1.0/tutorialSidebar",
   "previous": {
-    "title": "NFT 2.0 - Decentralized School Database",
+    "title": "NFT 2.0 - Decentralized School Database Platform",
     "permalink": "/docs/intro"
   },
   "next": {

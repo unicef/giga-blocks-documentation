@@ -3,7 +3,7 @@
   "id": "version-1.0/getting-started-developer",
   "isDocsHomePage": false,
   "title": "Getting Started Developer",
-  "description": "",
+  "description": "This guide serves as an introductory overview to set up and run the project. Below are the system requirements, dependencies, and installation guidelines necessary to get started with the project setup.",
   "source": "@site/versioned_docs/version-1.0/Getting-Started-Developer .md",
   "sourceDirName": ".",
   "slug": "/getting-started-developer",
@@ -20,7 +20,7 @@
     "permalink": "/docs/code-of-conduct"
   },
   "next": {
-    "title": "Software Requirements Specifications",
+    "title": "System Requirement Specifications",
     "permalink": "/docs/software-requirements-specifications"
   }
 }
