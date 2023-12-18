@@ -528,7 +528,7 @@
               "sourceDirName": ".",
               "slug": "/intro",
               "permalink": "/docs/intro",
-              "editUrl": "https://github.com/esatya?tab=repositories/versioned_docs/version-1.0/intro.md",
+              "editUrl": "https://github.com/giga-nft2-0/Giga_Documentation",
               "tags": [],
               "version": "1.0",
               "sidebarPosition": 1,
@@ -733,9 +733,7 @@
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           },
-          "items": [
-            "Release 1.0"
-          ]
+          "items": ["Release 1.0"]
         }
       ],
       "blogTags": {},
@@ -792,24 +790,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "Auth"
-              ],
+              "tags": ["Auth"],
               "postman": {
                 "name": "Auth Controller login",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "auth",
-                    "login"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "auth", "login"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": []
                 },
@@ -861,12 +850,7 @@
                           }
                         }
                       },
-                      "required": [
-                        "email",
-                        "name",
-                        "walletAddress",
-                        "roles"
-                      ]
+                      "required": ["email", "name", "walletAddress", "roles"]
                     }
                   }
                 }
@@ -876,24 +860,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "Auth"
-              ],
+              "tags": ["Auth"],
               "postman": {
                 "name": "Auth Controller register",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "auth",
-                    "register"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "auth", "register"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": []
                 },
@@ -946,9 +921,7 @@
                           "example": "email@email.com"
                         }
                       },
-                      "required": [
-                        "email"
-                      ]
+                      "required": ["email"]
                     }
                   }
                 }
@@ -958,24 +931,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "Auth"
-              ],
+              "tags": ["Auth"],
               "postman": {
                 "name": "Auth Controller send Otp",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "auth",
-                    "send-otp"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "auth", "send-otp"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": []
                 },
@@ -1025,9 +989,7 @@
                           "example": "dnsfb6829uhfjhbeiwy89ufgo"
                         }
                       },
-                      "required": [
-                        "refresh"
-                      ]
+                      "required": ["refresh"]
                     }
                   }
                 }
@@ -1037,24 +999,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "Auth"
-              ],
+              "tags": ["Auth"],
               "postman": {
                 "name": "Auth Controller refresh",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "auth",
-                    "refresh"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "auth", "refresh"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": []
                 },
@@ -1097,24 +1050,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "Auth"
-              ],
+              "tags": ["Auth"],
               "postman": {
                 "name": "Auth Controller generate Nonce",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "auth",
-                    "getnonce"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "auth", "getnonce"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": []
                 },
@@ -1159,11 +1103,7 @@
                           "example": "0x1234567890"
                         }
                       },
-                      "required": [
-                        "walletAddress",
-                        "signature",
-                        "name"
-                      ]
+                      "required": ["walletAddress", "signature", "name"]
                     }
                   }
                 }
@@ -1173,24 +1113,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "Auth"
-              ],
+              "tags": ["Auth"],
               "postman": {
                 "name": "Auth Controller wallet Register",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "auth",
-                    "walletRegister"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "auth", "walletRegister"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": []
                 },
@@ -1246,10 +1177,7 @@
                           "example": "0x1234567890"
                         }
                       },
-                      "required": [
-                        "walletAddress",
-                        "signature"
-                      ]
+                      "required": ["walletAddress", "signature"]
                     }
                   }
                 }
@@ -1259,24 +1187,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "Auth"
-              ],
+              "tags": ["Auth"],
               "postman": {
                 "name": "Auth Controller wallet Login",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "auth",
-                    "walletlogin"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "auth", "walletlogin"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": []
                 },
@@ -1320,24 +1239,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "School"
-              ],
+              "tags": ["School"],
               "postman": {
                 "name": "School Controller queue",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "schools",
-                    "onchainDataQueue"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "schools", "onchainDataQueue"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": []
                 },
@@ -1376,25 +1286,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "School"
-              ],
+              "tags": ["School"],
               "postman": {
                 "name": "School Controller update",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "schools",
-                    "update",
-                    ":id"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "schools", "update", ":id"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": [
                     {
@@ -1446,10 +1346,7 @@
                           }
                         }
                       },
-                      "required": [
-                        "signatureWithData",
-                        "data"
-                      ]
+                      "required": ["signatureWithData", "data"]
                     }
                   }
                 }
@@ -1459,24 +1356,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "School"
-              ],
+              "tags": ["School"],
               "postman": {
                 "name": "School Controller mint Batch School",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "schools",
-                    "mintBulk"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "schools", "mintBulk"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": []
                 },
@@ -1509,9 +1397,7 @@
               },
               "jsonRequestBodyExample": {
                 "signatureWithData": "string",
-                "data": [
-                  "string"
-                ]
+                "data": ["string"]
               }
             },
             {
@@ -1531,10 +1417,7 @@
                           "type": "object"
                         }
                       },
-                      "required": [
-                        "signatureWithData",
-                        "data"
-                      ]
+                      "required": ["signatureWithData", "data"]
                     }
                   }
                 }
@@ -1544,24 +1427,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "School"
-              ],
+              "tags": ["School"],
               "postman": {
                 "name": "School Controller mint School",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "schools",
-                    "mintSchool"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "schools", "mintSchool"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": []
                 },
@@ -1605,11 +1479,7 @@
                   "required": false,
                   "in": "query",
                   "schema": {
-                    "enum": [
-                      "NOTMINTED",
-                      "MINTED",
-                      "ISMINTING"
-                    ],
+                    "enum": ["NOTMINTED", "MINTED", "ISMINTING"],
                     "type": "string"
                   }
                 }
@@ -1619,24 +1489,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "School"
-              ],
+              "tags": ["School"],
               "postman": {
                 "name": "School Controller count Schools",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "schools",
-                    "schoolCount"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "schools", "schoolCount"],
+                  "host": ["{{baseUrl}}"],
                   "query": [
                     {
                       "description": {
@@ -1675,24 +1536,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "School"
-              ],
+              "tags": ["School"],
               "postman": {
                 "name": "School Controller upload File",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "schools",
-                    "uploadFile"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "schools", "uploadFile"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": []
                 },
@@ -1749,23 +1601,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "School"
-              ],
+              "tags": ["School"],
               "postman": {
                 "name": "School Controller find All",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "schools"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "schools"],
+                  "host": ["{{baseUrl}}"],
                   "query": [
                     {
                       "description": {
@@ -1820,23 +1664,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "School"
-              ],
+              "tags": ["School"],
               "postman": {
                 "name": "School Controller remove All",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "schools"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "schools"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": []
                 },
@@ -1875,24 +1711,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "School"
-              ],
+              "tags": ["School"],
               "postman": {
                 "name": "School Controller find One",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "schools",
-                    ":id"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "schools", ":id"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": [
                     {
@@ -1941,25 +1768,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "School"
-              ],
+              "tags": ["School"],
               "postman": {
                 "name": "School Controller find By Country",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "schools",
-                    "byCountry",
-                    ":country"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "schools", "byCountry", ":country"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": [
                     {
@@ -1999,24 +1816,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "School"
-              ],
+              "tags": ["School"],
               "postman": {
                 "name": "School Controller list Uploads",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "schools",
-                    "listUpload"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "schools", "listUpload"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": []
                 },
@@ -2073,12 +1881,7 @@
                           }
                         }
                       },
-                      "required": [
-                        "email",
-                        "name",
-                        "walletAddress",
-                        "roles"
-                      ]
+                      "required": ["email", "name", "walletAddress", "roles"]
                     }
                   }
                 }
@@ -2132,9 +1935,7 @@
                   "description": "Forbidden."
                 }
               },
-              "tags": [
-                "Users"
-              ],
+              "tags": ["Users"],
               "security": [
                 {
                   "access-token": []
@@ -2146,15 +1947,8 @@
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "users",
-                    "addAdmin"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "users", "addAdmin"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": []
                 },
@@ -2254,9 +2048,7 @@
                   "description": "Forbidden."
                 }
               },
-              "tags": [
-                "Users"
-              ],
+              "tags": ["Users"],
               "security": [
                 {
                   "access-token": []
@@ -2268,14 +2060,8 @@
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "users"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "users"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": []
                 },
@@ -2368,9 +2154,7 @@
                   "description": "Forbidden."
                 }
               },
-              "tags": [
-                "Users"
-              ],
+              "tags": ["Users"],
               "security": [
                 {
                   "access-token": []
@@ -2382,15 +2166,8 @@
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "users",
-                    ":id"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "users", ":id"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": [
                     {
@@ -2504,9 +2281,7 @@
                   "description": "Forbidden."
                 }
               },
-              "tags": [
-                "Users"
-              ],
+              "tags": ["Users"],
               "security": [
                 {
                   "access-token": []
@@ -2518,15 +2293,8 @@
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "users",
-                    ":id"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "users", ":id"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": [
                     {
@@ -2640,9 +2408,7 @@
                   "description": "Forbidden."
                 }
               },
-              "tags": [
-                "Users"
-              ],
+              "tags": ["Users"],
               "security": [
                 {
                   "access-token": []
@@ -2654,15 +2420,8 @@
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "users",
-                    ":id"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "users", ":id"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": [
                     {
@@ -2721,11 +2480,7 @@
                         "status": {
                           "type": "string",
                           "example": "Pending",
-                          "enum": [
-                            "Validated",
-                            "Rejected",
-                            "Pending"
-                          ]
+                          "enum": ["Validated", "Rejected", "Pending"]
                         },
                         "contributedUserId": {
                           "type": "string",
@@ -2757,9 +2512,7 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "Contribute"
-              ],
+              "tags": ["Contribute"],
               "security": [
                 {
                   "access-token": []
@@ -2771,14 +2524,8 @@
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "contribute"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "contribute"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": []
                 },
@@ -2835,9 +2582,7 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "Contribute"
-              ],
+              "tags": ["Contribute"],
               "security": [
                 {
                   "access-token": []
@@ -2849,14 +2594,8 @@
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "contribute"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "contribute"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": []
                 },
@@ -2905,9 +2644,7 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "Contribute"
-              ],
+              "tags": ["Contribute"],
               "security": [
                 {
                   "access-token": []
@@ -2919,15 +2656,8 @@
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "contribute",
-                    ":id"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "contribute", ":id"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": [
                     {
@@ -2996,11 +2726,7 @@
                         "status": {
                           "type": "string",
                           "example": "Pending",
-                          "enum": [
-                            "Validated",
-                            "Rejected",
-                            "Pending"
-                          ]
+                          "enum": ["Validated", "Rejected", "Pending"]
                         },
                         "contributedUserId": {
                           "type": "string",
@@ -3025,9 +2751,7 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "Contribute"
-              ],
+              "tags": ["Contribute"],
               "security": [
                 {
                   "access-token": []
@@ -3039,15 +2763,8 @@
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "contribute",
-                    ":id"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "contribute", ":id"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": [
                     {
@@ -3123,9 +2840,7 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "Contribute"
-              ],
+              "tags": ["Contribute"],
               "security": [
                 {
                   "access-token": []
@@ -3137,15 +2852,8 @@
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "contribute",
-                    ":id"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "contribute", ":id"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": [
                     {
@@ -3211,9 +2919,7 @@
                           "example": true
                         }
                       },
-                      "required": [
-                        "isValid"
-                      ]
+                      "required": ["isValid"]
                     }
                   }
                 }
@@ -3223,9 +2929,7 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "Contribute"
-              ],
+              "tags": ["Contribute"],
               "security": [
                 {
                   "access-token": []
@@ -3237,16 +2941,8 @@
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "contribute",
-                    "validate",
-                    ":id"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "contribute", "validate", ":id"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": [
                     {
@@ -3324,11 +3020,7 @@
                           "example": "Nepal"
                         }
                       },
-                      "required": [
-                        "email",
-                        "fullname",
-                        "country"
-                      ]
+                      "required": ["email", "fullname", "country"]
                     }
                   }
                 }
@@ -3338,23 +3030,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "NewsLetter"
-              ],
+              "tags": ["NewsLetter"],
               "postman": {
                 "name": "Email Controller create",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "newsletters"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "newsletters"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": []
                 },
@@ -3408,23 +3092,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "NewsLetter"
-              ],
+              "tags": ["NewsLetter"],
               "postman": {
                 "name": "Email Controller find All",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "newsletters"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "newsletters"],
+                  "host": ["{{baseUrl}}"],
                   "query": [
                     {
                       "description": {
@@ -3472,24 +3148,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "NewsLetter"
-              ],
+              "tags": ["NewsLetter"],
               "postman": {
                 "name": "Email Controller find One",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "newsletters",
-                    ":id"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "newsletters", ":id"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": [
                     {
@@ -3553,11 +3220,7 @@
                           "example": "Nepal"
                         }
                       },
-                      "required": [
-                        "email",
-                        "fullname",
-                        "country"
-                      ]
+                      "required": ["email", "fullname", "country"]
                     }
                   }
                 }
@@ -3567,24 +3230,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "NewsLetter"
-              ],
+              "tags": ["NewsLetter"],
               "postman": {
                 "name": "Email Controller update",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "newsletters",
-                    ":id"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "newsletters", ":id"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": [
                     {
@@ -3648,24 +3302,15 @@
                   "description": ""
                 }
               },
-              "tags": [
-                "NewsLetter"
-              ],
+              "tags": ["NewsLetter"],
               "postman": {
                 "name": "Email Controller remove",
                 "description": {
                   "type": "text/plain"
                 },
                 "url": {
-                  "path": [
-                    "api",
-                    "v1",
-                    "newsletters",
-                    ":id"
-                  ],
-                  "host": [
-                    "{{baseUrl}}"
-                  ],
+                  "path": ["api", "v1", "newsletters", ":id"],
+                  "host": ["{{baseUrl}}"],
                   "query": [],
                   "variable": [
                     {
