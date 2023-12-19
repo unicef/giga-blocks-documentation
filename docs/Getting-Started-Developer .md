@@ -22,28 +22,40 @@ This guide serves as an introductory overview to set up and run the project. Bel
 * We are using `pnpm` as a package manager.
 * For adding package:
 
-    `pnpm add <package name> -w`
+    ```
+  pnpm add <package name> -w
+     ```
 
 * For running specific apps:
   
-    `npx nx <command(serve)> <app name>`
+    ```
+  npx nx <command(serve)> <app name>
+    ```
 
 * For running build or lint or test for all apps at once:
 
-    `pnpm run build/test/lint/serve`
+    ```
+  pnpm run build/test/lint/serve
+    ```
 
 * If you want to add new libraries in libs, then simply add library and initialize it inside the library directory with:
 
-    `pnpm init`
+    ```
+  pnpm init
+    ```
 
 
 * Add above new library to a pnpm package using:
   
-    `pnpm add ./libs/<library name> -w`
+    ```
+  pnpm add ./libs/<library name> -w
+    ```
 
 * For running nx for specific apps or library you can write following syntax:
 
-  `npx nx <command(build,lint,test,serve)> <apps/libs name>`
+  ```
+  npx nx <command(build,lint,test,serve)> <apps/libs name>
+  ```
 
 
 ## Running the project :
@@ -52,39 +64,59 @@ This guide serves as an introductory overview to set up and run the project. Bel
 * We need two Postgres DB. One for App and other for Newsletter.
 * Generate Prisma Client at first:
 
-    `pnpm run api:app:generate`
+    ```
+  pnpm run api:app:generate
+    ```
 
-    `pnpm run api:news:generate`
+    ```
+  pnpm run api:news:generate
+    ```
 
 * Run Prisma Migration to setup DBs:
 
-    `pnpm run api:app:migrate`
+    ```
+  pnpm run api:app:migrate
+    ```
 
-    `pnpm run api:news:migrate`
+    ```
+  pnpm run api:news:migrate
+    ```
 
 
 * Now, we can start apps in development environment:
   
-    `pnpm serve`
+    ```
+  pnpm serve
+    ```
 
 
 * With the above command all 3 apps will start running.
 * Remember, we can always serve specific app using:
   
-    `pnpm serve:<app_name>`
+    ```
+  pnpm serve:<app_name>
+    ```
 
 ## Production Build:
 * To build all apps:
   
-    `pnpm build`
+    ```
+  pnpm build
+    ```
 
 * Remember, we can always build specific app using:
   
-    `pnpm build:<app_name>`
+    ```
+  pnpm build:<app_name>
+    ```
 
 There is a Dockerfile for each app. So ultimately all apps will be dockerize to run in production environments.
 
 ## Project Cleanup:
 * We can clean up all the build folder and node_modules if we want using:
 
-    `pnpm clean`
+    ```
+  pnpm clean
+    ```
+
+
