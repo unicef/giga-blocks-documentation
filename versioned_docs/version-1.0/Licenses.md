@@ -14,4 +14,4 @@ The full text of the AGPL 3.0 license can be found [here](https://www.gnu.org/li
 
 The AGPL 3.0 license requires anyone using, modifying, or distributing this software to make the complete corresponding source code available under the same license. Please review the license terms before using or contributing to this project.
 
-For detailed information, refer to the [LICENSE](/LICENSE) file included in the project repository.
+For detailed information, refer to the [LICENSE](https://github.com/giga-nft2-0/Giga_NFT_2.0/blob/main/LICENSE) file included in the project repository.
