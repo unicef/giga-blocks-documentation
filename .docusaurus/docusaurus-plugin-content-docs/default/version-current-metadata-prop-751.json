@@ -16,7 +16,7 @@
         "items": [
           {
             "type": "link",
-            "label": "NFT 2.0 - Decentralized School Database",
+            "label": "NFT 2.0 - Decentralized School Database Platform",
             "href": "/docs/next/intro"
           },
           {
@@ -75,7 +75,7 @@
         "items": [
           {
             "type": "link",
-            "label": "Community Feedback",
+            "label": "community-feedback",
             "href": "/docs/next/community-feedback"
           },
           {
