@@ -1,6 +1,6 @@
 # Introduction
 
-This is a Giga Documentation Repo.
+This is a Giga Blocks Documentation Repo.
 
 # System Requirements:
 
