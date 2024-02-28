@@ -15,6 +15,6 @@ We value your input!Your feedback helps us improve Giga Blocks. To ensure effect
 - Fill out the required information following the instructions provided in each template.
 - Once completed, submit your feedback by creating a new issue using the chosen template in our GitHub repository.
 
-We appreciate your contribution to making Giga NFT 2.0 better for everyone!
+We appreciate your contribution to making Giga Blocks better for everyone!
 
 
