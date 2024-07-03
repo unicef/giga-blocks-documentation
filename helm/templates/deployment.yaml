@@ -1,0 +1,70 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "giga-blocks-docs.fullname" . }}
+  namespace: {{ .Release.Namespace }}
+  labels:
+    {{- include "giga-blocks-docs.labels" . | nindent 4 }}
+spec:
+  {{- if not .Values.docs.autoscaling.enabled }}
+  replicas: {{ .Values.docs.replicaCount }}
+  {{- end }}
+  selector:
+    matchLabels:
+      {{- include "giga-blocks-docs.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      {{- with .Values.docs.podAnnotations }}
+      annotations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      labels:
+        {{- include "giga-blocks-docs.selectorLabels" . | nindent 8 }}
+    spec:
+      {{- with .Values.docs.imagePullSecrets }}
+      imagePullSecrets:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      securityContext:
+        {{- toYaml .Values.docs.podSecurityContext | nindent 8 }}
+      containers:
+        - name: {{ .Chart.Name }}
+          securityContext:
+            {{- toYaml .Values.docs.securityContext | nindent 12 }}
+          image: "{{ .Values.docs.image.repository }}:{{ .Values.docs.image.tag | default .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.docs.image.pullPolicy }}
+          env:
+            - name: env
+              value: {{ .Values.environment }}
+            - name: SERVICE_NAME
+              value: {{ include "giga-blocks-docs.fullname" . }}
+            - name: MY_POD_NAMESPACE
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.namespace
+          ports:
+            - name: http
+              containerPort: {{ .Values.docs.service.targetPort }}
+              protocol: TCP
+          {{- with .Values.docs.livenessProbe }}
+          livenessProbe:
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
+          {{- with .Values.docs.readinessProbe }}
+          readinessProbe:
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
+          resources:
+            {{- toYaml .Values.docs.resources | nindent 12 }}
+      {{- with .Values.docs.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.docs.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.docs.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
