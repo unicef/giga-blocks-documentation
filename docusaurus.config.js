@@ -13,8 +13,8 @@ const config = {
   },
   title: "Giga NFT-2.0",
   tagline: " Decentralized School Database",
-  url: "https://docs.giga.rumsan.net",
-  baseUrl: "/",
+  url: "https://io-gigablocks-dev.unitst.org",
+  baseUrl: "/docs/",
   projectName: "giga-documentation", // Usually your repo name.
   organizationName: "Giga", // Usually your GitHub org/user name.
   onBrokenLinks: "throw",
@@ -95,7 +95,7 @@ const config = {
           },
           { type: "localeDropdown", position: "right" },
           {
-            href: "https://github.com/giga-nft2-0",
+            href: "https://github.com/unicef/giga-blocks",
             position: "right",
             className: "header-github-link",
             "aria-label": "GitHub repository",
@@ -128,7 +128,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/giga-nft2-0",
+                href: "https://github.com/unicef/giga-blocks",
               },
               {
                 label: "Website",
