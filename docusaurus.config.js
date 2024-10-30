@@ -11,9 +11,9 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
-  title: "Giga NFT-2.0",
+  title: "Giga Blocks",
   tagline: " Decentralized School Database",
-  url: "https://io-gigablocks-dev.unitst.org",
+  url: "https://demo-url",
   baseUrl: "/docs/",
   projectName: "giga-documentation", // Usually your repo name.
   organizationName: "Giga", // Usually your GitHub org/user name.

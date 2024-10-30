@@ -66,30 +66,42 @@ stages:
       displayName: Build and push image to container registry
       inputs:
         command: buildAndPush
-        repository: 'dev/giga-blocks-docs'
+        repository: 'prd/giga-blocks-docs'
         dockerfile: './Dockerfile'
         containerRegistry: $(containerRegistryServiceConnection)
         tags: |
           $(imageTag)
 
-- stage: Deploy
-  displayName: 'GIGA Blocks documentation deployment'
+- stage: ManualValidation
+  displayName: 'GIGA Counts documentation production deployment'
   jobs:
-  - job: Deploy
-    displayName: GIGA Blocks documentation deployment job
+  - job: ManualValidationJob
+    pool: 'server'
+    steps:
+    - task: ManualValidation@0
+      inputs:
+        notifyUsers: $(APPROVERS)
+        instructions: 'Approve the production deployment'
+        onTimeout: 'reject'
+        timeoutInMinutes: $(TIMEOUT)
+
+  - job: DeployProduction
+    displayName: 'GIGA Blocks documentation deployment job'
+    dependsOn: ManualValidationJob
+    condition: succeeded()
     steps:
     - task: HelmDeploy@0
-      displayName: 'Deploy the development Giga Blocks documentation to Kubernetes'
+      displayName: 'Deploy the production Giga Blocks documentation to Kubernetes'
       inputs:
         connectionType: Kubernetes Service Connection
         kubernetesServiceEndpoint: $(K8S_SERVICE_CONNECTION)
         command: upgrade
         chartType: FilePath
         chartPath: $(Build.SourcesDirectory)/helm
-        releaseName: "dev/giga-blocks-docs"
-        valueFile: helm/values.dev.yaml
-        namespace: $(K8s_NAMESPACE)
+        releaseName: "prd/giga-blocks-docs"
+        valueFile: helm/values.prod.yaml
+        namespace: $(K8S_NAMESPACE)
         arguments: >
           --dependency-update
-          --set docs.image.repository=$(IMAGE_REPOSITORY)
           --set docs.image.tag=$(imageTag)
+          --set docs.image.repository=$(IMAGE_REPOSITORY)
