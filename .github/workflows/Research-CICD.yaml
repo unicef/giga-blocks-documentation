@@ -1,11 +1,11 @@
-name: Main CI/CD
+name: Research CI/CD
 on:
   push:
     branches:
-      - main
+      - research
   pull_request:
     branches:
-      - main
+      - research
 
 env:
   CI: false
