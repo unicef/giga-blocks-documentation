@@ -9,7 +9,7 @@ on:
 
 env:
   CI: false
-  # env_main: ${{secrets.ENV_MAIN}}
+  env_main: ${{secrets.ENV_MAIN}}
 
 jobs:
   build-test:
@@ -25,9 +25,9 @@ jobs:
         with:
           node-version: 18
 
-      # - name: create environment file
-      #   run: |
-      #     touch ./.env && echo "$env_main" >> ./.env
+      - name: create environment file
+        run: |
+          touch ./.env && echo "$env_main" >> ./.env
 
       - name: install dependencies
         run: |
