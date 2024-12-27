@@ -14,7 +14,7 @@ const config = {
   title: "Giga NFT-2.0",
   tagline: " Decentralized School Database",
   url: "https://docs.giga.rumsan.net",
-  baseUrl: "/",
+  baseUrl: "/doc/",
   projectName: "giga-documentation", // Usually your repo name.
   organizationName: "Giga", // Usually your GitHub org/user name.
   onBrokenLinks: "throw",
