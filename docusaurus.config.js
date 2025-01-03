@@ -137,7 +137,7 @@ const config = {
             ],
           },
         ],
-        copyright: `| <a href="/privacy-policy">Privacy Policy</a> | <br/> © ${new Date().getFullYear()} Giga. All rights reserved. Developed by Rumsan.`,
+        copyright: `| <a href="/doc/privacy-policy">Privacy Policy</a> | <br/> © ${new Date().getFullYear()} Giga. All rights reserved. Developed by Rumsan.`,
       },
       prism: {
         theme: lightCodeTheme,
