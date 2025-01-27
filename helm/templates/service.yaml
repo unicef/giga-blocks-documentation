@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "giga-blocks-docs.name" . }}
+  namespace: {{ .Release.Namespace }}
+  labels:
+    {{- include "giga-blocks-docs.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.docs.service.type }}
+  ports:
+    - port: {{ .Values.docs.service.port }}
+      targetPort: {{ .Values.docs.service.targetPort }}
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "giga-blocks-docs.selectorLabels" . | nindent 4 }}
