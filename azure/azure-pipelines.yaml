@@ -89,4 +89,5 @@ stages:
         namespace: $(kubernetesNamespace)
         arguments: >
           --dependency-update
+          --set docs.image.repository=$(IMAGE_REPOSITORY)
           --set docs.image.tag=$(imageTag)

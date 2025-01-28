@@ -13,8 +13,8 @@ const config = {
   },
   title: "Giga NFT-2.0",
   tagline: " Decentralized School Database",
+  baseUrl: "/doc/",
   url: "https://io-gigablocks-dev.unitst.org",
-  baseUrl: "/docs/",
   projectName: "giga-documentation", // Usually your repo name.
   organizationName: "Giga", // Usually your GitHub org/user name.
   onBrokenLinks: "throw",
@@ -54,7 +54,7 @@ const config = {
       navbar: {
         logo: {
           alt: "Giga Logo",
-          src: "https://giga.global/nft-2-0-the-worlds-largest-decentralized-school-database/",
+          src: "https://s41713.pcdn.co/wp-content/uploads/2018/11/2020.05_GIGA-visual-identity-guidelines_v1-25.png",
         },
         items: [
           {
@@ -137,7 +137,7 @@ const config = {
             ],
           },
         ],
-        copyright: `| <a href="/privacy-policy">Privacy Policy</a> | <br/> © ${new Date().getFullYear()} Giga. All rights reserved. Developed by Rumsan.`,
+        copyright: `| <a href="privacy-policy">Privacy Policy</a> | <br/> © ${new Date().getFullYear()} Giga. All rights reserved. Developed by Rumsan.`,
       },
       prism: {
         theme: lightCodeTheme,
