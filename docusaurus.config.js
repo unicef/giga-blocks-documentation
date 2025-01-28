@@ -14,7 +14,7 @@ const config = {
   title: "Giga NFT-2.0",
   tagline: " Decentralized School Database",
   baseUrl: "/doc/",
-  url: "https://io-gigablocks-dev.unitst.org",
+  url: "https://demo-url",
   projectName: "giga-documentation", // Usually your repo name.
   organizationName: "Giga", // Usually your GitHub org/user name.
   onBrokenLinks: "throw",
