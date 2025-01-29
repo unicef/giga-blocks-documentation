@@ -95,7 +95,7 @@ stages:
         chartType: FilePath
         chartPath: $(Build.SourcesDirectory)/helm
         releaseName: "giga-blocks-docs"
-        valueFile: helm/values.prod.yaml
+        valueFile: helm/values.prd.yaml
         namespace: $(K8S_NAMESPACE)
         arguments: >
           --dependency-update
