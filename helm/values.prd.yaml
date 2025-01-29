@@ -1,0 +1,51 @@
+replicaCount: 2
+
+imagePullSecrets: [ ]
+nameOverride: ""
+fullnameOverride: ""
+environment: &env "prd"
+
+docs:
+  image:
+    repository: "myrepo/giga-blocks-docs"
+    pullPolicy: Always
+    tag: ""
+  podAnnotations: { }
+  podSecurityContext: { }
+  securityContext: { }
+  service:
+    type: ClusterIP
+    port: 80
+    targetPort: 80
+  autoscaling:
+    enabled: false
+    minReplicas: 1
+    maxReplicas: 2
+    targetCPUUtilizationPercentage: 80
+  nodeSelector: { }
+  tolerations: [ ]
+  affinity: { }
+  configVolume: { }
+  resources:
+    limits:
+      cpu: 1
+      memory: 1000Mi
+    requests:
+      cpu: 100m
+      memory: 128Mi
+  livenessProbe: {}
+  #  httpGet:
+  #    path: /docs/intro
+  #    port: http
+  #  periodSeconds: 20
+  #  timeoutSeconds: 10
+  #  successThreshold: 1
+  #  failureThreshold: 3
+  readinessProbe: {}
+  #  httpGet:
+  #    path: /docs/intro
+  #    port: http
+  #  periodSeconds: 20
+  #  timeoutSeconds: 10
+  #  successThreshold: 1
+  #  failureThreshold: 3
