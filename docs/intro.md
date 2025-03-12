@@ -20,7 +20,7 @@ Giga Blocks aims to solve this problem by crowdsourcing the collection and curat
 
 ![Giga System flow Diagram](../static/img/system_flow_diagram.png)
 
-## Github Repositories of Giga NFT 2.0
+## Github Repositories of Giga Blocks
 
 - [Giga Blocks](https://github.com/unicef/giga-blocks)
 - [Giga Blocks - subgraph](https://github.com/unicef/giga-blocks-subgraph)
