@@ -18,7 +18,7 @@ Giga Blocks aims to solve this problem by crowdsourcing the collection and curat
 - To create a crowdsourcing mechanism for collecting missing school data
 - To engage the public and local communities in Giga countries in the cause of connecting schools to the internet
 
-![Giga System flow Diagram](../static/img/system_flow_diagram.png)
+![Giga System flow Diagram](../../static/img/system_flow_diagram.png)
 
 ## Github Repositories of Giga Blocks
 
