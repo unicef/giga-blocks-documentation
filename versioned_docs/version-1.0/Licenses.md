@@ -4,7 +4,7 @@ id: license
 
 # License
 
-Giga NFT 2.0 is licensed under the [GNU Affero General Public License (AGPL) version 3.0](https://www.gnu.org/licenses/agpl-3.0.html).
+Giga Blocks is licensed under the [GNU Affero General Public License (AGPL) version 3.0](https://www.gnu.org/licenses/agpl-3.0.html).
 
 ## License Text
 

@@ -4,9 +4,9 @@ id: contribution-guidelines
 
 # Contribution Guidelines
 
-Thank you for considering contributing to Giga NFT2.0! We value your input and aim to make the contribution process as accessible and transparent as possible. Whether you're interested in reporting bugs, discussing code, submitting fixes, proposing features, becoming a maintainer, or engaging with the Giga NFT2.0 community, we welcome your involvement.
+Thank you for considering contributing to Giga Blocks! We value your input and aim to make the contribution process as accessible and transparent as possible. Whether you're interested in reporting bugs, discussing code, submitting fixes, proposing features, becoming a maintainer, or engaging with the Giga Blocks community, we welcome your involvement.
 
-## How to Contribute to the Giga NFT 2.0 Project?
+## How to Contribute to the Giga Blocks Project?
 
 1. **Familiarize Yourself:** Before contributing, familiarize yourself with the project by reviewing the README, code of conduct, and existing issues or pull requests.
 2. **Issues and Feature Requests:** Check the issue tracker for existing issues or create a new one to report bugs, suggest improvements, or propose new features.
@@ -19,17 +19,17 @@ Thank you for considering contributing to Giga NFT2.0! We value your input and a
 ## Report a Bug or Suggestion
 
 - **Bug Reports:** Help us understand and address issues by submitting detailed bug reports via GitHub issues. Include as many relevant details as possible in the provided template to expedite resolutions.
-- **Suggestions:** Share your ideas, feedback, or stay updated on Giga NFT2.0 by joining our Discord channel. [Insert Discord Invitation Link]
+- **Suggestions:** Share your ideas, feedback, or stay updated on Giga Blocks by joining our Discord channel. [Insert Discord Invitation Link]
 
 ## Making Changes and Pull Requests
 
 To contribute code changes:
 
-1. Fork the Giga NFT2.0 repository and create a new branch for your contribution 
+1. Fork the Giga Blocks repository and create a new branch for your contribution 
 >`git checkout -b 'my-contribution'`.
 2. Make your changes on the created branch.
 3. Commit with clear messages describing the updates.
-4. Submit a pull request against the Giga NFT2.0 repository, ensuring the following:
+4. Submit a pull request against the Giga Blocks repository, ensuring the following:
    - Clear use case or demonstration of bug fix/new feature.
    - Inclusion of relevant tests (unit, functional, and fuzz tests where applicable).
    - Adherence to code style guidelines.
@@ -39,12 +39,12 @@ To contribute code changes:
 
 ## Contributing with an Issue
 
-If you encounter a bug but aren't sure how to fix it or submit a pull request, you can create an issue. Issues serve as avenues for bug reports, feedback, and general discussions within the Giga NFT2.0 GitHub repositories.
+If you encounter a bug but aren't sure how to fix it or submit a pull request, you can create an issue. Issues serve as avenues for bug reports, feedback, and general discussions within the Giga Blocks GitHub repositories.
 
 ## Repositories
 
-- [Giga NFT2.0 Main Repository](insert main repository link)
-- [Additional Giga NFT2.0 Repositories](list other relevant repositories with links)
+- [Giga Blocks Main Repository](insert main repository link)
+- [Additional Giga Blocks Repositories](list other relevant repositories with links)
 
 ## Other Ways to Contribute
 
@@ -52,11 +52,11 @@ Beyond code contributions:
 
 - **Feedback and Insights:** Share your expertise and experiences related to cash transfer by contacting us at [email](mailto:email) or connecting with us [insert contact details].
 - **Documentation:** Contribute to our journey by sharing reports, case studies, articles, blogs, or surveys. Contact us to contribute and learn more via [email](mailto:email) or [insert contact details].
-- **Designs:** If you're passionate about UI/UX, animations, graphics, tutorials, etc., contact us to create visuals for the Giga NFT2.0 community via [email](mailto:email) or [insert contact details].
+- **Designs:** If you're passionate about UI/UX, animations, graphics, tutorials, etc., contact us to create visuals for the Giga Blocks community via [email](mailto:email) or [insert contact details].
 
 ## Style Guide
 
 This repository uses eslint to enforce air-bnb coding styles.
 
 ## Connect with Giga Contributors
-Connect with fellow contributors via our Discord channel to engage with the Giga NFT2.0 community. (Insert Discord Invitation Link)
+Connect with fellow contributors via our Discord channel to engage with the Giga Blocks community. (Insert Discord Invitation Link)
