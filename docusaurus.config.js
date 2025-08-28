@@ -34,7 +34,7 @@ const config = {
             specPath: "openapi/giga-api.yaml",
             outputDir: "docs/giga-api",
             downloadUrl:
-              "https://raw.githubusercontent.com/giga-nft2-0/Giga_Documentation/main/openapi/giga-api.yaml",
+              "https://raw.githubusercontent.com/unicef/giga-blocks-documentation/main/openapi/giga-api.yaml",
             sidebarOptions: {
               groupPathsBy: "tag",
               categoryLinkSource: "tag",
@@ -63,7 +63,7 @@ const config = {
               path: 'next',
             }
           },
-          editUrl: "https://github.com/giga-nft2-0/Giga_Documentation/edit/main/",
+          editUrl: "https://github.com/unicef/giga-blocks-documentation/edit/main/",
         },
         blog: {
           path: "blog",
