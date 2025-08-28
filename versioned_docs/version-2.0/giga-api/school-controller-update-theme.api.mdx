@@ -1,0 +1,71 @@
+---
+id: school-controller-update-theme
+title: "Theme update for a school"
+description: "Theme update for a school"
+sidebar_label: "Theme update for a school"
+hide_title: true
+hide_table_of_contents: true
+api: eJx9VMtu2zAQ/BVhTy2gxE6Ourl5uM6hDRy3ORhGsZY2FhNJZMiVE0PgvxdLyoodFz1ZJvcxOzPLDrQhi6x0Mysgg4e81Lq60g1bXVVk/7SmQKZFSTVBCgYt1sRkHWTLDhqsCTJwIWlWQAqWXltlqYCMbUspqAYyMMglpBJGNULWAe9MyGOrmg14v4qJ5PibLnYS8blOrhumhuUKjalUHiCPnp1u5OyktF4/U86C2MqArMiFW5lDBj3FcIh9OQSuUmDFlUQGDiY5q23ofc0avI95zujGxQ6X47H8FORyq4wEQgahPONGWOsplsqO8tYq3gUuMc/JuTPWL9RAtlwJKcdVAoAkCpI8aZtgEpmHFGriUheR67wMSnEJGYzQqNH2YhQD3ehAzlG3182LOGS3UdYDYA9Ca5zrGF7PuNCyJrRkIe0/brWtkSGDu8cFpHuWS2YD6d4v8ep4uJuGySZ3j4sktuitUxIWZAN/ovX8wyU371gbEeZA1UFNyX7S4a5XbzqbTpIft4vk8nycTO5nyf385+/Z9c38BMlUbXBa6TUKr8JJPL44H5+PIToRc3GigDLacY2BkX64/6l01GiwINM7j0yFqhHgra3kLuq3BDRKYFzE/RENIYXjpcyG/VulUGrHktd1a3T0y1bey/FrS3YXxd2iVbgWUpYdFMrJdwHZE1aOTiAOewdf5v16fE0+dD2G3h9isxPIWLXyD1J4od3hK+FXPt0LKxji9VXsdLaQIh/pJ9suezG4/X6yuPou3uufjVoXkmTxTd4ifIv9dRgn2DicdVBhs2lxI7GxqGiJrVA+yPLJ2AHqPyfsuhixEON6PwwcjexX3vu/PIzU8g==
+sidebar_class_name: "patch api-method"
+info_path: docs/giga-api/giga-nft-2-0-api-provider
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Theme update for a school"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"patch"}
+  path={"/api/v1/schools/updateTheme/{schoolId}"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Theme update for a school
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[{"name":"schoolId","required":true,"in":"path","schema":{"type":"string"}}]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={{"required":true,"content":{"application/json":{"schema":{"type":"object","properties":{"themeId":{"type":"string"}},"required":["themeId"],"title":"ThemeActivationDto"}}}}}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":""}}}
+>
+  
+</StatusCodes>
+
+
+      

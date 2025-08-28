@@ -1,0 +1,71 @@
+---
+id: school-controller-get-weekly-qos
+title: "Get the weekly qos data of school"
+description: "Get the weekly qos data of school"
+sidebar_label: "Get the weekly qos data of school"
+hide_title: true
+hide_table_of_contents: true
+api: eJylVE1P20AQ/SurObXShpio7cE3VCAKh/KRtBxQhCb2JF7F9jq7Y0pk+b9X4zUQaEDQnuz9mvdm3ptpwFbkkI0tJynEME0ya/PvtmRn85zc7Yr4mmidby+tBw0VOiyIyXmIbxoosSCIYWVWeOu7p7cmBQ2ONrVxlELMriYNpoQYNjW5LWhIySfOVIIJMYzNClWAVZNjxVYtiZNMXZ5PVYqMSoEGn2RUIMQN0D0WVS6gdd1B8baSlWdnyhW0rX5k5RkdHyPTxwhN5ZlAk7JLxRmp30TrV0iMotGXQfR1MPr2JhUq048TOSnTj9H4NohGe2jMBdVXtvTk5dkoiuTzHEzoAuNKdO1dAHMNnpLaGd52amOSkPcDtmsqIb6ZS+QXYhI/Us23amN90NAuVbAHaCiIMyteWxF3juIMYhhiZYZ3h8NwzQ831g9DFEmZ3F2w3A6lqdQhZPScWBNKJDVYEDpyoPufU+sKZIjh7Hr2VKiMuQL9IFU4eqkEk1Nn1zMVIHrZMsKUXFc5Uy6tILPhTpDxZHykfpzO1OggUkcXE3Vxdf5rcnxytdf/49wuUGojWYbtw4PoIAINiS0ZE4a4EZjKei6wy7Gn+56KPwNsHtJmuudhlaMpodVQu1zOgho3gJUROofBb6IIaNh0I6BXZa4hs57lctMs0NNPl7etbAc3i2FS43GRi9mXmHv6i4kkR6UI8umq74vP6l0DYW8Oa9ruG0Z3mNfUWVz/I6VXR8IbNHanz/8zeGUWvIH/NHKe0OeycEbgu/7dacbxidgea5H/0SIv2qfTtD/CcrsTumnCjZm0R9vCA4nQLu28bds/13QkGA==
+sidebar_class_name: "get api-method"
+info_path: docs/giga-api/giga-nft-2-0-api-provider
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Get the weekly qos data of school"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"get"}
+  path={"/api/v1/schools/qos/weekly"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Get the weekly qos data of school
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[{"name":"giga_school_id","required":true,"in":"query","description":"Giga School ID to fetch QOS data  ","schema":{"example":"uuid","type":"string"}},{"name":"startDate","required":true,"in":"query","description":"Start date of the week","schema":{"example":"2024-05-26","type":"string"}},{"name":"endDate","required":true,"in":"query","description":"End date of the week","schema":{"example":"2024-06-02","type":"string"}}]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={undefined}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":""}}}
+>
+  
+</StatusCodes>
+
+
+      

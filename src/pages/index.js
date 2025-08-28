@@ -13,17 +13,29 @@ function HomepageHeader() {
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">
-          <Translate>Giga NFT 2.0</Translate>
+          <Translate>Giga Blocks</Translate>
         </h1>
         <p className="hero__subtitle">
-          <Translate>Decentralized School Database</Translate>
+          <Translate>Decentralized School Directory Platform</Translate>
+        </p>
+        <p className="hero__description">
+          <Translate>
+          We Are Building the World's Largest Decentralized School Database - Together
+          </Translate>
         </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro"
+            to="/intro"
           >
-            <Translate>Documentation</Translate>
+            <Translate>Get Started</Translate>
+          </Link>
+          <Link
+            className="button button--outline button--lg"
+            to="/category/giga"
+            style={{ marginLeft: '1rem' }}
+          >
+            <Translate>View API</Translate>
           </Link>
         </div>
       </div>
@@ -41,6 +53,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+
       </main>
     </Layout>
   );

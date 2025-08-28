@@ -1,0 +1,71 @@
+---
+id: users-controller-find-contributor
+title: "Get an contributor"
+description: "Get an contributor"
+sidebar_label: "Get an contributor"
+hide_title: true
+hide_table_of_contents: true
+api: eJyNVE1P20AQ/SurObuJCTSlOTWCJIIDRTSUQ4iqyXqCF+xdszsGosj/vRrbSUkA0ZPt9Xy8ee/NrsEV5JGNs2cJDOA6kA8nzrJ3WUb+z9LYpP40i5KdhwgK9JgTkw8wmM0j8BQKZwMFGKyhF8fySChobwqpCgOYpqSWrrSJ8qSdTyAC7SyTZYnFosiMrhF074MkrCHolHKUN14VBANA73EFERimPLw6d4t70iyovMzBpoFBOZrsVVhgb+wdRHvARhKm3FJxSqoMJOPRC+ZFJkn3LrU/Ekcd7XKoIrCY0+c1x2WWqQvM6cO65y616tSR1HzGLCMeJomnEP4DMKfkqcxVk6ewSfywVfxy0v+m+7E+7SfHvbFe9JYnffyOX49p2O+Nj+Ojo8PRYa9/fChgvMsa+nabDoV7aVH/VxiC0waZEvVsOH2/8ewWrn+Nrm5hDtFnGrazVpVAoMfSeEpgMGtFbHnfp2qDdh4BG657nnhCJjHwKTspJwWP4sO3E42dX5gkIdsBiWG8Ey833peKgXTpDa9gMFsDak0hfGH3QFYcX833VZmIElbpnTXJiVMnG3VHtT+RUxhAFwvTfTroCmGhu5sRyD9tt2oD4ZdsQqPKLpB2SWTwBaGv+W9exs7nyGK0m+k/9lPmYkPm5teeuSyTV+c3U9W0iMDIcUqYkK+JMnbpauFaxidnk6G6GE9VrxOr4eWZurz6+fvsdHT1pvbE3OEkcwsUQWXK5vigE3fi9jpALdeBtClc4BzrGVu47zK802HrJqYX7hYZGiuWLn19DTTszwALI/0PIIJagbb1puY8gtQFlsj1eoGBrn1WVXL8WJJfNco8oTe4kPln8yra0CNOeaCVrIvWVIjkT5iVte/3Lzhx0NYek5EogaUA3A6xp2hdfbNFdvWq9nrdRExFsaqCqAXRKFjNq6r6C5YD+5E=
+sidebar_class_name: "get api-method"
+info_path: docs/giga-api/giga-nft-2-0-api-provider
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Get an contributor"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"get"}
+  path={"/api/v1/users/contributor"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Get an contributor
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={undefined}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":"The found record","content":{"application/json":{"schema":{"type":"array","items":{"type":"object","properties":{"email":{"type":"string","description":"Email of the user","example":"john@doe.com"},"name":{"type":"string","description":"Full Name of the user","example":"John Doe"},"walletAddress":{"type":"string","description":"Ethereum wallet address of the user","example":"0xC67c60cD6d82Fcb2fC6a9a58eA62F80443E32683"},"roles":{"description":"Array of roles associated with the user","example":"[\"USER\"]","type":"array","items":{"type":"string"}}},"required":["email","name","walletAddress","roles"],"title":"CreateUserDto"}}}}},"403":{"description":"Forbidden."}}}
+>
+  
+</StatusCodes>
+
+
+      

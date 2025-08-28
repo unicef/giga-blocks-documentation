@@ -24,4 +24,120 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+}
+
+.hero__description {
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+  opacity: 0.9;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctaSection {
+  background: linear-gradient(135deg, #393939 0%, #2c2c2c 100%);
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.ctaContent h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.ctaContent p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctaButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .ctaContent h2 {
+    font-size: 2rem;
+  }
+  
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ctaButtons .button {
+    margin: 0.5rem 0;
+  }
+}
+
+.footer {
+  background: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.licenseInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.licenseInfo p {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.licenseInfo a {
+  color: #393939;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.licenseInfo a:hover {
+  text-decoration: underline;
+}
+
+.license {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.licenseLink {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.licenseLink:hover {
+  background-color: #e9ecef;
+  text-decoration: none;
+}
+
+.licenseIcon {
+  height: 20px;
+  width: auto;
 }

@@ -1,5 +1,5 @@
 {
-  "version-1.0/tutorialSidebar": [
+  "tutorialSidebar": [
     {
       "collapsed": true,
       "type": "category",
@@ -7,11 +7,11 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-1.0/intro"
+          "id": "intro"
         },
         {
           "type": "doc",
-          "id": "version-1.0/brand-guidelines"
+          "id": "brand-guidelines"
         }
       ]
     },
@@ -22,17 +22,17 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-1.0/license",
+          "id": "license",
           "label": "License"
         },
         {
           "type": "doc",
-          "id": "version-1.0/contribution-guidelines",
+          "id": "contribution-guidelines",
           "label": "Contribution Guidelines"
         },
         {
           "type": "doc",
-          "id": "version-1.0/code-of-conduct",
+          "id": "code-of-conduct",
           "label": "Code of Conduct"
         }
       ]
@@ -44,12 +44,12 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-1.0/getting-started-developer",
+          "id": "getting-started-developer",
           "label": "Getting started"
         },
         {
           "type": "doc",
-          "id": "version-1.0/software-requirements-specifications",
+          "id": "software-requirements-specifications",
           "label": "Software Requirement Specification"
         }
       ]
@@ -61,12 +61,12 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-1.0/community-feedback",
+          "id": "community-feedback",
           "label": "Community Feedback"
         },
         {
           "type": "doc",
-          "id": "version-1.0/bounty-information",
+          "id": "bounty-information",
           "label": "Bounty Information"
         }
       ]
@@ -89,5 +89,5 @@
       ]
     }
   ],
-  "version-1.0/apiSidebar": []
+  "apiSidebar": []
 }

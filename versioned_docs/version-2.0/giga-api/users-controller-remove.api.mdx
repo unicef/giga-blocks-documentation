@@ -1,0 +1,71 @@
+---
+id: users-controller-remove
+title: "Delete an user"
+description: "Delete an user"
+sidebar_label: "Delete an user"
+hide_title: true
+hide_table_of_contents: true
+api: eJyNVNFu2zgQ/BVin66AzlacnJvqqUZsBykOvSJ1Lg+OcViL64ipRKrkyo0h6N8PK8luHLdonyyT3J3h7AxrcCV5ZOPsjYYE7gL5cOUse5fn5P/zVLgtQQQleiyIyQdIljVYLAgSMBoi8PS1Mp40JOwrisBYSKBEziCCkGZUICQ18K6UisDe2EdompUUhtLZQEH2R3EsP5pC6k0phCCBRUZq4yqrlafUeUFLnWWyLGexLHOTtuSHT0EK6lNA9B53EIFhKsKLdbd+opTlZl4kYNPRoAJNfso3ekVsJseU2yjOSFWBPERAz1iUuRQ9ucy+144GqSugiXq1ftVzXuW5+ogF/bTvB5dZNXUkPb9hnhNPtPYUwm8Q5ow8VYXq6hR2hT+Fip+vxm/TcZxOx/pyNE/Xo83VGN/hX5c0GY/ml/HFxfnsfDS+PBcy3uWdfMegE9FeINp9hSG41CCTVt8MZz8GXj7A3efZ7QOsIPrVDA9mal66cNkPsdf9tVR7tqsI2HCLeeUJmcT7U3bSThpexOenN5o7vzZakx2AnGF8lDx0sZGOgdLKG961IcE0pRD+ZPeFLCTLlXj+uN2UcmJSaPc6FMSZkyDqdqcNHmeQwBBLM9yeDeVcGNZGN5Iu8tsukS+gP0sCumkcE+jDIRdeE/oWr/uYO18gi8HuF99Vz5jLvYj7rVemskxefbhfqA6iz35GqMm3Ahm7ce3AeqWvb64n6uN8oUaDWE0+3ahPt//8ezOd3Z70vjaPeJ27Ncog5Zbd8tkgHsT9M4CpPAMCU7rABbZ37OmeKHvU/eAgpmceljkaKzaufBv9TvIlYGkE+wwiaGWHCBKjZcyZCywn6nqNge583jSy/LUiv+umsUVvcC13XtagTZBvDckG80AnZA5vGvxx29v4jfo+iGOS+0xYScQW80r+QQRfaNe9yM2qifYzEPRuY5KmVPKLkpPXU+x58N909vdsMYMIsBIxDoK9ck4L8ENGdd2dWIgzmuZAsHNKs2qa5n9Cyyt8
+sidebar_class_name: "delete api-method"
+info_path: docs/giga-api/giga-nft-2-0-api-provider
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Delete an user"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"delete"}
+  path={"/api/v1/users/{id}"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Delete an user
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[{"name":"id","required":true,"in":"path","schema":{"type":"string"}}]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={undefined}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":"The found record","content":{"application/json":{"schema":{"type":"array","items":{"type":"object","properties":{"email":{"type":"string","description":"Email of the user","example":"john@doe.com"},"name":{"type":"string","description":"Full Name of the user","example":"John Doe"},"walletAddress":{"type":"string","description":"Ethereum wallet address of the user","example":"0xC67c60cD6d82Fcb2fC6a9a58eA62F80443E32683"},"roles":{"description":"Array of roles associated with the user","example":"[\"USER\"]","type":"array","items":{"type":"string"}}},"required":["email","name","walletAddress","roles"],"title":"CreateUserDto"}}}}},"403":{"description":"Forbidden."}}}
+>
+  
+</StatusCodes>
+
+
+      

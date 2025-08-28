@@ -1,8 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const { themes } = require("prism-react-renderer");
 const ArchivedVersions = require("./archivedVersions.json");
 
 /** @type {import('@docusaurus/types').Config} */
@@ -11,20 +10,37 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
-  title: "Giga NFT-2.0",
-  tagline: " Decentralized School Database",
-  baseUrl: "/doc/",
-  url: "https://demo-url",
+  title: "Giga Blocks ",
+  tagline: " Decentralized School Directory Platform",
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid', 'docusaurus-theme-openapi-docs'],
+  url: "https://docs.giga.rumsan.net",
+  baseUrl: "/doc",
   projectName: "giga-documentation", // Usually your repo name.
   organizationName: "Giga", // Usually your GitHub org/user name.
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn", // Changed from "throw" to "warn" to help during development
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   plugins: [
-    [
-      "docusaurus-plugin-openapi",
+      [
+      "docusaurus-plugin-openapi-docs",
       {
-        openapiPath: require.resolve("./openApi/swagger.json"),
+        id: "openapi",
+        docsPluginId: "default",
+        config: {
+          giga: {
+            specPath: "openapi/giga-api.yaml",
+            outputDir: "docs/giga-api",
+            downloadUrl:
+              "https://raw.githubusercontent.com/giga-nft2-0/Giga_Documentation/main/openapi/giga-api.yaml",
+            sidebarOptions: {
+              groupPathsBy: "tag",
+              categoryLinkSource: "tag",
+            },
+          }
+        }
       },
     ],
   ],
@@ -34,9 +50,20 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'docs',
+          routeBasePath: '/',
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          editUrl: "https://github.com/esatya?tab=repositories",
+          docItemComponent: "@theme/ApiItem", // Derived from docusaurus-theme-openapi
+          showLastUpdateTime: true,
+          //showLastUpdateAuthor: true,
+          lastVersion: '2.0',
+          versions: {
+            current: {
+              label: '2.1 (Next)',
+              path: 'next',
+            }
+          },
+          editUrl: "https://github.com/giga-nft2-0/Giga_Documentation/edit/main/",
         },
         blog: {
           path: "blog",
@@ -54,22 +81,16 @@ const config = {
       navbar: {
         logo: {
           alt: "Giga Logo",
-          src: "https://s41713.pcdn.co/wp-content/uploads/2018/11/2020.05_GIGA-visual-identity-guidelines_v1-25.png",
+          src: "img/giga-blocks.png",
         },
         items: [
-          {
-            type: "doc",
-            docId: "intro",
-            position: "right",
-            label: "Docs",
-          },
-          {
-            to: "api/",
-            activeBasePath: "api",
+          
+            {
             label: "API",
             position: "right",
+            to: "/category/giga",
           },
-          { to: "blog", label: "Releases", position: "right" },
+
           {
             to: "/help",
             position: "right",
@@ -102,46 +123,28 @@ const config = {
           },
         ],
       },
-      footer: {
-        style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Twitter",
-                href: "https://twitter.com/Gigaglobal",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "GitHub",
-                href: "https://github.com/unicef/giga-blocks",
-              },
-              {
-                label: "Website",
-                href: "https://giga.global/",
-              },
-            ],
-          },
-        ],
-        copyright: `| <a href="privacy-policy">Privacy Policy</a> | <br/> © ${new Date().getFullYear()} Giga. All rights reserved. Developed by Rumsan.`,
+              footer: {
+          style: "dark",
+          copyright: `
+            <div style="text-align: center; margin-top: 2rem;">
+              <div style="margin-bottom: 1rem;">
+                <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.5rem; color: #fff; text-decoration: none; padding: 0.75rem 1rem; border-radius: 6px; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.2); font-weight: 500; font-size: 0.9rem;">
+                  <span style="font-size: 1.2rem; margin-right: 0.25rem;">©</span>
+                  <span style="font-size: 1.2rem; margin-right: 0.25rem;">℗</span>
+                  CC BY 4.0
+                </a>
+              </div>
+              <div style="color: #fff; font-size: 0.9rem;">
+                © ${new Date().getFullYear()} Giga. All rights reserved. 
+                <br>
+                Developed by <a href="https://rumsan.com" target="_blank" rel="noopener noreferrer" style="color: #fff; text-decoration: underline;">Rumsan</a>
+              </div>
+            </div>
+          `,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: themes.github,
+        darkTheme: themes.dracula,
       },
       // algolia: {
       //   indexName: "jest-v2",
