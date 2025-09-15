@@ -19,7 +19,8 @@
       "giga-id"
     ],
     "Deployment": [
-      "deployment"
+      "deployment",
+      "environment-variables"
     ],
     "Trouble Shooting": [
       "trouble-shooting"
