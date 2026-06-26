@@ -27,7 +27,7 @@
     "@docusaurus/theme-mermaid": "3.7.0",
     "@mdx-js/react": "^3.1.0",
     "@svgr/webpack": "^5.5.0",
-    "axios": "^0.23.0",
+    "axios": "v0.32.0",
     "clsx": "^1.1.1",
     "docusaurus-plugin-openapi-docs": "4.5.1",
     "docusaurus-theme-openapi-docs": "4.5.1",
