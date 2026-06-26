@@ -17,7 +17,120 @@
 }
 
 * {
-  font-family: s "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Dark theme font improvements */
+html[data-theme="dark"] {
+  --ifm-font-family-base: "Open Sans", sans-serif;
+  --ifm-font-family-monospace: "Fira Code", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
+  --ifm-color-content: #ffffff;
+  --ifm-color-content-secondary: #e0e0e0;
+  --ifm-color-emphasis-300: #e0e0e0;
+  --ifm-color-emphasis-600: #a0a0a0;
+  --ifm-color-emphasis-700: #808080;
+  --ifm-color-emphasis-800: #606060;
+  --ifm-color-emphasis-900: #404040;
+}
+
+/* Light theme font improvements */
+html[data-theme="light"] {
+  --ifm-font-family-base: "Open Sans", sans-serif;
+  --ifm-font-family-monospace: "Fira Code", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
+  --ifm-color-content: #1a1a1a;
+  --ifm-color-content-secondary: #606060;
+}
+
+/* General font improvements */
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+/* Dark theme specific text improvements - WHITE COLORS ONLY FOR DARK THEME */
+html[data-theme="dark"] body {
+  color: #ffffff;
+}
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6 {
+  color: #ffffff;
+}
+
+html[data-theme="dark"] p {
+  color: #e0e0e0;
+}
+
+html[data-theme="dark"] a {
+  color: #4a9eff;
+}
+
+html[data-theme="dark"] a:hover {
+  color: #6bb3ff;
+  text-decoration: underline;
+}
+
+/* Code blocks in dark theme */
+html[data-theme="dark"] code {
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+  border: 1px solid #404040;
+}
+
+html[data-theme="dark"] pre {
+  background-color: #1e1e1e;
+  border: 1px solid #404040;
+}
+
+html[data-theme="dark"] pre code {
+  background-color: transparent;
+  border: none;
+}
+
+/* Breadcrumb styling for dark theme */
+html[data-theme="dark"] .breadcrumbs {
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #404040;
+}
+
+html[data-theme="dark"] .breadcrumbs__link {
+  color: #4a9eff !important;
+}
+
+html[data-theme="dark"] .breadcrumbs__link:hover {
+  color: #6bb3ff !important;
+  text-decoration: underline;
+}
+
+html[data-theme="dark"] .breadcrumbs__item--active .breadcrumbs__link {
+  color: #e0e0e0 !important;
+}
+
+html[data-theme="dark"] .breadcrumbs__item:not(:last-child)::after {
+  color: #808080;
+}
+
+/* Breadcrumb separator */
+html[data-theme="dark"] .breadcrumbs__item:not(:last-child)::after {
+  content: "/";
+  margin: 0 0.5rem;
+  color: #808080;
+}
+
+/* Ensure breadcrumb container has proper styling */
+html[data-theme="dark"] .breadcrumbs__container {
+  background-color: #1a1a1a;
+  padding: 0.75rem 0;
 }
 
 .docusaurus-highlight-code-line {
@@ -31,7 +144,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 .hero--primary {
-  background-color: #0530ad;
+  background-color: #393939;
 }
 
 .header-github-link:before {
@@ -40,4 +153,22 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   display: flex;
   height: 24px;
   width: 24px;
+}
+
+/* Custom footer styling */
+footer[class*="footer--dark"] {
+  background-color: #393939 !important;
+}
+
+footer[class*="footer--dark"] .footer__links {
+  border-top-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Ensure footer works in both light and dark themes */
+[data-theme="light"] footer[class*="footer--dark"] {
+  background-color: #393939 !important;
+}
+
+[data-theme="dark"] footer[class*="footer--dark"] {
+  background-color: #393939 !important;
 }

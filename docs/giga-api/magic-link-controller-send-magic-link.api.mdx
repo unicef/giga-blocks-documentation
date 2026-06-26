@@ -1,0 +1,71 @@
+---
+id: magic-link-controller-send-magic-link
+title: "Send Magic Link"
+description: "Send Magic Link"
+sidebar_label: "Send Magic Link"
+hide_title: true
+hide_table_of_contents: true
+api: eJyNVE1P20AQ/SvWnJc4gfbiUykfURAtCNJyiKJqsp7GC+tdszsGosj/Hc06hECkqjkkzuzszJv33ngNvqGAbLyblFDAD1wafWncw4l3HLy1FP5EcuU2DgoaDFgTU4hQzOYKAj22FPm7L1dQrNNfE6iEgkNLCrR3TI7lCJvGGp265ffRO4lFXVGN8sSrhqAAv7gnzdInCDY2FOWUajR2Jy1yMG4JCugF68ZKKKV8S98D7WvoBFtpAmm2Av2flyvmpshz6zXaykcujobDYR515b2N+ejw6MtX46Hr1M6Asw2qT33mCthwqnq7y90pS4G+RGy8i/1kh8OR/JQUdTCNkAMFpE6MS+G4VyW73NT+mCgdsp0EBTVx5UXMxsfEI3IFBeTYmPxplNeSeyBAc1EWFEQKT1s1I+k2GF7dii49QNSaYjxg/0Dvksl0C8JAAdTm4dyHGhkKuLibgnrjWogFBQ7Tlf7o4whnjilkF3fTrG+hwEi4IiwpJCLELDfvNjt7U21riz3tP0v/v/pK778+WWUj4XgyPs5+nk+zw8EwO76eZNc3V78np2c3e3OMzRLH1i9QHCGM9uHRYDgYQr8IqGURZCQRp8bE54aafSU/lN+al+mF88aicQK3DWkrepFngI2R5iPxwVbopLErxTwyuuSt1wuM9CvYrpPwY0th1RvgCYPBhYw+m3fqTYVitoYHWkEBJ/0+H0wFjaTbVlDt7XY337Hi9dWt6L7YvCNqX8qdgM8iFD6L4RX4NGmyXIqtwaJbtriU3L6mfF4BnH2Vgg==
+sidebar_class_name: "post api-method"
+info_path: docs/giga-api/giga-nft-2-0-api-provider
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Send Magic Link"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"post"}
+  path={"/api/v1/magic-link/send"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Send Magic Link
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={{"required":true,"content":{"application/json":{"schema":{"type":"object","properties":{"email":{"type":"string","example":"email@email.com"},"redirectlink":{"type":"string","example":"http://localhost:3000/schools/12345io"}},"required":["email","redirectlink"],"title":"SendMagicLinkDto"}}}}}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"201":{"description":""}}}
+>
+  
+</StatusCodes>
+
+
+      

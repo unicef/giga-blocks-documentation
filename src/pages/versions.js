@@ -22,7 +22,7 @@ export default function VersionsPage() {
                 <tr>
                   <th>{latestVersion}</th>
                   <td>
-                    <Link to={`/docs/next/intro`}>Documentation</Link>
+                    <Link to={`/next/intro`}>Documentation</Link>
                   </td>
                   <td>
                     <a href="https://github.com/giga-nft2-0">Release Notes</a>
@@ -39,7 +39,7 @@ export default function VersionsPage() {
                 <tr>
                   <th>main</th>
                   <td>
-                    <Link to={`/docs/next/intro`}>Documentation</Link>
+                    <Link to={`/next/intro`}>Documentation</Link>
                   </td>
                   <td>
                     <a href="https://github.com/giga-nft2-0">Source Code</a>
@@ -56,12 +56,12 @@ export default function VersionsPage() {
                 {versions.map(
                   (version) =>
                     version !== latestVersion && (
-                      <tr key={version}>
-                        <th>{version}</th>
-                        <td>
-                          <Link to={`/docs/next/intro`}>Documentation</Link>
-                        </td>
-                      </tr>
+                                              <tr key={version}>
+                          <th>{version}</th>
+                          <td>
+                            <Link to={`/next/intro`}>Documentation</Link>
+                          </td>
+                        </tr>
                     )
                 )}
               </tbody>

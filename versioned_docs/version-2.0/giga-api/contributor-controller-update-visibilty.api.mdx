@@ -1,0 +1,71 @@
+---
+id: contributor-controller-update-visibilty
+title: "Updates contributor by walletAddress"
+description: "Updates contributor by walletAddress"
+sidebar_label: "Updates contributor by walletAddress"
+hide_title: true
+hide_table_of_contents: true
+api: eJyNVE1T20AM/SsendoZQwJH31IKaThQJg1wyGQ6ii3ihfWu2ZUBj8f/vSOvQ+zk0lyyXn08Se+tGrAlOWRlzSKDBK6sYae2FVvXHa3W5P5WZYZMj8qrrdJcQwwlOiyIyXlI1g0YLAgS+ECtiWdZ5sh7iMHRW6UcZZCwqygGZSCBEjmHGHyaU4GQNMB1KcGenTI7aNtNCCTPP2xWi8dxntQaJsNiwrLUKu0amLx4a+TuJLXdvlDKUraTdlmRF6vyXUuaBq5bazWhgRjoE4tSbAEzI586VQoQJIPQNu67P25kkAFuLcFxijssKLLPEecUpYexQ9sOB7ceQPVImxhYcZf3YUiM4hraNoT70hofurycTuVvDN6hMO6EviHpknzsGSD8sMRoW0fHVBfEuc0CvWneKYRzSGCCpZq8X0wG4ZMgp0kzytGKJsi9B0lt5COtnOL6j7AZWsE0Je/P2L7SgeiONUJHDuL+cGNdgSxzf1pBvOclZy73M9ybxr1eGyYX3T6togDRKzYnzCgQIxJbHsR5vWd4JKYgmD2O7TSizLPtNNIzN1/MZ9HdzSq6PJ9Gs/tFdL/8/bj4eb08KWqudjjXdosaYpDxhOuL8+n5FMJbwFTegtRXWs8FdsPp8f+TvxHml5SZPnlSalRGeqicFltgdg1YKqnooi9ir6AYAr8QQzJG2cSQW88S2zRb9PTgdNvK9VtFrg60v6NT2I1x3UCmvJwzSJ5R++NX2BwWAXxb9k/me3RgfFx+f4lGFtg76kq+IIZXqk92V7tp4z3vUkjwuQpwZyvJdMhxsoNkhX09iPvZ6uqXSLNfZoXNJMjhh2xI/AhF2K6nTuXdXQMaza7CnfiGpPL7B/mn89g=
+sidebar_class_name: "patch api-method"
+info_path: docs/giga-api/giga-nft-2-0-api-provider
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Updates contributor by walletAddress"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"patch"}
+  path={"/api/v1/contributor/update/{walletAddress}"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Updates contributor by walletAddress
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[{"name":"walletAddress","required":true,"in":"path","schema":{"type":"string"}}]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={{"required":true,"content":{"application/json":{"schema":{"type":"object","properties":{"isVisible":{"type":"boolean","example":true,"description":"isVisible"},"name":{"type":"string","example":"Joe","description":"Name of the contributor"}},"required":["isVisible","name"],"title":"UpdateVisibility"}}}}}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":""}}}
+>
+  
+</StatusCodes>
+
+
+      

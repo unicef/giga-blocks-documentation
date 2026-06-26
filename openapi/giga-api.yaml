@@ -1,0 +1,1602 @@
+openapi: 3.0.0
+paths:
+  /api/v1/auth/ping:
+    get:
+      operationId: AuthController_appTest
+      summary: Ping the server
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Auth
+  /api/v1/auth/login:
+    post:
+      operationId: AuthController_login
+      summary: Login
+      parameters: []
+      responses:
+        '201':
+          description: ''
+      tags:
+        - Auth
+  /api/v1/auth/admin/send-otp:
+    post:
+      operationId: AuthController_sendAdminOtp
+      summary: send otp for admin login
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AuthSendOtp'
+      responses:
+        '201':
+          description: ''
+      tags:
+        - Auth
+  /api/v1/auth/refresh:
+    post:
+      operationId: AuthController_refresh
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RefreshToken'
+      responses:
+        '201':
+          description: ''
+      tags:
+        - Auth
+  /api/v1/schools/schoolCount:
+    get:
+      operationId: SchoolController_countSchools
+      summary: Get the count of schools
+      parameters:
+        - name: minted
+          required: false
+          in: query
+          schema:
+            enum:
+              - NOTMINTED
+              - MINTED
+              - ISMINTING
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/gigaMetrics:
+    get:
+      operationId: SchoolController_getGigaMetrics
+      summary: Get the giga metrics
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/uploadFile:
+    post:
+      operationId: SchoolController_uploadFile
+      summary: Upload the school csv for bulk mint
+      parameters: []
+      responses:
+        '201':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/validateCsv:
+    post:
+      operationId: SchoolController_validateCSV
+      summary: Upload the school csv for bulk mint
+      parameters: []
+      responses:
+        '201':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools:
+    get:
+      operationId: SchoolController_findAll
+      summary: Get all schools
+      parameters:
+        - name: page
+          required: false
+          in: query
+          description: Page to load
+          schema:
+            example: '1'
+            type: string
+        - name: perPage
+          required: false
+          in: query
+          schema:
+            type: string
+        - name: uploadId
+          required: false
+          in: query
+          schema:
+            type: string
+        - name: name
+          required: false
+          in: query
+          schema:
+            type: string
+        - name: country
+          required: false
+          in: query
+          schema:
+            type: string
+        - name: connectivityStatus
+          required: false
+          in: query
+          schema:
+            type: string
+        - name: orderBy
+          required: false
+          in: query
+          schema:
+            type: string
+        - name: order
+          required: false
+          in: query
+          schema:
+            type: string
+        - name: water
+          required: false
+          in: query
+          schema:
+            example: 'true'
+            type: boolean
+        - name: teachers
+          required: false
+          in: query
+          schema:
+            example: '10'
+            type: number
+        - name: students
+          required: false
+          in: query
+          schema:
+            example: '50'
+            type: number
+        - name: electricity
+          required: false
+          in: query
+          schema:
+            example: true
+            type: boolean
+        - name: computers
+          required: false
+          in: query
+          schema:
+            example: '20'
+            type: number
+        - name: download
+          required: false
+          in: query
+          schema:
+            example: '2'
+            type: number
+        - name: connectionType
+          required: false
+          in: query
+          schema:
+            example: ADSL
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/{id}:
+    get:
+      operationId: SchoolController_findOne
+      summary: Get a school
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/listUpload:
+    get:
+      operationId: SchoolController_listUploads
+      summary: Get all uploads
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/themes:
+    get:
+      operationId: SchoolController_getAllThemes
+      summary: Get all themes added in giga system
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/theme/{name}:
+    get:
+      operationId: SchoolController_getSingleTheme
+      summary: Get a theme by name
+      parameters:
+        - name: name
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/updateTheme/{schoolId}:
+    patch:
+      operationId: SchoolController_updateTheme
+      summary: Theme update for a school
+      parameters:
+        - name: schoolId
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ThemeActivationDto'
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/reserveNft:
+    post:
+      operationId: SchoolController_reserveNft
+      summary: Reserve a school
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ReserveNFTDto'
+      responses:
+        '201':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/claimSchool:
+    post:
+      operationId: SchoolController_claimSchool
+      summary: Claim the reserved school
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/claimReservedNFT'
+      responses:
+        '201':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/gigaSchoolId/{gigaSchoolId}:
+    get:
+      operationId: SchoolController_getGigaSchoolId
+      summary: Get the school by gigaSchoolId
+      parameters:
+        - name: gigaSchoolId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/activateSchool:
+    post:
+      operationId: SchoolController_activateSchool
+      summary: Activate the school by paying user
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SchoolActivation'
+      responses:
+        '201':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/qos/daily:
+    get:
+      operationId: SchoolController_getDailyQos
+      summary: Get the daily qos data of school
+      parameters:
+        - name: giga_school_id
+          required: true
+          in: query
+          description: 'Giga School ID to fetch QOS data  '
+          schema:
+            example: uuid
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/qos/weekly:
+    get:
+      operationId: SchoolController_getWeeklyQos
+      summary: Get the weekly qos data of school
+      parameters:
+        - name: giga_school_id
+          required: true
+          in: query
+          description: 'Giga School ID to fetch QOS data  '
+          schema:
+            example: uuid
+            type: string
+        - name: startDate
+          required: true
+          in: query
+          description: Start date of the week
+          schema:
+            example: '2024-05-26'
+            type: string
+        - name: endDate
+          required: true
+          in: query
+          description: End date of the week
+          schema:
+            example: '2024-06-02'
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/qos/monthly:
+    get:
+      operationId: SchoolController_getMonthlyQos
+      summary: Get the monthly qos data of school
+      parameters:
+        - name: giga_school_id
+          required: true
+          in: query
+          description: 'Giga School ID to fetch QOS data  '
+          schema:
+            example: uuid
+            type: string
+        - name: startDate
+          required: true
+          in: query
+          description: Start date of the week
+          schema:
+            example: '2024-05-26'
+            type: string
+        - name: endDate
+          required: true
+          in: query
+          description: End date of the week
+          schema:
+            example: '2024-06-02'
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/countries:
+    get:
+      operationId: SchoolController_getCountries
+      summary: Get all countries stored in giga db
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/minted/{csvId}:
+    get:
+      operationId: SchoolController_getMintedCount
+      summary: Get minted count of csv school id
+      parameters:
+        - name: csvId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/details/{csvId}:
+    get:
+      operationId: SchoolController_getCsvDetails
+      summary: Get minted count of csv school id
+      parameters:
+        - name: csvId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/updateImages:
+    patch:
+      operationId: SchoolController_updateImages
+      summary: Add the images on-chain for all minted school
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/imageUpdate:
+    get:
+      operationId: SchoolController_getImageUpdateList
+      summary: 'Get the list of schools for on-chain image update '
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/syncSchool/{schoolId}:
+    patch:
+      operationId: SchoolController_syncSchool
+      summary: Sync the database with contract in case of any missing data
+      parameters:
+        - name: schoolId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/reservedNftList:
+    get:
+      operationId: SchoolController_getReservedSchools
+      summary: Get the list of reserved schools
+      parameters:
+        - name: page
+          required: false
+          in: query
+          description: Page to load
+          schema:
+            example: '1'
+            type: string
+        - name: perPage
+          required: false
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/latest:
+    get:
+      operationId: SchoolController_getLatestSchools
+      summary: Get the list of latest activated schools
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/schools/getFile:
+    post:
+      operationId: SchoolController_getFile
+      summary: Get the file from arweave
+      parameters: []
+      responses:
+        '201':
+          description: ''
+      tags:
+        - School
+      security:
+        - access-token: []
+  /api/v1/users/addAdmin:
+    post:
+      operationId: UsersController_addValidator
+      summary: Create new user
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateUserDto'
+      responses:
+        '200':
+          description: The found record
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CreateUserDto'
+        '403':
+          description: Forbidden.
+      tags:
+        - Users
+      security:
+        - access-token: []
+  /api/v1/users:
+    get:
+      operationId: UsersController_findAll
+      summary: List all user
+      parameters: []
+      responses:
+        '200':
+          description: The found record
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CreateUserDto'
+        '403':
+          description: Forbidden.
+      tags:
+        - Users
+      security:
+        - access-token: []
+  /api/v1/users/{id}:
+    get:
+      operationId: UsersController_findOne
+      summary: Get an user
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: The found record
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CreateUserDto'
+        '403':
+          description: Forbidden.
+      tags:
+        - Users
+      security:
+        - access-token: []
+    patch:
+      operationId: UsersController_update
+      summary: Update an user
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateUserDto'
+      responses:
+        '200':
+          description: The found record
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CreateUserDto'
+        '403':
+          description: Forbidden.
+      tags:
+        - Users
+      security:
+        - access-token: []
+    delete:
+      operationId: UsersController_remove
+      summary: Delete an user
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: The found record
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CreateUserDto'
+        '403':
+          description: Forbidden.
+      tags:
+        - Users
+      security:
+        - access-token: []
+  /api/v1/users/contributor:
+    get:
+      operationId: UsersController_findContributor
+      summary: Get an contributor
+      parameters: []
+      responses:
+        '200':
+          description: The found record
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CreateUserDto'
+        '403':
+          description: Forbidden.
+      tags:
+        - Users
+      security:
+        - access-token: []
+  /api/v1/users/contributor/{id}:
+    get:
+      operationId: UsersController_findContributorDetails
+      summary: Get an contributor
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: The found record
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CreateUserDto'
+        '403':
+          description: Forbidden.
+      tags:
+        - Users
+      security:
+        - access-token: []
+  /api/v1/contribute/image/{id}:
+    patch:
+      operationId: ContributeDataController_updateImage
+      summary: Updates image for a specific giga school id
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Contribute
+      security:
+        - access-token: []
+  /api/v1/newsletters:
+    post:
+      operationId: EmailController_create
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateEmailDto'
+      responses:
+        '201':
+          description: ''
+      tags:
+        - NewsLetter
+    get:
+      operationId: EmailController_findAll
+      parameters:
+        - name: country
+          required: true
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - NewsLetter
+  /api/v1/newsletters/{id}:
+    get:
+      operationId: EmailController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - NewsLetter
+    patch:
+      operationId: EmailController_update
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateEmailDto'
+      responses:
+        '200':
+          description: ''
+      tags:
+        - NewsLetter
+    delete:
+      operationId: EmailController_remove
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - NewsLetter
+  /api/v1/magic-link/send:
+    post:
+      operationId: MagicLinkController_sendMagicLink
+      summary: Send Magic Link
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SendMagicLinkDto'
+      responses:
+        '201':
+          description: ''
+      tags:
+        - Magic Link
+  /api/v1/magic-link/verify:
+    post:
+      operationId: MagicLinkController_verifyMagicLink
+      summary: Verify Magic Link
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/VerifyMagicLinkDto'
+      responses:
+        '201':
+          description: ''
+      tags:
+        - Magic Link
+  /api/v1/contributor:
+    get:
+      operationId: ContributorController_listContributors
+      summary: List of all contributors
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Contributor
+  /api/v1/contributor/get/{id}:
+    get:
+      operationId: ContributorController_getContributor
+      summary: Get contributor by userId
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Contributor
+  /api/v1/contributor/update/{walletAddress}:
+    patch:
+      operationId: ContributorController_updateVisibilty
+      summary: Updates contributor by walletAddress
+      parameters:
+        - name: walletAddress
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateVisibility'
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Contributor
+  /api/v1/contributor/getReservedSchools/{email}:
+    get:
+      operationId: ContributorController_getReservedSchools
+      parameters:
+        - name: email
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Contributor
+  /api/v1/contributor/walletAddress/{walletAddress}:
+    get:
+      operationId: ContributorController_getContributorByWalletAddress
+      parameters:
+        - name: walletAddress
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Contributor
+  /api/v1/linkactivation:
+    post:
+      operationId: LinkactivationController_createLink
+      summary: Create Link for especially minting feature
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ActivationLogDTO'
+      responses:
+        '201':
+          description: ''
+      tags:
+        - LinkActivation
+      security:
+        - access-token: []
+    get:
+      operationId: LinkactivationController_listLinks
+      summary: List of all links
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      tags:
+        - LinkActivation
+      security:
+        - access-token: []
+  /api/v1/linkactivation/getActivation/{uuid}:
+    get:
+      operationId: LinkactivationController_getActivation
+      summary: Get activation link by UUID
+      parameters:
+        - name: uuid
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - LinkActivation
+      security:
+        - access-token: []
+  /api/v1/linkactivation/validateLink/{uuid}:
+    get:
+      operationId: LinkactivationController_validateLink
+      summary: Validate activation link by UUID
+      parameters:
+        - name: uuid
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - LinkActivation
+      security:
+        - access-token: []
+  /api/v1/linkactivation/deactivate/{uuid}:
+    patch:
+      operationId: LinkactivationController_deactivateLink
+      summary: Deactivate activation link by UUID
+      parameters:
+        - name: uuid
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - LinkActivation
+      security:
+        - access-token: []
+  /api/v1/linkactivation/activate/{uuid}:
+    patch:
+      operationId: LinkactivationController_activateLink
+      summary: Activate the specific activation link
+      parameters:
+        - name: uuid
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - LinkActivation
+      security:
+        - access-token: []
+  /api/v1/featured:
+    post:
+      operationId: FeaturedController_create
+      summary: Create Featured country
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateFeaturedDto'
+      responses:
+        '201':
+          description: ''
+      tags:
+        - Featured
+      security:
+        - access-token: []
+    get:
+      operationId: FeaturedController_findAll
+      summary: List of all featured countries
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Featured
+      security:
+        - access-token: []
+  /api/v1/featured/school:
+    get:
+      operationId: FeaturedController_findFeatureSchool
+      summary: List of  featured schools for latest featured country
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Featured
+      security:
+        - access-token: []
+  /api/v1/verifier/sign-in/{schoolId}:
+    get:
+      operationId: VerifierController_getAuthRequest
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Verifier
+  /api/v1/verifier/callback:
+    post:
+      operationId: VerifierController_callBack
+      parameters: []
+      responses:
+        '201':
+          description: ''
+      tags:
+        - Verifier
+  /api/v1/information-worker:
+    post:
+      operationId: InformationWorkerController_create
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateInformationWorkerDto'
+      responses:
+        '201':
+          description: ''
+      tags:
+        - Information Worker
+      security:
+        - access-token: []
+    get:
+      operationId: InformationWorkerController_findAll
+      parameters: []
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Information Worker
+      security:
+        - access-token: []
+  /api/v1/information-worker/{id}:
+    get:
+      operationId: InformationWorkerController_findOne
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Information Worker
+      security:
+        - access-token: []
+    patch:
+      operationId: InformationWorkerController_update
+      parameters:
+        - name: id
+          required: true
+          in: path
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateInformationWorkerDto'
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Information Worker
+      security:
+        - access-token: []
+  /api/v1/information-worker/send-email:
+    post:
+      operationId: InformationWorkerController_sendEmail
+      parameters: []
+      responses:
+        '201':
+          description: ''
+      tags:
+        - Information Worker
+      security:
+        - access-token: []
+  /api/v1/queue/{queueName}/jobs:
+    get:
+      operationId: QueuesController_getAllJobs
+      summary: List all jobs for a specific queue
+      parameters:
+        - name: queueName
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Queues
+      security:
+        - access-token: []
+  /api/v1/queue/{queueName}/failed:
+    get:
+      operationId: QueuesController_getFailedJobs
+      summary: List all failed jobs for a specific queue
+      parameters:
+        - name: queueName
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Queues
+      security:
+        - access-token: []
+  /api/v1/queue/{queueName}/completed:
+    get:
+      operationId: QueuesController_getCompletedJobs
+      summary: List all completed jobs for a specific queue
+      parameters:
+        - name: queueName
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Queues
+      security:
+        - access-token: []
+  /api/v1/queue/{queueName}/retry/{jobId}:
+    post:
+      operationId: QueuesController_retryJob
+      summary: Retry a failed job by jobId for a specific queue
+      parameters:
+        - name: queueName
+          required: true
+          in: path
+          schema:
+            type: string
+        - name: jobId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '201':
+          description: ''
+      tags:
+        - Queues
+      security:
+        - access-token: []
+  /api/v1/queue/{queueName}/{jobId}:
+    delete:
+      operationId: QueuesController_removeJob
+      summary: Remove a job by jobId for a specific queue
+      parameters:
+        - name: queueName
+          required: true
+          in: path
+          schema:
+            type: string
+        - name: jobId
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Queues
+      security:
+        - access-token: []
+  /api/v1/queue/{queueName}/pending:
+    get:
+      operationId: QueuesController_getPendingJobs
+      summary: Get the pending jobs for a specific queue
+      parameters:
+        - name: queueName
+          required: true
+          in: path
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+      tags:
+        - Queues
+      security:
+        - access-token: []
+info:
+  title: GIGA NFT 2.0 API PROVIDER
+  description: GigaGlobal
+  version: 1.0.0
+  contact: {}
+tags: []
+servers: []
+components:
+  securitySchemes:
+    access-token:
+      scheme: bearer
+      bearerFormat: JWT
+      type: http
+      name: JWT
+      description: Enter JWT token
+      in: header
+  schemas:
+    AuthSendOtp:
+      type: object
+      properties:
+        email:
+          type: string
+          example: email@email.com
+      required:
+        - email
+    RefreshToken:
+      type: object
+      properties:
+        refresh:
+          type: string
+          example: dnsfb6829uhfjhbeiwy89ufgo
+      required:
+        - refresh
+    ThemeActivationDto:
+      type: object
+      properties:
+        themeId:
+          type: string
+      required:
+        - themeId
+    ReserveNFTDto:
+      type: object
+      properties:
+        email:
+          type: string
+          description: Email of reserver
+          example: abcd@example.com
+        schoolId:
+          type: string
+          description: School ID to mint
+          example: uuid
+        walletAddress:
+          type: string
+          description: Wallet address of reserver
+          example: '0x1f2f6f7952550D4388f9A3fd91A8CdcFbC439978'
+        name:
+          type: string
+          description: name  of reserver
+          example: joe
+        themeId:
+          type: string
+          description: ID of theme
+          example: uuid
+        isVisible:
+          type: boolean
+          example: true
+          description: isVisible
+      required:
+        - email
+        - schoolId
+        - isVisible
+    claimReservedNFT:
+      type: object
+      properties:
+        email:
+          type: string
+          description: Email of reserver
+          example: abcd@example.com
+        walletAddress:
+          type: string
+          description: Wallet address of reserver
+          example: '0x1f2f6f7952550D4388f9A3fd91A8CdcFbC439978'
+        schoolId:
+          type: string
+          description: School ID to mint
+          example: uuid
+      required:
+        - email
+        - walletAddress
+        - schoolId
+    CreateContributor:
+      type: object
+      properties:
+        name:
+          type: string
+          example: Joe
+          description: Name of the contributor
+        email:
+          type: string
+          example: test@example.com
+        schoolReserved:
+          type: string
+          example: uuid
+          description: school ID to be reserved
+        isVisible:
+          type: boolean
+          example: true
+          description: isVisible
+        walletAddress:
+          type: string
+          example: '0x1f2f6f7952550D4388f9A3fd91A8CdcFbC439978'
+          description: Wallet address of the contributor
+      required:
+        - name
+        - email
+        - schoolReserved
+        - isVisible
+        - walletAddress
+    SchoolActivation:
+      type: object
+      properties:
+        schoolId:
+          type: string
+          description: School ID to mint
+          example: uuid
+        themeId:
+          type: string
+          description: ID of theme
+          example: uuid
+        transactionHash:
+          type: string
+          description: ID of theme
+          example: uuid
+        contributorData:
+          description: Contributor Details
+          example:
+            name: Joe
+            isVisible: true
+            walletAddress: '0x1f2f6f7952550D4388f9A3fd91A8CdcFbC439978'
+          allOf:
+            - $ref: '#/components/schemas/CreateContributor'
+      required:
+        - schoolId
+        - contributorData
+    CreateUserDto:
+      type: object
+      properties:
+        email:
+          type: string
+          description: Email of the user
+          example: john@doe.com
+        name:
+          type: string
+          description: Full Name of the user
+          example: John Doe
+        walletAddress:
+          type: string
+          description: Ethereum wallet address of the user
+          example: '0xC67c60cD6d82Fcb2fC6a9a58eA62F80443E32683'
+        roles:
+          description: Array of roles associated with the user
+          example: '["USER"]'
+          type: array
+          items:
+            type: string
+      required:
+        - email
+        - name
+        - walletAddress
+        - roles
+    UpdateUserDto:
+      type: object
+      properties: {}
+    CreateEmailDto:
+      type: object
+      properties:
+        email:
+          type: string
+          example: email@email.com
+        fullname:
+          type: string
+          example: Jon Doe
+        country:
+          type: string
+          example: Nepal
+      required:
+        - email
+        - fullname
+        - country
+    UpdateEmailDto:
+      type: object
+      properties:
+        email:
+          type: string
+          example: email@email.com
+        fullname:
+          type: string
+          example: John Doe
+        country:
+          type: string
+          example: Nepal
+      required:
+        - email
+        - fullname
+        - country
+    SendMagicLinkDto:
+      type: object
+      properties:
+        email:
+          type: string
+          example: email@email.com
+        redirectlink:
+          type: string
+          example: http://localhost:3000/schools/12345io
+      required:
+        - email
+        - redirectlink
+    VerifyMagicLinkDto:
+      type: object
+      properties:
+        email:
+          type: string
+          example: email@email.com
+        otp:
+          type: string
+          example: '123456'
+      required:
+        - email
+        - otp
+    UpdateVisibility:
+      type: object
+      properties:
+        isVisible:
+          type: boolean
+          example: true
+          description: isVisible
+        name:
+          type: string
+          example: Joe
+          description: Name of the contributor
+      required:
+        - isVisible
+        - name
+    ActivationLogDTO:
+      type: object
+      properties:
+        status:
+          type: object
+          description: 'Active status: ACTIVE or INACTIVE'
+          example: ACTIVE
+        name:
+          type: string
+          description: Name of the event
+          example: Event Name
+        startDate:
+          type: string
+          description: Start date of activation in ISO format
+          example: '2025-02-24T00:00:00.000Z'
+        endDate:
+          type: string
+          description: End date of activation in ISO format
+          example: '2025-03-24T00:00:00.000Z'
+      required:
+        - status
+        - name
+        - startDate
+    CreateFeaturedDto:
+      type: object
+      properties:
+        country_code:
+          type: string
+          example: NPL
+          description: Code of the country to be featured
+        details:
+          type: string
+          example: Nepal
+          description: Name of the country to be featured
+      required:
+        - country_code
+        - details
+    CreateInformationWorkerDto:
+      type: object
+      properties:
+        name:
+          type: string
+          example: Joe
+          description: Name of the information worker
+        did:
+          type: string
+          example: did:1234567890
+          description: DID of the information worker
+        email:
+          type: string
+          example: joe@gmail.com
+          description: valid email of the information worker
+      required:
+        - name
+        - did
+        - email
+    UpdateInformationWorkerDto:
+      type: object
+      properties:
+        name:
+          type: string
+          example: Joe
+          description: Name of the information worker
+        did:
+          type: string
+          example: did:1234567890
+          description: DID of the information worker
+        email:
+          type: string
+          example: joe@gmail.com
+          description: valid email of the information worker

@@ -1,0 +1,71 @@
+---
+id: email-controller-update
+title: "EmailController_update"
+description: "EmailController_update"
+sidebar_label: "EmailController_update"
+hide_title: true
+hide_table_of_contents: true
+api: eJx9VNtu2zAM/RWDTxvgJmkf/bSulyzF0BVZuj4EwcDYbKzWllSJbhoY/veBknNpgzUPjk3xcshzxBaMJYesjJ4UkMFVjaq6MJqdqSpyfxtbIBOkYNFhTUzOQzZvQWNNkIEqIAVHL41yVEDGrqEUlIYMLHIJKfi8pBoha4E3ViI8O6VX0HWLGEiev5tiIx4f8+RGM2mWI7S2UnmAOXzyRovtKLVZPlHOgtVJU6zIyylJS8cIUqA3rG0lpuDyLTwHuamhS+GxqarY5GeBN6bUyaUhichNo9ltPg+4JYsVdN3h1OY9xIOi+2yLFFhxiL0PXASGLtlA18U03hrtY6tno5H8FeRzp6xMCzII1RhXQhzc0tr/JGZykvm943+5r4lLU0RS8zKIgUvIYIhWDV9Ph5rWvgpJ/bBVRSe8k3uNWlnIR944xZvfwlhEinlO3p+weaY9mdLkktCRg7R/uTauRpZJP8wg3Q62ZLaQbkUYjz70oplccvMwS2KJXpUlYUEuTERkNN0L8GpL0U4wR6o4FMWe+QPit+xKsUcThNBTN56Mz5Pb61lyNhgl53eT5G7668/k8mp6BHysVjiuzBJFDzLCaD4djAYjiHcCc7kT0oM1nmsMA+xhBQ6TPYnJjsR3ZXYSZXrjoa1QaYHduHBRIr1zQKsExKmMek8xpJCpQuRTGs/i17ZL9HTvqq4T80tDMg1h/hWdwqWMYN5Coby8F5A9YuXpCNLuvsOXaX85viZ70t9D7Y2oNwIRq0a+IIVn2sS91C26dMu3VI8HF7HGyUzC94FH+0XW0072d+ezix8iyX5R1aaQIIdr2X64jpVNaCSoO9haqFCvGlyJb0wqv3/U59by
+sidebar_class_name: "patch api-method"
+info_path: docs/giga-api/giga-nft-2-0-api-provider
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"EmailController_update"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"patch"}
+  path={"/api/v1/newsletters/{id}"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+EmailController_update
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[{"name":"id","required":true,"in":"path","schema":{"type":"string"}}]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={{"required":true,"content":{"application/json":{"schema":{"type":"object","properties":{"email":{"type":"string","example":"email@email.com"},"fullname":{"type":"string","example":"John Doe"},"country":{"type":"string","example":"Nepal"}},"required":["email","fullname","country"],"title":"UpdateEmailDto"}}}}}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":""}}}
+>
+  
+</StatusCodes>
+
+
+      

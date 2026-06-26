@@ -1,24 +1,26 @@
 module.exports = {
   tutorialSidebar: {
-    Introduction: ["intro", "brand-guidelines"],
-    "Open Source": ["license", "contribution-guidelines", "code-of-conduct"],
-    "Developer Guide": [
-      "getting-started-developer",
-      "software-requirements-specifications",
-    ],
-    Learn: ["community-feedback", "bounty-information"],
-    Collaborate: [
-      {
-        type: "link",
-        label: "GitHub",
-        href: "https://github.com/giga-nft2-0",
-      },
-      {
-        type: "link",
-        label: "Twitter",
-        href: "https://twitter.com/Gigaglobal",
-      },
-    ],
+    "Introduction": ["intro", "tech-stack-overview", "architecture-overview"],
+    "Getting Started": ["prerequisites", "run-locally"],
+    "Development Guidelines": ["development-guide","project"],
+    "Service Setup": ["contract", "subgraph", "giga-id"],
+    "Deployment": ["deployment"],
+    "Trouble Shooting": ["trouble-shooting"],
+    "Community": ["contribution-guidelines", "code-of-conduct"],
   },
   apiSidebar: [],
+  openApiSidebar: [
+    {
+      type: "category",
+      label: "Giga",
+      link: {
+        type: "generated-index",
+        title: "Giga API",
+        description:
+          "Giga API documentation for all available endpoints and operations.",
+        slug: "/category/giga"
+      },
+      items: require("./docs/giga-api/sidebar.ts").default
+    }
+  ]
 };

@@ -1,0 +1,71 @@
+---
+id: information-worker-controller-update
+title: "InformationWorkerController_update"
+description: "InformationWorkerController_update"
+sidebar_label: "InformationWorkerController_update"
+hide_title: true
+hide_table_of_contents: true
+api: eJyNlNtu2zAMhl/F4NUGuE3SnX21rmm79GIrsnS9CIKBsZhYrW25kpw2MPTuAyXn6KHYVRwd+P8UP7IBVZFGK1U5EpDAqFwoXfj/90o/kr5QpdUqz0n/qSuBliCGCjUWZEkbSKYNlFgQJCAFxKDpqZaaBCRW1xSDLCGBCm0GMZg0owIhacCuK75hrJblEpybhYtk7Dcl1nziOE6qSkul5S2sqlym3mLvwaiS1zqh1fyBUsteNSdoJRneDVaPDcRAL1hUOS/dKM5QkEm1rFgDEviBBUVqEdmMIrl7oOjZvxC4GIQUr4cVUiSDs3fvP3z89PlLv6MwHA1fF6ACZf66xIOir0s+dpqqoqOwwlyKyId5TcnFYKX18e58uTtADK0C5/igJlOp0oSXPev3+edQNMTDJXOyj1YUQsEsBkNpraVde5IwTcmYE6seqYRkOmMwDiP+F58F2UyJAF6aeWBtBgn0sJK91aC3l/hJSLzXSOEYUdKrgPWetV8MV8jy0GDLHT/WnFCThrj9uPLxGaf7CcSbomXWVhBv+iVsHaZ3WVrS0c39JAoSbQNlhKKtDhM/3vXK5ab82zZsAWYgu9S1GB2x4lhmoTxebfGvR9fn0Y+rSXR22o/Ob0fR7fjn79HwctyxfC2XeJ2rOeYQAz9eWB6c9k9ZkRsXU25cdl8pYwss9+x2qYh2JY22JT3Q3HaBpRfbq3KUJedQa98hodhTwEqyowGE7A4LDjEkUjCAmTKWjzfNHA3d6dw5Xn6qSa8DByvUEuf8LNMGhDT8LSBZYG6o42w7qODNuJ1hb6MdAoeO20Us1+wU85r/QQyPtA4D1c1cvKk+q4eNi6BxMuHru4udwcjts+2F2/PJxXcGtJ2whRJ8SeMzj218DsrKJ+JZ92sN5Fgua1z6CeODch2x5jfe1uGIfm/1n7k1TTgxYbqd26YaaHcz59xfXlM7yA==
+sidebar_class_name: "patch api-method"
+info_path: docs/giga-api/giga-nft-2-0-api-provider
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"InformationWorkerController_update"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"patch"}
+  path={"/api/v1/information-worker/{id}"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+InformationWorkerController_update
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={[{"name":"id","required":true,"in":"path","schema":{"type":"string"}}]}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={{"required":true,"content":{"application/json":{"schema":{"type":"object","properties":{"name":{"type":"string","example":"Joe","description":"Name of the information worker"},"did":{"type":"string","example":"did:1234567890","description":"DID of the information worker"},"email":{"type":"string","example":"joe@gmail.com","description":"valid email of the information worker"}},"title":"UpdateInformationWorkerDto"}}}}}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":""}}}
+>
+  
+</StatusCodes>
+
+
+      
